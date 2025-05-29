@@ -1,4 +1,4 @@
-============================================================================================
+===============================================================
 Mesen 2 에뮬레이터 한국어 번역 프로젝트입니다.
 
 다음 URL의 소스 코드에서 UI/Localization/resources.en.xml 파일의 내용을 한국어로 변경하는 작업을 진행 중입니다.
@@ -13,7 +13,8 @@ URL: https://github.com/SourMesen/Mesen2
 4. 위 url 로부터 소스 코드 다운로드
 5. 다운로드 한 소스 코드의 UI/Localization/resources.en.xml 파일을 현재 프로젝트의 파일로 변경
 6. 소스 코드 빌드
-============================================================================================
+
+===============================================================
 This is a Korean translation project for the Mesen 2 emulator.
 
 We are currently working on changing the contents of the UI/Localization/resources.en.xml file in the source code of the following URL to Korean.
