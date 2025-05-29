@@ -2,154 +2,154 @@
 <Resources>
 	<Forms>
 		<Form ID="MainMenuView">
-			<Control ID="mnuFile">_File</Control>
-			<Control ID="mnuGame">_Game</Control>
-			<Control ID="mnuOptions">_Setting</Control>
-			<Control ID="mnuTools">_Tools</Control>
-			<Control ID="mnuDebug">_Debug</Control>
-			<Control ID="mnuHelp">_Help</Control>
+			<Control ID="mnuFile">_파일</Control>
+			<Control ID="mnuGame">_게임</Control>
+			<Control ID="mnuOptions">_옵션</Control>
+			<Control ID="mnuTools">_도구</Control>
+			<Control ID="mnuDebug">_디버그</Control>
+			<Control ID="mnuHelp">_도움말</Control>
 		</Form>
 		<Form ID="AudioConfigView">
-			<Control ID="tpgGeneral">General</Control>
+			<Control ID="tpgGeneral">일반</Control>
 
-			<Control ID="chkMuteSoundInBackground">Mute sound when in background</Control>
-			<Control ID="chkReduceSoundInBackground">Reduce volume when in background</Control>
-			<Control ID="chkReduceSoundInFastForward">Reduce volume during fast forward/rewind</Control>
-			<Control ID="lblVolumeReduction">Volume Reduction (%)</Control>
-			<Control ID="lblVolumeReductionSettings">Volume Reduction Settings</Control>
-			<Control ID="chkEnableAudio">Enable Audio</Control>
-			<Control ID="lblSampleRate">Sample Rate:</Control>
+			<Control ID="chkMuteSoundInBackground">창 비활성화 시 음소거</Control>
+			<Control ID="chkReduceSoundInBackground">창 비활성화 시 소리 줄임</Control>
+			<Control ID="chkReduceSoundInFastForward">빨리감기/되감기 시 소리 줄임</Control>
+			<Control ID="lblVolumeReduction">볼륨 감소 (%)</Control>
+			<Control ID="lblVolumeReductionSettings">볼륨 감소 설정</Control>
+			<Control ID="chkEnableAudio">오디오 활성화</Control>
+			<Control ID="lblSampleRate">샘플레이트:</Control>
 			<Control ID="lblLatencyMs">ms</Control>
-			<Control ID="lblLatencyWarning">Low values may cause sound problems</Control>
-			<Control ID="lblAudioLatency">Latency:</Control>
-			<Control ID="lblAudioDevice">Device:</Control>
-			<Control ID="lblVolume">Volume:</Control>
-			<Control ID="grpVolume">Volume</Control>
-			<Control ID="btnReset">Reset to Defaults</Control>
+			<Control ID="lblLatencyWarning">값이 낮을 때 사운드 문제가 발생될 수 있습니다.</Control>
+			<Control ID="lblAudioLatency">레이턴시:</Control>
+			<Control ID="lblAudioDevice">디바이스:</Control>
+			<Control ID="lblVolume">볼륨:</Control>
+			<Control ID="grpVolume">볼륨</Control>
+			<Control ID="btnReset">기본 값으로 되돌림</Control>
 
-			<Control ID="lblAudioPlayerSettings">Audio Player Settings</Control>
-			<Control ID="lblAudioPlayerHint">When a track has an unknown duration:</Control>
-			<Control ID="chkAudioPlayerAutoDetectSilence">Move to the next track after</Control>
-			<Control ID="chkAudioPlayerEnableTrackLength">Limit track duration to</Control>
-			<Control ID="lblMillisecondsOfSilence">seconds of silence</Control>
-			<Control ID="lblSeconds">seconds</Control>
+			<Control ID="lblAudioPlayerSettings">오디오 플레이어 설정</Control>
+			<Control ID="lblAudioPlayerHint">트랙의 지속 시간을 알 수 없는 경우:</Control>
+			<Control ID="chkAudioPlayerAutoDetectSilence">다음 트랙으로 이동</Control>
+			<Control ID="chkAudioPlayerEnableTrackLength">트랙 지속 시간을 이대로 지정</Control>
+			<Control ID="lblMillisecondsOfSilence">초간 무음</Control>
+			<Control ID="lblSeconds">초</Control>
 
-			<Control ID="tpgAdvanced">Advanced</Control>
-			<Control ID="chkDisableDynamicSampleRate">Disable dynamic sample rate</Control>
-			<Control ID="chkReverbEnabled">Enable reverb</Control>
-			<Control ID="chkCrossFeedEnabled">Enable cross feed</Control>
-			<Control ID="lblStrength">Strength</Control>
-			<Control ID="lblDelay">Delay</Control>
+			<Control ID="tpgAdvanced">고급</Control>
+			<Control ID="chkDisableDynamicSampleRate">동적 샘플 레이트 비활성화</Control>
+			<Control ID="chkReverbEnabled">리버브 효과 활성화</Control>
+			<Control ID="chkCrossFeedEnabled">크로스 피드 효과 활성화</Control>
+			<Control ID="lblStrength">강도</Control>
+			<Control ID="lblDelay">딜레이</Control>
 
-			<Control ID="tpgEqualizer">Equalizer</Control>
-			<Control ID="chkEnableEqualizer">Enable Equalizer</Control>
+			<Control ID="tpgEqualizer">이퀄라이저</Control>
+			<Control ID="chkEnableEqualizer">이퀄라이저 활성화</Control>
 		</Form>
 		<Form ID="NesInputConfigView">
-			<Control ID="grpControllers">Controllers</Control>
-			<Control ID="grpGeneral">General</Control>
-			<Control ID="chkAutoConfigureInput">Automatically configure controllers when loading a game</Control>
-			<Control ID="chkAllowInvalidInput">Allow invalid input (e.g Down + Up or Left + Right at the same time)</Control>
-			<Control ID="lblLightDetectionRadius">Light detection radius for light guns:</Control>
-			<Control ID="lblSmall">Small</Control>
-			<Control ID="lblLarge">Large</Control>
+			<Control ID="grpControllers">컨트롤러</Control>
+			<Control ID="grpGeneral">일반</Control>
+			<Control ID="chkAutoConfigureInput">게임을 불러올 때 컨트롤러를 자동으로 구성합니다.</Control>
+			<Control ID="chkAllowInvalidInput">물리적으로 불가능한 입력 허용. 예)위+아래 또는 왼쪽+오른쪽 버튼 동시 누르기 등</Control>
+			<Control ID="lblLightDetectionRadius">광선총의 빛 감지 반경:</Control>
+			<Control ID="lblSmall">작음</Control>
+			<Control ID="lblLarge">큼</Control>
 			
-			<Control ID="grpHardware">Hardware buttons</Control>
+			<Control ID="grpHardware">하드웨어 버튼</Control>
 
-			<Control ID="lblFourScoreConfig">Four Score Configuration</Control>
-			<Control ID="lblFourPlayerAdapterConfig">4-Player Adapter Configuration</Control>
-			<Control ID="lblTwoPlayerAdapterConfig">2-Player Adapter Configuration</Control>
+			<Control ID="lblFourScoreConfig">포 스코어 설정</Control>
+			<Control ID="lblFourPlayerAdapterConfig">4P 아답터 설정</Control>
+			<Control ID="lblTwoPlayerAdapterConfig">2P 아답터 설정</Control>
 			
-			<Control ID="btnSetup">Setup</Control>
-			<Control ID="lblPlayer1">Port 1:</Control>
-			<Control ID="lblPlayer2">Port 2:</Control>
+			<Control ID="btnSetup">설정</Control>
+			<Control ID="lblPlayer1">포트 1:</Control>
+			<Control ID="lblPlayer2">포트 2:</Control>
 			
-			<Control ID="lblPort1A">Port 1:</Control>
-			<Control ID="lblPort1B">Port 2:</Control>
-			<Control ID="lblPort1C">Port 3:</Control>
-			<Control ID="lblPort1D">Port 4:</Control>
+			<Control ID="lblPort1A">포트 1:</Control>
+			<Control ID="lblPort1B">포트 2:</Control>
+			<Control ID="lblPort1C">포트 3:</Control>
+			<Control ID="lblPort1D">포트 4:</Control>
 
-			<Control ID="lblExpPortA">Port 1:</Control>
-			<Control ID="lblExpPortB">Port 2:</Control>
-			<Control ID="lblExpPortC">Port 3:</Control>
-			<Control ID="lblExpPortD">Port 4:</Control>
+			<Control ID="lblExpPortA">포트 1:</Control>
+			<Control ID="lblExpPortB">포트 2:</Control>
+			<Control ID="lblExpPortC">포트 3:</Control>
+			<Control ID="lblExpPortD">포트 4:</Control>
 
-			<Control ID="lblExpansionDevice">Expansion device:</Control>
-			<Control ID="lblMapperInput">Cartridge:</Control>
+			<Control ID="lblExpansionDevice">확장　슬롯　장치:</Control>
+			<Control ID="lblMapperInput">카트리지:</Control>
 		</Form>
 		<Form ID="SnesInputConfigView">
-			<Control ID="lblPort1">Port 1:</Control>
-			<Control ID="lblPort2">Port 2:</Control>
-			<Control ID="lblMultitap1A">Port 1:</Control>
-			<Control ID="lblMultitap1B">Port 2:</Control>
-			<Control ID="lblMultitap1C">Port 3:</Control>
-			<Control ID="lblMultitap1D">Port 4:</Control>
-			<Control ID="lblMultitap2A">Port 1:</Control>
-			<Control ID="lblMultitap2B">Port 2:</Control>
-			<Control ID="lblMultitap2C">Port 3:</Control>
-			<Control ID="lblMultitap2D">Port 4:</Control>
-			<Control ID="grpMultitap">Multitap Configuration</Control>
-			<Control ID="lblKeyBinding">Warning: Your current configuration contains conflicting key bindings - some physical buttons on your keyboard or gamepad are mapped to multiple buttons on the NES controller. If this is not intentional, please review and correct your key bindings.</Control>
+			<Control ID="lblPort1">포트 1:</Control>
+			<Control ID="lblPort2">포트 2:</Control>
+			<Control ID="lblMultitap1A">포트 1A:</Control>
+			<Control ID="lblMultitap1B">포트 1B:</Control>
+			<Control ID="lblMultitap1C">포트 1C:</Control>
+			<Control ID="lblMultitap1D">포트 1D:</Control>
+			<Control ID="lblMultitap2A">포트 2A:</Control>
+			<Control ID="lblMultitap2B">포트 2B:</Control>
+			<Control ID="lblMultitap2C">포트 2C:</Control>
+			<Control ID="lblMultitap2D">포트 2D:</Control>
+			<Control ID="grpMultitap">멀티탭 설정</Control>
+			<Control ID="lblKeyBinding">경고: 현재 설정값에는 중복된 키 설정이 존재합니다. 키보드 또는 게임패드의 일부 버튼이 NES 컨트롤러의 여러 버튼에 설정되어 있습니다. 의도한 것이 아니라면 키 설정을 변경해 주세요. </Control>
 
-			<Control ID="grpControllers">Controllers</Control>
-			<Control ID="grpGeneral">General</Control>
-			<Control ID="chkAllowInvalidInput">Allow invalid input (e.g Down + Up or Left + Right at the same time)</Control>
+			<Control ID="grpControllers">컨트롤러</Control>
+			<Control ID="grpGeneral">일반</Control>
+			<Control ID="chkAllowInvalidInput">물리적으로 불가능한 입력 허용. 예)위+아래 또는 왼쪽+오른쪽 버튼 동시 누르기 등</Control>
 		</Form>
 		<Form ID="InputConfigView">
-			<Control ID="tpgGeneral">General</Control>
-			<Control ID="lblSmall">Small</Control>
-			<Control ID="lblLarge">Large</Control>
-			<Control ID="lblDeadzone">Controller axis deadzone size:</Control>
+			<Control ID="tpgGeneral">일반</Control>
+			<Control ID="lblSmall">작음</Control>
+			<Control ID="lblLarge">큼</Control>
+			<Control ID="lblDeadzone">컨트롤러 축의 데드 존 크기:</Control>
 
-			<Control ID="lblSensitivity">Mouse speed:</Control>
-			<Control ID="lblLow">Slow</Control>
-			<Control ID="lblHigh">Fast</Control>
+			<Control ID="lblSensitivity">마우스 속도:</Control>
+			<Control ID="lblLow">느림</Control>
+			<Control ID="lblHigh">빠름</Control>
 
-			<Control ID="lblForceFeedbackIntensity">Force feedback (rumble):</Control>
-			<Control ID="lblForceFeedbackLow">Disabled</Control>
-			<Control ID="lblForceFeedbackHigh">Maximum</Control>
+			<Control ID="lblForceFeedbackIntensity">강제 피드백 (럼블):</Control>
+			<Control ID="lblForceFeedbackLow">비활성화</Control>
+			<Control ID="lblForceFeedbackHigh">최대</Control>
 
-			<Control ID="tpgDisplay">Display</Control>
-			<Control ID="lblDisplayInputPorts">Display ports: </Control>
-			<Control ID="chkDisplayPort1">Player 1</Control>
-			<Control ID="chkDisplayPort2">Player 2</Control>
-			<Control ID="chkDisplayPort3">Player 3</Control>
-			<Control ID="chkDisplayPort4">Player 4</Control>
-			<Control ID="chkDisplayPort5">Player 5</Control>
-			<Control ID="chkDisplayPort6">Player 6</Control>
-			<Control ID="chkDisplayPort7">Player 7</Control>
-			<Control ID="chkDisplayPort8">Player 8</Control>
-			<Control ID="lblDisplayPosition">Display position:</Control>
-			<Control ID="chkDisplayInputHorizontally">Horizontal display</Control>
+			<Control ID="tpgDisplay">디스플레이</Control>
+			<Control ID="lblDisplayInputPorts">디스플레이 포트: </Control>
+			<Control ID="chkDisplayPort1">플레이어 1</Control>
+			<Control ID="chkDisplayPort2">플레이어 2</Control>
+			<Control ID="chkDisplayPort3">플레이어 3</Control>
+			<Control ID="chkDisplayPort4">플레이어 4</Control>
+			<Control ID="chkDisplayPort5">플레이어 5</Control>
+			<Control ID="chkDisplayPort6">플레이어 6</Control>
+			<Control ID="chkDisplayPort7">플레이어 7</Control>
+			<Control ID="chkDisplayPort8">플레이어 8</Control>
+			<Control ID="lblDisplayPosition">디스플레이 위치:</Control>
+			<Control ID="chkDisplayInputHorizontally">가로 디스플레이</Control>
 
-			<Control ID="chkHidePointerForLightGuns">Hide mouse pointer when using light guns</Control>
+			<Control ID="chkHidePointerForLightGuns">광선총 사용 시 마우스 포인터 숨기기</Control>
 		</Form>
 		<Form ID="InputComboBox">
-			<Control ID="btnSetup">Setup</Control>
+			<Control ID="btnSetup">설정</Control>
 		</Form>
 		<Form ID="OverscanInput">
-			<Control ID="lblLeft">Left</Control>
-			<Control ID="lblTop">Top</Control>
-			<Control ID="lblBottom">Bottom</Control>
-			<Control ID="lblRight">Right</Control>
+			<Control ID="lblLeft">왼쪽</Control>
+			<Control ID="lblTop">위</Control>
+			<Control ID="lblBottom">아래</Control>
+			<Control ID="lblRight">오른쪽</Control>
 		</Form>
 		<Form ID="VideoConfigView">
-			<Control ID="tpgGeneral">General</Control>
-			<Control ID="chkIntegerFpsMode">Enable integer FPS mode (e.g: run at 60 fps instead of 60.1)</Control>
-			<Control ID="chkVerticalSync">Enable vertical sync</Control>
-			<Control ID="lblDisplayRatio">Aspect Ratio:</Control>
-			<Control ID="lblCustomRatio">Custom Ratio: </Control>
-			<Control ID="chkBilinearInterpolation">Use bilinear interpolation when scaling</Control>
-			<Control ID="chkUseSrgbTextureFormat">Use sRGB when applying interpolation</Control>
-			<Control ID="lblFullscreenResolution">Fullscreen Resolution:</Control>
-			<Control ID="chkFullscreenForceIntegerScale">Use integer scale values when entering fullscreen mode</Control>
-			<Control ID="chkUseExclusiveFullscreen">Use exclusive fullscreen mode</Control>
-			<Control ID="lblRequestedRefreshRateNtsc">Refresh Rate (NTSC / 60 Hz):</Control>
-			<Control ID="lblRequestedRefreshRatePal">Refresh Rate (PAL / 50 Hz):</Control>
-			<Control ID="chkEnableGameSpecificOverscan">Enable game-specific overscan settings</Control>
+			<Control ID="tpgGeneral">일반</Control>
+			<Control ID="chkIntegerFpsMode">FPS 를 정수값으로 수행. 예) 60.1 일 땐 60 으로 실행</Control>
+			<Control ID="chkVerticalSync">수직 동기화 활성화</Control>
+			<Control ID="lblDisplayRatio">종횡비:</Control>
+			<Control ID="lblCustomRatio">종횡비 직접 설정: </Control>
+			<Control ID="chkBilinearInterpolation">확대/축소 시 선형 보간법 사용</Control>
+			<Control ID="chkUseSrgbTextureFormat">보간법 적용 중 sRGB 사용</Control>
+			<Control ID="lblFullscreenResolution">전체 화면 해상도:</Control>
+			<Control ID="chkFullscreenForceIntegerScale">전체 화면 모드로 전환 시 정수 스케일 값 사용</Control>
+			<Control ID="chkUseExclusiveFullscreen">전체 화면을 Mesen 단독으로 사용</Control>
+			<Control ID="lblRequestedRefreshRateNtsc">프레임 재생률 (NTSC / 60 Hz):</Control>
+			<Control ID="lblRequestedRefreshRatePal">프레임 재생률 (PAL / 50 Hz):</Control>
+			<Control ID="chkEnableGameSpecificOverscan">게임 별 오버스캔 설정 활성화</Control>
 
 			<Control ID="tpgPicture">Picture</Control>
-			<Control ID="btnSelectPreset">Select Preset...</Control>
-			<Control ID="btnReset">Reset</Control>
+			<Control ID="btnSelectPreset">사전 설정 선택...</Control>
+			<Control ID="btnReset">리셋</Control>
 			
 			<Control ID="lblPictureSettings">General settings</Control>
 			<Control ID="trkBrightness">Brightness</Control>
@@ -184,7 +184,7 @@
 
 			<Control ID="grpScanlines">Scanlines</Control>
 			<Control ID="trkScanlines">Scanlines</Control>
-			<Control ID="btnResetPictureSettings">Reset</Control>
+			<Control ID="btnResetPictureSettings">리셋</Control>
 			<Control ID="mnuPresetComposite">Composite</Control>
 			<Control ID="mnuPresetSVideo">S-Video</Control>
 			<Control ID="mnuPresetRgb">RGB</Control>
@@ -248,7 +248,7 @@
 			<Control ID="chkRandomPowerOnState">Randomize power-on state</Control>
 			<Control ID="chkStrictBoardMappings">Use strict board mappings (breaks some romhacks)</Control>
 			<Control ID="lblSpcClockSpeedAdjustment">SPC clock speed adjustment: </Control>
-			<Control ID="lblNotRecommended">(not recommended)</Control>
+			<Control ID="lblNotRecommended">(권장하지 않음)</Control>
 			<Control ID="tpgInput">Input</Control>
 
 			<Control ID="tpgOverclocking">Overclocking</Control>
@@ -492,8 +492,8 @@
 		
 		<Form ID="ColorPickerWindow">
 			<Control ID="wndTitle">Color picker</Control>
-			<Control ID="btnOk">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		
 		<Form ID="PaletteConfig">
@@ -659,27 +659,27 @@
 		</Form>
 
 		<Form ID="ConfigWindow">
-			<Control ID="wndTitle">Settings</Control>
+			<Control ID="wndTitle">설정</Control>
 
-			<Control ID="tabAudio">Audio</Control>
-			<Control ID="tabEmulation">Emulation</Control>
-			<Control ID="tabInput">Input</Control>
-			<Control ID="tabVideo">Video</Control>
-			<Control ID="tabNes">NES</Control>
-			<Control ID="tabSnes">SNES</Control>
-			<Control ID="tabGameboy">Game Boy</Control>
-			<Control ID="tabGba">GBA</Control>
-			<Control ID="tabPcEngine">PC Engine</Control>
-			<Control ID="tabSms">SMS</Control>
-			<Control ID="tabWs">WonderSwan</Control>
-			<Control ID="tabOtherConsoles">Other systems</Control>
-			<Control ID="tabPreferences">Preferences</Control>
+			<Control ID="tabAudio">오디오</Control>
+			<Control ID="tabEmulation">에뮬레이션</Control>
+			<Control ID="tabInput">입력</Control>
+			<Control ID="tabVideo">비디오</Control>
+			<Control ID="tabNes">패미컴</Control>
+			<Control ID="tabSnes">슈퍼패미컴</Control>
+			<Control ID="tabGameboy">게임보이</Control>
+			<Control ID="tabGba">게임보이 어드밴스</Control>
+			<Control ID="tabPcEngine">피씨엔진</Control>
+			<Control ID="tabSms">세가 마스터 시스템</Control>
+			<Control ID="tabWs">원더스완</Control>
+			<Control ID="tabOtherConsoles">기타 게임기</Control>
+			<Control ID="tabPreferences">개인 설정</Control>
 
-			<Control ID="btnOpenMesenFolder">Open Mesen folder</Control>
-			<Control ID="btnResetSettings">Reset all settings</Control>
+			<Control ID="btnOpenMesenFolder">Mesen 설정 폴더 열기</Control>
+			<Control ID="btnResetSettings">모든 설정 기본값</Control>
 
-			<Control ID="btnOK">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		
 		<Form ID="PreferencesConfigView">
@@ -781,8 +781,8 @@
 
 			<Control ID="lblLastFolderUsed">Last Folder Used</Control>
 
-			<Control ID="btnOK">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="SelectStorageFolderWindow">
 			<Control ID="wndTitle">Select Data Storage Folder</Control>
@@ -791,23 +791,23 @@
 			<Control ID="radStoragePortable">Store data in the same folder as the application</Control>
 			<Control ID="lblFolder">Destination folder: </Control>
 			<Control ID="lblCopyingFiles">Copying files...</Control>
-			<Control ID="btnOK">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="NetplayStartServerWindow">
 			<Control ID="wndTitle">Start server...</Control>
 			<Control ID="lblPort">Port:</Control>
 			<Control ID="lblPassword">Password:</Control>
-			<Control ID="btnOK">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="NetplayConnectWindow">
 			<Control ID="wndTitle">Connect to server...</Control>
 			<Control ID="lblHost">Host:</Control>
 			<Control ID="lblPort">Port:</Control>
 			<Control ID="lblPassword">Password:</Control>
-			<Control ID="btnOK">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="CheatListWindow">
 			<Control ID="wndTitle">Cheats</Control>
@@ -820,8 +820,8 @@
 			<Control ID="colCodes">Codes</Control>
 			<Control ID="chkDisableCheats">Disable all cheats</Control>
 
-			<Control ID="btnOK">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="CheatEditWindow">
 			<Control ID="wndTitle">Edit Cheat</Control>
@@ -834,12 +834,12 @@
 			<Control ID="lblInvalidCodes">Some codes do not match the selected format.</Control>
 			<Control ID="lblFormat">Format:</Control>
 			
-			<Control ID="btnOK">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="AboutWindow">
-			<Control ID="wndTitle">About - Mesen</Control>
-			<Control ID="lblName">Mesen</Control>
+			<Control ID="wndTitle">About - Mesen K</Control>
+			<Control ID="lblName">Mesen for Korean</Control>
 			<Control ID="lblWebsite">Website:</Control>
 			<Control ID="lblLink">www.mesen.ca</Control>
 			<Control ID="lblVersion">Version:</Control>
@@ -852,7 +852,7 @@
 			<Control ID="lblUsedSoftware">Mesen uses the following open-source software:</Control>
 			<Control ID="lblSpecialThanks">And thank you to everybody who has contributed in any way! (bug reports, testing, research, etc.)</Control>
 
-			<Control ID="btnOk">OK</Control>
+			<Control ID="btnOK">결정</Control>
 		</Form>
 		<Form ID="CommandLineHelpWindow">
 			<Control ID="wndTitle">Command-line options</Control>
@@ -874,7 +874,7 @@
 			
 			<Control ID="btnBrowse">Browse...</Control>
 			<Control ID="btnOK">Record</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="UpdatePromptWindow">
 			<Control ID="wndTitle">Mesen Updater</Control>
@@ -883,7 +883,7 @@
 			<Control ID="lblNewVersionAvailable">A new version of Mesen is available</Control>
 			<Control ID="lblReleaseNotes">Release notes</Control>
 			<Control ID="btnUpdate">Update</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="SetupWizardWindow">
 			<Control ID="wndTitle">Mesen</Control>
@@ -912,7 +912,7 @@
 			<Control ID="lblDescription">Description:</Control>
 			<Control ID="btnBrowse">Browse...</Control>
 			<Control ID="btnOK">Record</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="HdPackBuilderWindow">
 			<Control ID="wndTitle">HD Pack Builder</Control>
@@ -941,79 +941,79 @@
 		<Form ID="InputBarcodeWindow">
 			<Control ID="wndTitle">Input barcode...</Control>
 			<Control ID="lblBarcode">Barcode:</Control>
-			<Control ID="btnOk">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 
 		<Form ID="GameConfigWindow">
-			<Control ID="wndTitle">Game Settings</Control>
+			<Control ID="wndTitle">게임 설정</Control>
 
-			<Control ID="tabOverscan">Overscan</Control>
-			<Control ID="chkOverrideOverscan">Use game-specific overscan settings</Control>
+			<Control ID="tabOverscan">오버 스캔</Control>
+			<Control ID="chkOverrideOverscan">게임 별 오버 스캔 설정 사용</Control>
 			
-			<Control ID="tabDipSwitches">DIP Switches</Control>
+			<Control ID="tabDipSwitches">딥 스위치</Control>
 			
-			<Control ID="btnOk">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 
 		<Form ID="SelectRomWindow">
-			<Control ID="wndTitle">Select rom...</Control>
-			<Control ID="lblSearch">Search:</Control>
-			<Control ID="btnOK">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="wndTitle">게임 선택하기...</Control>
+			<Control ID="lblSearch">찾기:</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		
 		<Form ID="CheatDatabaseWindow">
 			<Control ID="wndTitle">Import cheats from cheat database...</Control>
 			<Control ID="lblSearch">Search:</Control>
-			<Control ID="btnOK">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		
 		<Form ID="BaseInputConfigForm">
-			<Control ID="btnOK">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="ControllerConfigWindow">
 			<Control ID="Title">Controller Configuration</Control>
 
-			<Control ID="lblHint">Each button can be mapped to up to 4 different keyboard keys or gamepad buttons.</Control>
+			<Control ID="lblHint">각 버튼은 최대 4개의 다른 키보드 키나 패드 버튼을 할당할 수 있습니다.</Control>
 			<Control ID="btnSetDefaultBindings">Set Default Bindings</Control>
 			<Control ID="btnClear">Clear Key Bindings</Control>
 			
-			<Control ID="tpgSet1">Key Set #1</Control>
-			<Control ID="tpgSet2">Key Set #2</Control>
-			<Control ID="tpgSet3">Key Set #3</Control>
-			<Control ID="tpgSet4">Key Set #4</Control>
+			<Control ID="tpgSet1">키 설정 #1</Control>
+			<Control ID="tpgSet2">키 설정 #2</Control>
+			<Control ID="tpgSet3">키 설정 #3</Control>
+			<Control ID="tpgSet4">키 설정 #4</Control>
 			
-			<Control ID="lblTurboSpeed">Turbo Speed:</Control>
-			<Control ID="lblTurboFast">Fast</Control>
-			<Control ID="lblTurboSlow">Slow</Control>
+			<Control ID="lblTurboSpeed">터보 스피드:</Control>
+			<Control ID="lblTurboFast">빠름</Control>
+			<Control ID="lblTurboSlow">느림</Control>
 
-			<Control ID="btnSelectPreset">Select Preset...</Control>
-			<Control ID="mnuKeyboard">Keyboard</Control>
-			<Control ID="mnuWasdLayout">WASD Layout</Control>
-			<Control ID="mnuArrowLayout">Arrow Keys Layout</Control>
+			<Control ID="btnSelectPreset">사전 설정 선택...</Control>
+			<Control ID="mnuKeyboard">키보드</Control>
+			<Control ID="mnuWasdLayout">WASD 키</Control>
+			<Control ID="mnuArrowLayout">화살표 키</Control>
 			
-			<Control ID="mnuXboxController">Xbox Controller</Control>
-			<Control ID="mnuXboxLayout1">Controller #1</Control>
-			<Control ID="mnuXboxLayout1AltA">Controller #1 - A+B layout</Control>
-			<Control ID="mnuXboxLayout1AltB">Controller #1 - X+A layout</Control>
-			<Control ID="mnuXboxLayout2">Controller #2</Control>
-			<Control ID="mnuXboxLayout2AltA">Controller #2 - A+B layout</Control>
-			<Control ID="mnuXboxLayout2AltB">Controller #2 - X+A layout</Control>
+			<Control ID="mnuXboxController">XBOX 컨트롤러</Control>
+			<Control ID="mnuXboxLayout1">컨트롤러 #1</Control>
+			<Control ID="mnuXboxLayout1AltA">컨트롤러 #1 - A+B 구성</Control>
+			<Control ID="mnuXboxLayout1AltB">컨트롤러 #1 - X+A 구성</Control>
+			<Control ID="mnuXboxLayout2">컨트롤러 #2</Control>
+			<Control ID="mnuXboxLayout2AltA">컨트롤러 #2 - A+B 구성</Control>
+			<Control ID="mnuXboxLayout2AltB">컨트롤러 #2 - X+A 구성</Control>
 
-			<Control ID="mnuPs4Controller">PS4 Controller</Control>
-			<Control ID="mnuPs4Layout1">Controller #1</Control>
-			<Control ID="mnuPs4Layout1AltA">Controller #1 - X+O layout</Control>
-			<Control ID="mnuPs4Layout1AltB">Controller #1 - X+Square layout</Control>
-			<Control ID="mnuPs4Layout2">Controller #2</Control>
-			<Control ID="mnuPs4Layout2AltA">Controller #2 - X+O layout</Control>
-			<Control ID="mnuPs4Layout2AltB">Controller #2 - X+Square layout</Control>
+			<Control ID="mnuPs4Controller">PS4 컨트롤러</Control>
+			<Control ID="mnuPs4Layout1">컨트롤러 #1</Control>
+			<Control ID="mnuPs4Layout1AltA">컨트롤러 #1 - X+O 구성</Control>
+			<Control ID="mnuPs4Layout1AltB">컨트롤러 #1 - X+Square 구성</Control>
+			<Control ID="mnuPs4Layout2">컨트롤러 #2</Control>
+			<Control ID="mnuPs4Layout2AltA">컨트롤러 #2 - X+O 구성</Control>
+			<Control ID="mnuPs4Layout2AltB">컨트롤러 #2 - X+Square 구성</Control>
 
-			<Control ID="btnOK">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		
 		<Form ID="CheckBoxWarning">
@@ -1021,14 +1021,14 @@
 		</Form>
 
 		<Form ID="SystemSpecificSettings">
-			<Control ID="lblSystemSpecificSettings">System-specific settings</Control>
-			<Control ID="lblNes">NES</Control>
-			<Control ID="lblSnes">SNES</Control>
-			<Control ID="lblGameboy">Game Boy</Control>
-			<Control ID="lblGba">GBA</Control>
-			<Control ID="lblPcEngine">PC Engine</Control>
-			<Control ID="lblSms">SMS</Control>
-			<Control ID="lblWs">WonderSwan</Control>
+			<Control ID="lblSystemSpecificSettings">게임기 별 설정</Control>
+			<Control ID="lblNes">패미컴</Control>
+			<Control ID="lblSnes">슈퍼패미컴</Control>
+			<Control ID="lblGameboy">게임보이</Control>
+			<Control ID="lblGba">어드밴스</Control>
+			<Control ID="lblPcEngine">피씨엔진</Control>
+			<Control ID="lblSms">마스터시스템</Control>
+			<Control ID="lblWs">원더스완</Control>
 		</Form>
 		
 		<Form ID="AudioPlayerView">
@@ -1108,7 +1108,7 @@
 
 		<Form ID="ColorIndexPickerWindow">
 			<Control ID="wndTitle">Select color...</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 
 		<Form ID="SpriteViewerWindow">
@@ -1157,7 +1157,7 @@
 			<Control ID="colLine">Line</Control>
 			<Control ID="colError">Error</Control>
 			<Control ID="btnOk">Apply</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		
 		<Form ID="ScriptWindow">
@@ -1195,8 +1195,8 @@
 			<Control ID="lblEndTime">End time:</Control>
 			<Control ID="lblSeconds"> seconds</Control>
 
-			<Control ID="btnOk">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 
 		<Form ID="NesHeaderEditWindow">
@@ -1223,7 +1223,7 @@
 			<Control ID="chkTrainer">Trainer</Control>
 
 			<Control ID="btnSaveAs">Save as...</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		
 		<Form ID="TraceLoggerWindow">
@@ -1487,8 +1487,8 @@
 		
 		<Form ID="DebuggerConfigWindow">
 			<Control ID="wndTitle">Debugger Settings</Control>
-			<Control ID="btnOK">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 			
 			<Control ID="tabDebugger">Debugger</Control>
 			<Control ID="lblGeneralSettings">General settings</Control>
@@ -1587,7 +1587,7 @@
 			<Control ID="mnuFile">_File</Control>
 			<Control ID="mnuView">_View</Control>
 			
-			<Control ID="btnReset">Reset</Control>
+			<Control ID="btnReset">리셋</Control>
 			<Control ID="btnRefresh">Refresh</Control>
 			<Control ID="chkRefreshOnBreakPause">Refresh on break</Control>
 
@@ -1605,7 +1605,7 @@
 		<Form ID="MemorySearchWindow">
 			<Control ID="wndTitle">Memory Search</Control>
 			<Control ID="btnApplyFilter">Apply filter</Control>
-			<Control ID="btnReset">Reset</Control>
+			<Control ID="btnReset">리셋</Control>
 			<Control ID="btnUndo">Undo</Control>
 
 			<Control ID="btnResetCounters">Reset access stats</Control>
@@ -1633,8 +1633,8 @@
 		<Form ID="GoToWindow">
 			<Control ID="wndTitle">Go to Address...</Control>
 			<Control ID="lblAddress">Address:</Control>
-			<Control ID="btnOk">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 
 		<Form ID="FindAllOccurrencesWindow">
@@ -1643,7 +1643,7 @@
 			<Control ID="chkMatchCase">Match case</Control>
 			<Control ID="chkMatchWholeWord">Match whole word</Control>
 			<Control ID="btnFind">Find</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 
 		<Form ID="BreakInWindow">
@@ -1654,15 +1654,15 @@
 			<Control ID="lblPpuCycles">PPU cycles</Control>
 			<Control ID="lblPpuScanlines">Scanlines</Control>
 			<Control ID="lblPpuFrames">Frames</Control>
-			<Control ID="btnOk">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 
 		<Form ID="BreakOnWindow">
 			<Control ID="wndTitle">Run to scanline...</Control>
 			<Control ID="lblBreakOn">Scanline #:</Control>
-			<Control ID="btnOk">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 
 		<Form ID="LabelEditWindow">
@@ -1674,14 +1674,14 @@
 			<Control ID="lblLength">Length:</Control>
 			<Control ID="lblBytes">bytes</Control>
 			<Control ID="btnDelete">Delete Label</Control>
-			<Control ID="btnOk">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 		
 		<Form ID="CommentEditWindow">
 			<Control ID="wndTitle">Edit comment...</Control>
-			<Control ID="btnOk">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 
 		<Form ID="RegisterViewerWindow">
@@ -1720,8 +1720,8 @@
 
 			<Control ID="lblConditionError">Condition contains invalid syntax or symbols.</Control>
 
-			<Control ID="btnOK">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">결정</Control>
+			<Control ID="btnCancel">취소</Control>
 		</Form>
 
 		<Form ID="FirmwareSelect">
@@ -1730,18 +1730,18 @@
 		</Form>
 	</Forms>
 	<Messages>
-		<Message ID="LastSession">Last Session</Message>
-		<Message ID="AutoSave">Auto-save</Message>
-		<Message ID="SlotNumber">Slot #{0}</Message>
-		<Message ID="LoadStateDialog">Load State Menu</Message>
-		<Message ID="SaveStateDialog">Save State Menu</Message>
+		<Message ID="LastSession">마지막 세션</Message>
+		<Message ID="AutoSave">자동 저장</Message>
+		<Message ID="SlotNumber">슬롯 #{0}</Message>
+		<Message ID="LoadStateDialog">상태 불러오기 메뉴</Message>
+		<Message ID="SaveStateDialog">상태 저장 메뉴</Message>
 
-		<Message ID="LoadFromFile">Load from file...</Message>
-		<Message ID="SaveToFile">Save to file...</Message>
+		<Message ID="LoadFromFile">파일에서 상태 불러오기...</Message>
+		<Message ID="SaveToFile">파일로 상태 저장하기...</Message>
 
-		<Message ID="VideoLayerDisabled">{0} disabled.</Message>
-		<Message ID="VideoLayerEnabled">{0} enabled.</Message>
-		<Message ID="AllLayersEnabled">All BG/sprite layers enabled.</Message>
+		<Message ID="VideoLayerDisabled">{0} 비활성화.</Message>
+		<Message ID="VideoLayerEnabled">{0} 활성화.</Message>
+		<Message ID="AllLayersEnabled">모든 배경/스프라이트 레이어 활성화.</Message>
 
 		<Message ID="PromptSaveChanges">Save changes?</Message>
 		<Message ID="PromptKeepChanges">Keep changes?</Message>
@@ -1781,25 +1781,25 @@ E
 
 		<Message ID="RightClickToClearBinding">Right-click to clear binding</Message>
 
-		<Message ID="Resume">Resume</Message>
-		<Message ID="Pause">Pause</Message>
-		<Message ID="StartServer">Start Server</Message>
-		<Message ID="StopServer">Stop Server</Message>
-		<Message ID="ConnectToServer">Connect to Server</Message>
-		<Message ID="Disconnect">Disconnect</Message>
-		<Message ID="PlayerNumber">Player {0}</Message>
-		<Message ID="ExpansionDevice">Expansion Device</Message>
+		<Message ID="Resume">재개</Message>
+		<Message ID="Pause">일시 정지</Message>
+		<Message ID="StartServer">서버 시작</Message>
+		<Message ID="StopServer">서버 종료</Message>
+		<Message ID="ConnectToServer">서버 연결</Message>
+		<Message ID="Disconnect">연결 해제</Message>
+		<Message ID="PlayerNumber">플레이어 {0}</Message>
+		<Message ID="ExpansionDevice">확장 장치</Message>
 
-		<Message ID="PressToExitFullscreen">Press {0} to exit fullscreen</Message>
-		<Message ID="DefaultResolution">Default</Message>
+		<Message ID="PressToExitFullscreen">{0} 키로 전체 화면 종료</Message>
+		<Message ID="DefaultResolution">기본</Message>
 
-		<Message ID="RomsFound">{0} roms found</Message>
+		<Message ID="RomsFound">{0}개의 롬을 찾았습니다.</Message>
 
-		<Message ID="ResetSettingsConfirmation">Warning: This will reset ALL settings and cannot be undone!&#xA;&#xA;Continue?</Message>
+		<Message ID="ResetSettingsConfirmation">경고: 모든 설정이 재설정 되며 취소할 수 없습니다!&#xA;&#xA;계속 하시겠습니까?</Message>
 
-		<Message ID="ResetWorkspaceConfirmation">Warning: This operation will empty the watch window, remove all breakpoints and reset labels to their default state.&#xA;&#xA;This resets the workspace of all CPUs for the current ROM.&#xA;&#xA;Are you sure?</Message>
-		<Message ID="ImportLabels">Import completed: {0} labels imported.</Message>
-		<Message ID="ImportLabelsWithErrors">Import completed: {0} labels imported (and {1} errors.)</Message>
+		<Message ID="ResetWorkspaceConfirmation">경고: 모든 Watch Data 가 사라지고 모든 중단점이 삭제되며 모든 레이블이 리셋됩니다.&#xA;&#xA;또한 현재 롬의 모든 CPU 작업 영역이 리셋됩니다.&#xA;&#xA;진행하시겠습니까?</Message>
+		<Message ID="ImportLabels">적용 완료: {0} 개 레이블을 적용했습니다.</Message>
+		<Message ID="ImportLabelsWithErrors">적용 완료: {0} 개 레이블을 적용했습니다. (그리고 에러가 {1} 개 발생.)</Message>
 		<Message ID="ImportLabelsWithMissingFiles">Import completed: {0} labels imported.&#xA;&#xA;The following files could not be found:&#xA;{1}</Message>
 		<Message ID="ImportLabelsWithErrorsAndMissingFiles">Import completed: {0} labels imported (and {1} errors.)&#xA;&#xA;The following files could not be found:&#xA;{2}</Message>
 		<Message ID="RandomGameNoGameFound">Mesen could not find any games to load.</Message>
@@ -1818,7 +1818,7 @@ E
 		<Message ID="NsfUnknownField">&lt;unknown&gt;</Message>
 
 		<Message ID="CouldNotInstallRuntime">The Visual Studio Runtime could not be installed properly.</Message>
-		<Message ID="EmptyState">&lt;empty&gt;</Message>
+		<Message ID="EmptyState">&lt;비어있음&gt;</Message>
 		<Message ID="AutoUpdateNotSupported">The version of Mesen you're using does not support automatic updates. Please visit the website and manually download the latest release.</Message>
 		<Message ID="ErrorWhileCheckingUpdates">An error has occurred while trying to check for updates. Check your internet connection and try again.&#xA;&#xA;Error details:&#xA;{0}</Message>
 		<Message ID="AutoUpdateInvalidFile">The downloaded file did not match the expected file.&#xA;&#xA;   Expected SHA256 signature: {0}&#xA;&#xA;   File SHA256 signature: {1}&#xA;&#xA;Please visit the website and manually download the latest release.</Message>
@@ -1854,20 +1854,20 @@ E
 		<Message ID="InstallHdPackConfirmOverwrite">The destination folder ({0}) already exists - are you sure you want to overwrite it?</Message>
 		<Message ID="InstallHdPackConfirmReset">The HD Pack has been installed successfully. Do you want to reset the game and load the HD Pack now?</Message>
 
-		<Message ID="Player">Player</Message>
+		<Message ID="Player">플레이어</Message>
 
-		<Message ID="HexEditor_Location">Location: ${0}</Message>
-		<Message ID="HexEditor_Selection">Selection: ${0} - ${1}</Message>
-		<Message ID="HexEditor_Length">Length: {0} bytes (${1})</Message>
+		<Message ID="HexEditor_Location">위치: ${0}</Message>
+		<Message ID="HexEditor_Selection">선택: ${0} - ${1}</Message>
+		<Message ID="HexEditor_Length">길이: {0} 바이트 (${1})</Message>
 
-		<Message ID="GoToWindowHint">Hex addresses, labels, and any expression&#13;supported by the watch window can be used.</Message>
+		<Message ID="GoToWindowHint">워치 창에서는 16진수, 레이블 등의 표현이 가능합니다.</Message>
 
-		<Message ID="ViewInAction">View in {0}</Message>
+		<Message ID="ViewInAction">{0} 에서 보기</Message>
 
-		<Message ID="btnOK">OK</Message>
-		<Message ID="btnCancel">Cancel</Message>
-		<Message ID="btnYes">Yes</Message>
-		<Message ID="btnNo">No</Message>
+		<Message ID="btnOK">결정</Message>
+		<Message ID="btnCancel">취소</Message>
+		<Message ID="btnYes">네</Message>
+		<Message ID="btnNo">아니오</Message>
 
 		<Message ID="ScriptSaveConfirmation">You have unsaved changes for this script - would you like to save them?</Message>
 		
@@ -1880,175 +1880,175 @@ E
 	</Messages>
 	<Enums>
 		<Enum ID="EmulatorShortcut">
-			<Value ID="FastForward">Fast Forward (Hold button)</Value>
-			<Value ID="ToggleFastForward">Toggle Fast Forward</Value>
-			<Value ID="Rewind">Rewind (Hold button)</Value>
-			<Value ID="ToggleRewind">Toggle Rewind</Value>
-			<Value ID="RewindTenSecs">Rewind 10 seconds</Value>
-			<Value ID="RewindOneMin">Rewind 1 minute</Value>
-			<Value ID="IncreaseSpeed">Increase Speed</Value>
-			<Value ID="DecreaseSpeed">Decrease Speed</Value>
-			<Value ID="Pause">Pause</Value>
-			<Value ID="Reset">Reset</Value>
-			<Value ID="PowerCycle">Power Cycle</Value>
-			<Value ID="ReloadRom">Reload ROM</Value>
-			<Value ID="PowerOff">Power Off</Value>
-			<Value ID="Exit">Exit</Value>
-			<Value ID="TakeScreenshot">Take Screenshot</Value>
-			<Value ID="MoveToNextStateSlot">Select Next Save Slot</Value>
-			<Value ID="MoveToPreviousStateSlot">Select Previous Save Slot</Value>
-			<Value ID="SaveState">Save State</Value>
-			<Value ID="LoadState">Load State</Value>
-			<Value ID="ToggleCheats">Enable/Disable Cheat Codes</Value>
-			<Value ID="ToggleAudio">Enable/Disable Audio</Value>
-			<Value ID="IncreaseVolume">Increase Volume</Value>
-			<Value ID="DecreaseVolume">Decrease Volume</Value>
+			<Value ID="FastForward">빨리감기 (지속)</Value>
+			<Value ID="ToggleFastForward">빨리감기 (토글)</Value>
+			<Value ID="Rewind">되감기 (지속)</Value>
+			<Value ID="ToggleRewind">되감기 (토글)</Value>
+			<Value ID="RewindTenSecs">10초 되감기</Value>
+			<Value ID="RewindOneMin">1분 되감기</Value>
+			<Value ID="IncreaseSpeed">속도 증가</Value>
+			<Value ID="DecreaseSpeed">속도 감소</Value>
+			<Value ID="Pause">일시 정지</Value>
+			<Value ID="Reset">리셋</Value>
+			<Value ID="PowerCycle">전원 껏다 켜기</Value>
+			<Value ID="ReloadRom">롬 다시 읽기</Value>
+			<Value ID="PowerOff">전원 끄기</Value>
+			<Value ID="Exit">종료</Value>
+			<Value ID="TakeScreenshot">스크린 샷 찍기</Value>
+			<Value ID="MoveToNextStateSlot">다음 저장 스테이트 선택</Value>
+			<Value ID="MoveToPreviousStateSlot">이전 저장 스테이트 선택</Value>
+			<Value ID="SaveState">상태 저장</Value>
+			<Value ID="LoadState">상태 읽기</Value>
+			<Value ID="ToggleCheats">치트 코드 켜기/끄기</Value>
+			<Value ID="ToggleAudio">오디오 켜기/끄기</Value>
+			<Value ID="IncreaseVolume">볼륨 증가</Value>
+			<Value ID="DecreaseVolume">볼륨 감소</Value>
 
-			<Value ID="PreviousTrack">Audio Player - Previous Track</Value>
-			<Value ID="NextTrack">Audio Player - Next Track</Value>
+			<Value ID="PreviousTrack">오디오 플레이어 - 이전 트랙</Value>
+			<Value ID="NextTrack">오디오 플레이어 - 다음 트랙</Value>
 
 			<Value ID="RunSingleFrame">Run Single Frame</Value>
 
-			<Value ID="SetScale1x">Set Scale 1x</Value>
-			<Value ID="SetScale2x">Set Scale 2x</Value>
-			<Value ID="SetScale3x">Set Scale 3x</Value>
-			<Value ID="SetScale4x">Set Scale 4x</Value>
-			<Value ID="SetScale5x">Set Scale 5x</Value>
-			<Value ID="SetScale6x">Set Scale 6x</Value>
-			<Value ID="SetScale7x">Set Scale 7x</Value>
-			<Value ID="SetScale8x">Set Scale 8x</Value>
-			<Value ID="SetScale9x">Set Scale 9x</Value>
-			<Value ID="SetScale10x">Set Scale 10x</Value>
-			<Value ID="ToggleFullscreen">Toggle Fullscreen Mode</Value>
-			<Value ID="ToggleFps">Toggle FPS Counter</Value>
-			<Value ID="ToggleDebugInfo">Toggle Debug Information</Value>
-			<Value ID="ToggleGameTimer">Toggle Game Timer</Value>
-			<Value ID="ToggleFrameCounter">Toggle Frame Counter</Value>
-			<Value ID="ToggleLagCounter">Toggle Lag Counter</Value>
-			<Value ID="ResetLagCounter">Reset Lag Counter</Value>
-			<Value ID="ToggleOsd">Show/Hide on-screen messages</Value>
-			<Value ID="ToggleAlwaysOnTop">Toggle Display on Top</Value>
-			<Value ID="ToggleKeyboardMode">Toggle Keyboard Mode</Value>
+			<Value ID="SetScale1x">스케일 1x 설정</Value>
+			<Value ID="SetScale2x">스케일 2x 설정</Value>
+			<Value ID="SetScale3x">스케일 3x 설정</Value>
+			<Value ID="SetScale4x">스케일 4x 설정</Value>
+			<Value ID="SetScale5x">스케일 5x 설정</Value>
+			<Value ID="SetScale6x">스케일 6x 설정</Value>
+			<Value ID="SetScale7x">스케일 7x 설정</Value>
+			<Value ID="SetScale8x">스케일 8x 설정</Value>
+			<Value ID="SetScale9x">스케일 9x 설정</Value>
+			<Value ID="SetScale10x">스케일 10x 설정</Value>
+			<Value ID="ToggleFullscreen">풀 스크린 모드 켜기/끄기</Value>
+			<Value ID="ToggleFps">FPS 표시 켜기/끄기</Value>
+			<Value ID="ToggleDebugInfo">디버그 정보 켜기/끄기</Value>
+			<Value ID="ToggleGameTimer">게임 타이머 켜기/끄기</Value>
+			<Value ID="ToggleFrameCounter">프레임 카운터 켜기/끄기</Value>
+			<Value ID="ToggleLagCounter">Lag 카운터 켜기/끄기</Value>
+			<Value ID="ResetLagCounter">Lag 카운터 리셋</Value>
+			<Value ID="ToggleOsd">스크린 상 메시지 켜기/끄기</Value>
+			<Value ID="ToggleAlwaysOnTop">창을 항상 위로 켜기/끄기</Value>
+			<Value ID="ToggleKeyboardMode">키보드 모드 켜기/끄기</Value>
 
-			<Value ID="ToggleBgLayer1">Toggle BG Layer 1</Value>
-			<Value ID="ToggleBgLayer2">Toggle BG Layer 2</Value>
-			<Value ID="ToggleBgLayer3">Toggle BG Layer 3</Value>
-			<Value ID="ToggleBgLayer4">Toggle BG Layer 4</Value>
-			<Value ID="ToggleSprites1">Toggle Sprite Layer 1</Value>
-			<Value ID="ToggleSprites2">Toggle Sprite Layer 2</Value>
-			<Value ID="EnableAllLayers">Enable All Layers</Value>
+			<Value ID="ToggleBgLayer1">백그라운드 레이어 1 켜기/끄기</Value>
+			<Value ID="ToggleBgLayer2">백그라운드 레이어 2 켜기/끄기</Value>
+			<Value ID="ToggleBgLayer3">백그라운드 레이어 3 켜기/끄기</Value>
+			<Value ID="ToggleBgLayer4">백그라운드 레이어 4 켜기/끄기</Value>
+			<Value ID="ToggleSprites1">스프라이트 레이어 1 켜기/끄기</Value>
+			<Value ID="ToggleSprites2">스프라이트 레이어 2 켜기/끄기</Value>
+			<Value ID="EnableAllLayers">모든 레이어 켜기/끄기</Value>
 
-			<Value ID="ToggleRecordVideo">Start/Stop Recording Video</Value>
-			<Value ID="ToggleRecordAudio">Start/Stop Recording Audio</Value>
-			<Value ID="ToggleRecordMovie">Start/Stop Recording Movie</Value>
+			<Value ID="ToggleRecordVideo">영상 기록 켜기/끄기</Value>
+			<Value ID="ToggleRecordAudio">음성 기록 켜기/끄기</Value>
+			<Value ID="ToggleRecordMovie">무비 기록 켜기/끄기</Value>
 
-			<Value ID="MaxSpeed">Toggle Maximum Speed</Value>
-			<Value ID="SaveStateSlot1">Save State - Slot 1</Value>
-			<Value ID="SaveStateSlot2">Save State - Slot 2</Value>
-			<Value ID="SaveStateSlot3">Save State - Slot 3</Value>
-			<Value ID="SaveStateSlot4">Save State - Slot 4</Value>
-			<Value ID="SaveStateSlot5">Save State - Slot 5</Value>
-			<Value ID="SaveStateSlot6">Save State - Slot 6</Value>
-			<Value ID="SaveStateSlot7">Save State - Slot 7</Value>
-			<Value ID="SaveStateSlot8">Save State - Slot 8</Value>
-			<Value ID="SaveStateSlot9">Save State - Slot 9</Value>
-			<Value ID="SaveStateSlot10">Save State - Slot 10</Value>
-			<Value ID="SaveStateToFile">Save State to File</Value>
-			<Value ID="SaveStateDialog">Open Save State Menu</Value>
-			<Value ID="LoadStateSlot1">Load State - Slot 1</Value>
-			<Value ID="LoadStateSlot2">Load State - Slot 2</Value>
-			<Value ID="LoadStateSlot3">Load State - Slot 3</Value>
-			<Value ID="LoadStateSlot4">Load State - Slot 4</Value>
-			<Value ID="LoadStateSlot5">Load State - Slot 5</Value>
-			<Value ID="LoadStateSlot6">Load State - Slot 6</Value>
-			<Value ID="LoadStateSlot7">Load State - Slot 7</Value>
-			<Value ID="LoadStateSlot8">Load State - Slot 8</Value>
-			<Value ID="LoadStateSlot9">Load State - Slot 9</Value>
-			<Value ID="LoadStateSlot10">Load State - Slot 10</Value>
-			<Value ID="LoadStateSlotAuto">Load State - Auto Save Slot</Value>
-			<Value ID="LoadStateFromFile">Load State from File</Value>
-			<Value ID="LoadStateDialog">Open Load State Menu</Value>
-			<Value ID="LoadLastSession">Load Last Session</Value>
+			<Value ID="MaxSpeed">최대 속도</Value>
+			<Value ID="SaveStateSlot1">상태 저장 - 슬롯 1</Value>
+			<Value ID="SaveStateSlot2">상태 저장 - 슬롯 2</Value>
+			<Value ID="SaveStateSlot3">상태 저장 - 슬롯 3</Value>
+			<Value ID="SaveStateSlot4">상태 저장 - 슬롯 4</Value>
+			<Value ID="SaveStateSlot5">상태 저장 - 슬롯 5</Value>
+			<Value ID="SaveStateSlot6">상태 저장 - 슬롯 6</Value>
+			<Value ID="SaveStateSlot7">상태 저장 - 슬롯 7</Value>
+			<Value ID="SaveStateSlot8">상태 저장 - 슬롯 8</Value>
+			<Value ID="SaveStateSlot9">상태 저장 - 슬롯 9</Value>
+			<Value ID="SaveStateSlot10">상태 저장 - 슬롯 10</Value>
+			<Value ID="SaveStateToFile">파일로 상태 저장하기</Value>
+			<Value ID="SaveStateDialog">상태 저장하기 창 열기</Value>
+			<Value ID="LoadStateSlot1">상태 불러오기 - 슬롯 1</Value>
+			<Value ID="LoadStateSlot2">상태 불러오기 - 슬롯 2</Value>
+			<Value ID="LoadStateSlot3">상태 불러오기 - 슬롯 3</Value>
+			<Value ID="LoadStateSlot4">상태 불러오기 - 슬롯 4</Value>
+			<Value ID="LoadStateSlot5">상태 불러오기 - 슬롯 5</Value>
+			<Value ID="LoadStateSlot6">상태 불러오기 - 슬롯 6</Value>
+			<Value ID="LoadStateSlot7">상태 불러오기 - 슬롯 7</Value>
+			<Value ID="LoadStateSlot8">상태 불러오기 - 슬롯 8</Value>
+			<Value ID="LoadStateSlot9">상태 불러오기 - 슬롯 9</Value>
+			<Value ID="LoadStateSlot10">상태 불러오기 - 슬롯 10</Value>
+			<Value ID="LoadStateSlotAuto">상태 불러오기 - 자동 슬롯</Value>
+			<Value ID="LoadStateFromFile">파일에서 상태 불러오기</Value>
+			<Value ID="LoadStateDialog">상태 불러오기 창 열기</Value>
+			<Value ID="LoadLastSession">마지막 세션 상태 불러오기</Value>
 
-			<Value ID="SelectSaveSlot1">Select Save Slot 1</Value>
-			<Value ID="SelectSaveSlot2">Select Save Slot 2</Value>
-			<Value ID="SelectSaveSlot3">Select Save Slot 3</Value>
-			<Value ID="SelectSaveSlot4">Select Save Slot 4</Value>
-			<Value ID="SelectSaveSlot5">Select Save Slot 5</Value>
-			<Value ID="SelectSaveSlot6">Select Save Slot 6</Value>
-			<Value ID="SelectSaveSlot7">Select Save Slot 7</Value>
-			<Value ID="SelectSaveSlot8">Select Save Slot 8</Value>
-			<Value ID="SelectSaveSlot9">Select Save Slot 9</Value>
-			<Value ID="SelectSaveSlot10">Select Save Slot 10</Value>
+			<Value ID="SelectSaveSlot1">상태 저장 1번 슬롯 선택</Value>
+			<Value ID="SelectSaveSlot2">상태 저장 2번 슬롯 선택</Value>
+			<Value ID="SelectSaveSlot3">상태 저장 3번 슬롯 선택</Value>
+			<Value ID="SelectSaveSlot4">상태 저장 4번 슬롯 선택</Value>
+			<Value ID="SelectSaveSlot5">상태 저장 5번 슬롯 선택</Value>
+			<Value ID="SelectSaveSlot6">상태 저장 6번 슬롯 선택</Value>
+			<Value ID="SelectSaveSlot7">상태 저장 7번 슬롯 선택</Value>
+			<Value ID="SelectSaveSlot8">상태 저장 8번 슬롯 선택</Value>
+			<Value ID="SelectSaveSlot9">상태 저장 9번 슬롯 선택</Value>
+			<Value ID="SelectSaveSlot10">상태 저장 10번 슬롯 선택</Value>
 
-			<Value ID="OpenFile">Open File</Value>
+			<Value ID="OpenFile">파일 불러오기</Value>
 
-			<Value ID="FdsSwitchDiskSide">FDS - Switch Disk Side</Value>
-			<Value ID="FdsEjectDisk">FDS - Eject Disk</Value>
-			<Value ID="FdsInsertNextDisk">FDS - Insert Next Disk</Value>
-			<Value ID="VsInsertCoin1">VS - Insert Coin 1</Value>
-			<Value ID="VsInsertCoin2">VS - Insert Coin 2</Value>
-			<Value ID="VsInsertCoin3">VS - Insert Coin 3 (DualSystem)</Value>
-			<Value ID="VsInsertCoin4">VS - Insert Coin 4 (DualSystem)</Value>
-			<Value ID="VsServiceButton">VS - Service Button</Value>
-			<Value ID="VsServiceButton2">VS - Service Button 2 (DualSystem)</Value>
+			<Value ID="FdsSwitchDiskSide">디스크시스템 - 디스크 면 교체</Value>
+			<Value ID="FdsEjectDisk">디스크시스템 - 디스크 꺼내기</Value>
+			<Value ID="FdsInsertNextDisk">디스크시스템 - 다음 디스크 넣기</Value>
+			<Value ID="VsInsertCoin1">VS 시스템 - 코인 투입 1</Value>
+			<Value ID="VsInsertCoin2">VS 시스템 - 코인 투입 2</Value>
+			<Value ID="VsInsertCoin3">VS 시스템 - 코인 투입 3 (듀얼)</Value>
+			<Value ID="VsInsertCoin4">VS 시스템 - 코인 투입 4 (듀얼)</Value>
+			<Value ID="VsServiceButton">VS 시스템 - 서비스 버튼</Value>
+			<Value ID="VsServiceButton2">VS 시스템 - 서비스 버튼 2 (듀얼)</Value>
 
-			<Value ID="InputBarcode">Input Barcode</Value>
-			<Value ID="LoadTape">Load Tape From File</Value>
-			<Value ID="RecordTape">Start Recording Tape To File</Value>
-			<Value ID="StopRecordTape">Stop Recording Tape</Value>
+			<Value ID="InputBarcode">바코드 입력</Value>
+			<Value ID="LoadTape">파일에서 테이프 정보 불러오기</Value>
+			<Value ID="RecordTape">파일로 테이프 내용을 기록하기</Value>
+			<Value ID="StopRecordTape">테이프 기록 중지</Value>
 		</Enum>
 		<Enum ID="ControllerType">
-			<Value ID="None">None</Value>
-			<Value ID="SnesController">SNES Controller</Value>
-			<Value ID="SnesMouse">SNES Mouse</Value>
-			<Value ID="SuperScope">Super Scope</Value>
-			<Value ID="Multitap">Super Multitap</Value>
+			<Value ID="None">없음</Value>
+			<Value ID="SnesController">슈퍼패미컴 컨트롤러</Value>
+			<Value ID="SnesMouse">슈퍼패미컴 마우스</Value>
+			<Value ID="SuperScope">슈퍼 스코프</Value>
+			<Value ID="Multitap">슈퍼 멀티탭</Value>
 
-			<Value ID="NesController">NES Controller</Value>
-			<Value ID="FamicomController">Famicom Controller</Value>
-			<Value ID="FamicomControllerP2">Famicom Controller</Value>
-			<Value ID="NesZapper">Zapper (NES)</Value>
-			<Value ID="NesArkanoidController">Arkanoid Controller (NES)</Value>
-			<Value ID="PowerPadSideA">Power Pad (Side A)</Value>
-			<Value ID="PowerPadSideB">Power Pad (Side B)</Value>
-			<Value ID="SnesMouse">SNES Mouse</Value>
-			<Value ID="SuborMouse">Subor Mouse</Value>
-			<Value ID="VbController">Virtual Boy Controller</Value>
+			<Value ID="NesController">NES 컨트롤러</Value>
+			<Value ID="FamicomController">패미컴 컨트롤러</Value>
+			<Value ID="FamicomControllerP2">패미컴 컨트롤러 P2</Value>
+			<Value ID="NesZapper">재퍼 (NES)</Value>
+			<Value ID="NesArkanoidController">알카노이드 컨트롤러 (NES)</Value>
+			<Value ID="PowerPadSideA">파워 패드 (A면)</Value>
+			<Value ID="PowerPadSideB">파워 패드 (B면)</Value>
+			<Value ID="SnesMouse">슈퍼패미컴 마우스</Value>
+			<Value ID="SuborMouse">서보 마우스</Value>
+			<Value ID="VbController">버추얼 보이 컨트롤러</Value>
 
-			<Value ID="FourScore">Four Score (NES)</Value>
-			<Value ID="FamicomZapper">Zapper (Famicom)</Value>
-			<Value ID="TwoPlayerAdapter">2-Player Adapter (Famicom)</Value>
-			<Value ID="FourPlayerAdapter">4-Player Adapter (Famicom)</Value>
-			<Value ID="FamicomArkanoidController">Arkanoid Controller (Famicom)</Value>
-			<Value ID="OekaKidsTablet">Oeka Kids Tablet</Value>
-			<Value ID="FamilyTrainerMatSideA">Family Trainer (Side A)</Value>
-			<Value ID="FamilyTrainerMatSideB">Family Trainer (Side B)</Value>
-			<Value ID="KonamiHyperShot">Konami Hyper Shot</Value>
-			<Value ID="FamilyBasicKeyboard">Family Basic Keyboard</Value>
-			<Value ID="PartyTap">Partytap</Value>
-			<Value ID="Pachinko">Pachinko Controller</Value>
-			<Value ID="ExcitingBoxing">Exciting Boxing Punching Bag</Value>
-			<Value ID="JissenMahjong">Jissen Mahjong Controller</Value>
-			<Value ID="SuborKeyboard">Subor Keyboard</Value>
-			<Value ID="BarcodeBattler">Barcode Battler</Value>
-			<Value ID="HoriTrack">Hori Track</Value>
-			<Value ID="BandaiHyperShot">Bandai Hyper Shot</Value>
-			<Value ID="AsciiTurboFile">Turbo File</Value>
-			<Value ID="BattleBox">Battle Box</Value>
+			<Value ID="FourScore">포 스코어 (NES)</Value>
+			<Value ID="FamicomZapper">재퍼 (패미컴)</Value>
+			<Value ID="TwoPlayerAdapter">2P 아답터 (패미컴)</Value>
+			<Value ID="FourPlayerAdapter">4P 아답터 (패미컴)</Value>
+			<Value ID="FamicomArkanoidController">알카노이드 컨트롤러 (패미컴)</Value>
+			<Value ID="OekaKidsTablet">오에카킷즈 태블릿</Value>
+			<Value ID="FamilyTrainerMatSideA">패밀리 트레이터 (A면)</Value>
+			<Value ID="FamilyTrainerMatSideB">패밀리 트레이터 (B면)</Value>
+			<Value ID="KonamiHyperShot">코나미 하이퍼 샷</Value>
+			<Value ID="FamilyBasicKeyboard">패밀리 베이직 키보드</Value>
+			<Value ID="PartyTap">파티 탭</Value>
+			<Value ID="Pachinko">파칭코 컨트롤러</Value>
+			<Value ID="ExcitingBoxing">익사이팅 펀칭 복싱 백</Value>
+			<Value ID="JissenMahjong">짓센 마작 컨트롤러</Value>
+			<Value ID="SuborKeyboard">서보 키보드</Value>
+			<Value ID="BarcodeBattler">바코드 배틀러</Value>
+			<Value ID="HoriTrack">호리 트랙</Value>
+			<Value ID="BandaiHyperShot">반다이 하이퍼 샷</Value>
+			<Value ID="AsciiTurboFile">아스키 터보 파일</Value>
+			<Value ID="BattleBox">배틀 박스</Value>
 
-			<Value ID="BandaiMicrophone">Bandai Microphone</Value>
-			<Value ID="DatachBarcodeReader">Datach Barcode Reader</Value>
+			<Value ID="BandaiMicrophone">반다이 마이크로폰</Value>
+			<Value ID="DatachBarcodeReader">데이터크 바코드 리더</Value>
 
-			<Value ID="GameboyController">Gameboy Controller</Value>
+			<Value ID="GameboyController">게임보이 컨트롤러</Value>
 			
-			<Value ID="PceController">2-button Controller</Value>
-			<Value ID="PceAvenuePad6">6-button Controller</Value>
-			<Value ID="PceTurboTap">Turbo Tap</Value>
+			<Value ID="PceController">2버튼 컨트롤러</Value>
+			<Value ID="PceAvenuePad6">6버튼 컨트롤러</Value>
+			<Value ID="PceTurboTap">터보 탭</Value>
 
-			<Value ID="SmsController">SMS Controller</Value>
-			<Value ID="SmsLightPhaser">Light Phaser</Value>
-			<Value ID="ColecoVisionController">ColecoVision Controller</Value>
+			<Value ID="SmsController">세가 마스터 시스템 컨트롤러</Value>
+			<Value ID="SmsLightPhaser">라이트 페이저</Value>
+			<Value ID="ColecoVisionController">콜레코비전 컨트롤러</Value>
 		</Enum>
 		<Enum ID="NesJissenMahjongButtons">
 			<Value ID="A">A</Value>
@@ -2065,78 +2065,78 @@ E
 			<Value ID="L">L</Value>
 			<Value ID="M">M</Value>
 			<Value ID="N">N</Value>
-			<Value ID="Select">SEL (Select)</Value>
-			<Value ID="Start">ST (Start)</Value>
-			<Value ID="Kan">カン (Kan)</Value>
-			<Value ID="Pon">ポン (Pon)</Value>
-			<Value ID="Chii">チー (Chii)</Value>
-			<Value ID="Riichi">リーチ (Riichi)</Value>
-			<Value ID="Ron">ロン (Ron)</Value>
+			<Value ID="Select">셀렉트</Value>
+			<Value ID="Start">스타트</Value>
+			<Value ID="Kan">깡(Kan)</Value>
+			<Value ID="Pon">펑(Pon)</Value>
+			<Value ID="Chii">치 (Chii)</Value>
+			<Value ID="Riichi">리치 (Riichi)</Value>
+			<Value ID="Ron">론 (Ron)</Value>
 		</Enum>
 		<Enum ID="NesPachinkoButtons">
-			<Value ID="Press">Press</Value>
-			<Value ID="Release">Release</Value>
+			<Value ID="Press">누르기</Value>
+			<Value ID="Release">떼기</Value>
 		</Enum>
 		<Enum ID="NesPartyTapButtons">
-			<Value ID="B1">Button 1</Value>
-			<Value ID="B2">Button 2</Value>
-			<Value ID="B3">Button 3</Value>
-			<Value ID="B4">Button 4</Value>
-			<Value ID="B5">Button 5</Value>
-			<Value ID="B6">Button 6</Value>
+			<Value ID="B1">버튼 1</Value>
+			<Value ID="B2">버튼 2</Value>
+			<Value ID="B3">버튼 3</Value>
+			<Value ID="B4">버튼 4</Value>
+			<Value ID="B5">버튼 5</Value>
+			<Value ID="B6">버튼 6</Value>
 		</Enum>
 		<Enum ID="NesKonamiHyperShotButtons">
-			<Value ID="Player1Jump">Player 1 - Jump</Value>
-			<Value ID="Player1Run">Player 1 - Run</Value>
-			<Value ID="Player2Jump">Player 2 - Jump</Value>
-			<Value ID="Player2Run">Player 2 - Run</Value>
+			<Value ID="Player1Jump">플레이어 1 - 점프</Value>
+			<Value ID="Player1Run">플레이어 1 - 달리기</Value>
+			<Value ID="Player2Jump">플레이어 2 - 점프</Value>
+			<Value ID="Player2Run">플레이어 2 - 달리기</Value>
 		</Enum>
 		<Enum ID="NesZapperButtons">
-			<Value ID="Fire">Fire</Value>
-			<Value ID="AimOffscreen">Aim offscreen (hold)</Value>
+			<Value ID="Fire">발사</Value>
+			<Value ID="AimOffscreen">화면 밖 조준 (고정)</Value>
 		</Enum>
 		<Enum ID="GenericMouseButtons">
-			<Value ID="LeftButton">Left Button</Value>
-			<Value ID="RightButton">Right Button</Value>
+			<Value ID="LeftButton">왼쪽 버튼</Value>
+			<Value ID="RightButton">오른쪽 버튼</Value>
 		</Enum>
 		<Enum ID="DspInterpolationType">
-			<Value ID="Gauss">Gauss (default, accurate)</Value>
-			<Value ID="Cubic">Cubic</Value>
-			<Value ID="Sinc">Sinc</Value>
-			<Value ID="None">None</Value>
+			<Value ID="Gauss">가우스 (기본, 정확)</Value>
+			<Value ID="Cubic">큐빅</Value>
+			<Value ID="Sinc">싱크</Value>
+			<Value ID="None">없음</Value>
 		</Enum>
 		<Enum ID="SnesSuperScopeButtons">
-			<Value ID="Fire">Fire</Value>
-			<Value ID="Cursor">Cursor</Value>
-			<Value ID="Turbo">Turbo</Value>
-			<Value ID="Pause">Pause</Value>
+			<Value ID="Fire">발사</Value>
+			<Value ID="Cursor">커서</Value>
+			<Value ID="Turbo">터보</Value>
+			<Value ID="Pause">일시 정지</Value>
 		</Enum>
 		<Enum ID="NesArkanoidButtons">
-			<Value ID="Fire">Fire</Value>
+			<Value ID="Fire">발사</Value>
 		</Enum>
 		<Enum ID="NesOekakidsButtons">
-			<Value ID="Click">Click</Value>
+			<Value ID="Click">클릭</Value>
 		</Enum>
 		<Enum ID="NesBandaiMicrophoneButtons">
 			<Value ID="A">A</Value>
 			<Value ID="B">B</Value>
-			<Value ID="Microphone">Microphone</Value>
+			<Value ID="Microphone">마이크로폰</Value>
 		</Enum>
 		<Enum ID="NesVirtualBoyButtons">
-			<Value ID="Down1">D-Pad (right) - Down</Value>
-			<Value ID="Left1">D-Pad (right) - Left</Value>
-			<Value ID="Select">Button - Select</Value>
-			<Value ID="Start">Button - Start</Value>
-			<Value ID="Up0">D-Pad (left) - Up</Value>
-			<Value ID="Down0">D-Pad (left) - Down</Value>
-			<Value ID="Left0">D-Pad (left) - Left</Value>
-			<Value ID="Right0">D-Pad (left) - Right</Value>
-			<Value ID="Right1">D-Pad (right) - Right</Value>
-			<Value ID="Up1">D-Pad (right) - Up</Value>
-			<Value ID="L">Button - L</Value>
-			<Value ID="R">Button - R</Value>
-			<Value ID="B">Button - B</Value>
-			<Value ID="A">Button - A</Value>
+			<Value ID="Down1">십자패드 (우측) - 아래</Value>
+			<Value ID="Left1">십자패드 (우측) - 왼쪽</Value>
+			<Value ID="Select">셀렉트 버튼</Value>
+			<Value ID="Start">스타트 버튼</Value>
+			<Value ID="Up0">십자패드 (좌측) - 위</Value>
+			<Value ID="Down0">십자패드 (좌측) - 아래</Value>
+			<Value ID="Left0">십자패드 (좌측) - 왼쪽</Value>
+			<Value ID="Right0">십자패드 (좌측) - 오른쪽</Value>
+			<Value ID="Right1">십자패드 (우측) - 오른쪽</Value>
+			<Value ID="Up1">십자패드 (우측) - 위</Value>
+			<Value ID="L">L 버튼</Value>
+			<Value ID="R">R 버튼</Value>
+			<Value ID="B">B 버튼</Value>
+			<Value ID="A">A 버튼</Value>
 		</Enum>
 		<Enum ID="NesExcitingBoxingButtons">
 			<Value ID="LeftHook">Hook (left)</Value>
@@ -3227,16 +3227,16 @@ E
 			<Value ID="OpenTileViewer">Open Tile Viewer</Value>
 			<Value ID="OpenSpriteViewer">Open Sprite Viewer</Value>
 			<Value ID="OpenPaletteViewer">Open Palette Viewer</Value>
-			<Value ID="Reset">Reset</Value>
-			<Value ID="PowerCycle">Power cycle</Value>
-			<Value ID="ReloadRom">Reload ROM</Value>
-			<Value ID="ToggleBreakContinue">Toggle break/continue</Value>
-			<Value ID="Continue">Continue</Value>
-			<Value ID="Break">Break</Value>
-			<Value ID="StepInto">Step into</Value>
-			<Value ID="StepOver">Step over</Value>
-			<Value ID="StepOut">Step out</Value>
-			<Value ID="StepBack">Step back</Value>
+			<Value ID="Reset">리셋</Value>
+			<Value ID="PowerCycle">전원 껏다 켜기</Value>
+			<Value ID="ReloadRom">롬 다시 읽기</Value>
+			<Value ID="ToggleBreakContinue">중단점 켜기/끄기</Value>
+			<Value ID="Continue">계속</Value>
+			<Value ID="Break">중단</Value>
+			<Value ID="StepInto">들어가기</Value>
+			<Value ID="StepOver">넘어가기</Value>
+			<Value ID="StepOut">나가기</Value>
+			<Value ID="StepBack">뒤로 가기</Value>
 			<Value ID="StepBackScanline">Step back (1 scanline)</Value>
 			<Value ID="StepBackFrame">Step back (1 frame)</Value>
 			<Value ID="RunCpuCycle">Run one CPU Cycle</Value>
@@ -3432,41 +3432,41 @@ E
 			<Value ID="ShowSettingsPanel">Show settings panel</Value>
 			<Value ID="ShowMemoryMappings">Show memory mappings</Value>
 
-			<Value ID="Preferences">Preferences</Value>
+			<Value ID="Preferences">개인 설정</Value>
 
-			<Value ID="Continue">Continue</Value>
-			<Value ID="Break">Break</Value>
-			<Value ID="Reset">Reset</Value>
-			<Value ID="PowerCycle">Power cycle</Value>
-			<Value ID="ReloadRom">Reload ROM</Value>
-			<Value ID="StepInto">Step into</Value>
-			<Value ID="StepOut">Step out</Value>
-			<Value ID="StepOver">Step over</Value>
-			<Value ID="StepBack">Step back</Value>
-			<Value ID="StepBackScanline">Step back (1 scanline)</Value>
-			<Value ID="StepBackFrame">Step back (1 frame)</Value>
-			<Value ID="RunCpuCycle">Run one CPU Cycle</Value>
-			<Value ID="RunPpuCycle">Run one PPU cycle</Value>
-			<Value ID="RunPpuScanline">Run one scanline</Value>
-			<Value ID="RunPpuFrame">Run one frame</Value>
-			<Value ID="RunToIrq">Run to IRQ</Value>
-			<Value ID="RunToNmi">Run to NMI</Value>
-			<Value ID="BreakIn">Break in...</Value>
-			<Value ID="BreakOn">Run to scanline...</Value>
+			<Value ID="Continue">진행</Value>
+			<Value ID="Break">중단</Value>
+			<Value ID="Reset">리셋</Value>
+			<Value ID="PowerCycle">전원 껏다 켜기</Value>
+			<Value ID="ReloadRom">롬 다시 읽기</Value>
+			<Value ID="StepInto">스텝 진입</Value>
+			<Value ID="StepOut">스텝 나감</Value>
+			<Value ID="StepOver">스텝 건너뜀</Value>
+			<Value ID="StepBack">백 스텝</Value>
+			<Value ID="StepBackScanline">백 스텝 (1 스캔라인)</Value>
+			<Value ID="StepBackFrame">백 스텝 (1 프레임)</Value>
+			<Value ID="RunCpuCycle">CPU 사이클 1회 수행</Value>
+			<Value ID="RunPpuCycle">PPU 사이클 1회 수행</Value>
+			<Value ID="RunPpuScanline">스캔라인 1회 수행</Value>
+			<Value ID="RunPpuFrame">프레임 1개 수행</Value>
+			<Value ID="RunToIrq">IRQ 실행</Value>
+			<Value ID="RunToNmi">NMI 실행</Value>
+			<Value ID="BreakIn">조건부 중단...</Value>
+			<Value ID="BreakOn">스캔라인 중단...</Value>
 
-			<Value ID="RunScript">Run Script</Value>
-			<Value ID="StopScript">Stop Script</Value>
-			<Value ID="NewScript">New Script Window</Value>
+			<Value ID="RunScript">스크립트 실행</Value>
+			<Value ID="StopScript">스크립트 중지</Value>
+			<Value ID="NewScript">새 스크립트 창</Value>
 			<Value ID="BuiltInScripts">Built-in Scripts</Value>
 
-			<Value ID="Open">Open</Value>
-			<Value ID="Save">Save</Value>
-			<Value ID="SaveAs">Save as...</Value>
-			<Value ID="Exit">Exit</Value>
+			<Value ID="Open">열기</Value>
+			<Value ID="Save">저장</Value>
+			<Value ID="SaveAs">다른 이름으로 저장...</Value>
+			<Value ID="Exit">종료</Value>
 
-			<Value ID="Refresh">Refresh</Value>
-			<Value ID="ZoomIn">Zoom in</Value>
-			<Value ID="ZoomOut">Zoom out</Value>
+			<Value ID="Refresh">갱신</Value>
+			<Value ID="ZoomIn">줌인</Value>
+			<Value ID="ZoomOut">줌아웃</Value>
 			<Value ID="EnableAutoRefresh">Auto-refresh</Value>
 			<Value ID="RefreshOnBreakPause">Refresh on break/pause</Value>
 
@@ -3539,58 +3539,58 @@ E
 			<Value ID="ReportBug">Report a bug</Value>
 			<Value ID="About">About</Value>
 
-			<Value ID="Speed">Speed</Value>
-			<Value ID="NormalSpeed">Normal (100%)</Value>
-			<Value ID="IncreaseSpeed">Increase Speed</Value>
-			<Value ID="DecreaseSpeed">Decrease Speed</Value>
-			<Value ID="MaximumSpeed">Maximum Speed</Value>
-			<Value ID="TripleSpeed">Triple (300%)</Value>
-			<Value ID="DoubleSpeed">Double (200%)</Value>
-			<Value ID="HalfSpeed">Half (50%)</Value>
-			<Value ID="QuarterSpeed">Quarter (25%)</Value>
-			<Value ID="ShowFps">Show FPS</Value>
+			<Value ID="Speed">속도</Value>
+			<Value ID="NormalSpeed">보통 (100%)</Value>
+			<Value ID="IncreaseSpeed">속도 증가</Value>
+			<Value ID="DecreaseSpeed">속도 감소</Value>
+			<Value ID="MaximumSpeed">최대 속도</Value>
+			<Value ID="TripleSpeed">3배 (300%)</Value>
+			<Value ID="DoubleSpeed">2배 (200%)</Value>
+			<Value ID="HalfSpeed">절반 (50%)</Value>
+			<Value ID="QuarterSpeed">반의 반 (25%)</Value>
+			<Value ID="ShowFps">FPS 표시</Value>
 
-			<Value ID="VideoScale">Video Size</Value>
-			<Value ID="AspectRatio">Aspect Ratio</Value>
-			<Value ID="Fullscreen">Fullscreen</Value>
-			<Value ID="VideoFilter">Video Filter</Value>
-			<Value ID="Region">Region / Model</Value>
+			<Value ID="VideoScale">화면 크기</Value>
+			<Value ID="AspectRatio">종횡비</Value>
+			<Value ID="Fullscreen">전체 화면</Value>
+			<Value ID="VideoFilter">화면 필터</Value>
+			<Value ID="Region">국가 / 모델</Value>
 
-			<Value ID="Audio">Audio</Value>
-			<Value ID="Emulation">Emulation</Value>
-			<Value ID="Input">Input</Value>
-			<Value ID="Video">Video</Value>
-			<Value ID="Nes">NES</Value>
-			<Value ID="Snes">SNES</Value>
-			<Value ID="Gameboy">Game Boy</Value>
-			<Value ID="Gba">GBA</Value>
-			<Value ID="PcEngine">PC Engine</Value>
-			<Value ID="Sms">SMS</Value>
-			<Value ID="Ws">WonderSwan</Value>
-			<Value ID="OtherConsoles">Other systems</Value>
+			<Value ID="Audio">오디오</Value>
+			<Value ID="Emulation">에뮬레이션</Value>
+			<Value ID="Input">입력</Value>
+			<Value ID="Video">비디오</Value>
+			<Value ID="Nes">패미컴</Value>
+			<Value ID="Snes">슈퍼패미컴</Value>
+			<Value ID="Gameboy">게임보이</Value>
+			<Value ID="Gba">게임보이 어드밴스</Value>
+			<Value ID="PcEngine">피씨엔진</Value>
+			<Value ID="Sms">마스터 시스템</Value>
+			<Value ID="Ws">원더스완</Value>
+			<Value ID="OtherConsoles">기타 게임기</Value>
 
-			<Value ID="Resume">Resume</Value>
-			<Value ID="Pause">Pause</Value>
-			<Value ID="PowerOff">Power Off</Value>
-			<Value ID="SelectDisk">Select Disk</Value>
-			<Value ID="EjectDisk">Eject Disk</Value>
+			<Value ID="Resume">재개</Value>
+			<Value ID="Pause">일시정지</Value>
+			<Value ID="PowerOff">전원 끄기</Value>
+			<Value ID="SelectDisk">디스크 선택</Value>
+			<Value ID="EjectDisk">디스크 꺼내기</Value>
 			
 			<Value ID="InsertCoin1">Insert Coin (1)</Value>
 			<Value ID="InsertCoin2">Insert Coin (2)</Value>
 			<Value ID="InsertCoin3">Insert Coin (3 - DualSystem)</Value>
 			<Value ID="InsertCoin4">Insert Coin (4 - DualSystem)</Value>
 
-			<Value ID="SaveState">Save State</Value>
-			<Value ID="LoadState">Load State</Value>
-			<Value ID="LoadLastSession">Load Last Session</Value>
+			<Value ID="SaveState">상태 저장</Value>
+			<Value ID="LoadState">상태 불러오기</Value>
+			<Value ID="LoadLastSession">마지막 세션 불러오기</Value>
 
-			<Value ID="LoadStateDialog">Load State Menu</Value>
-			<Value ID="LoadStateFromFile">Load from file...</Value>
+			<Value ID="LoadStateDialog">상태 불러오기 메뉴</Value>
+			<Value ID="LoadStateFromFile">파일에서 불러오기...</Value>
 
-			<Value ID="SaveStateDialog">Save State Menu</Value>
-			<Value ID="SaveStateToFile">Save to file...</Value>
+			<Value ID="SaveStateDialog">상태 저장 메뉴</Value>
+			<Value ID="SaveStateToFile">파일로 저장하기...</Value>
 
-			<Value ID="RecentFiles">Recent Files</Value>
+			<Value ID="RecentFiles">최근 실행</Value>
 
 			<Value ID="SaveRom">Save ROM</Value>
 			<Value ID="SaveRomAs">Save ROM as...</Value>
@@ -3618,10 +3618,10 @@ E
 			<Value ID="ShowToolbar">Show toolbar</Value>
 			<Value ID="ShowListView">Show list view</Value>
 
-			<Value ID="Workspace">Workspace</Value>
-			<Value ID="ResetWorkspace">Reset workspace</Value>
-			<Value ID="ImportLabels">Import labels...</Value>
-			<Value ID="ExportLabels">Export labels...</Value>
+			<Value ID="Workspace">작업 영역</Value>
+			<Value ID="ResetWorkspace">작업 영역 초기화</Value>
+			<Value ID="ImportLabels">레이블 적용하기...</Value>
+			<Value ID="ExportLabels">레이블 추출하기...</Value>
 			<Value ID="ImportWatchEntries">Import watch entries...</Value>
 			<Value ID="ExportWatchEntries">Export watch entries...</Value>
 
@@ -3661,7 +3661,7 @@ E
 			<Value ID="CreateSaveState">Create Save State</Value>
 			<Value ID="ResumeGameplay">Resume Gameplay</Value>
 
-			<Value ID="GameConfig">Game Settings</Value>
+			<Value ID="GameConfig">게임 설정</Value>
 			
 			<Value ID="FreezeMemory">Freeze</Value>
 			<Value ID="UnfreezeMemory">Unfreeze</Value>
