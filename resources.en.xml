@@ -148,7 +148,7 @@
 			<Control ID="chkEnableGameSpecificOverscan">게임 별 오버스캔 설정 활성화</Control>
 
 			<Control ID="tpgPicture">그림</Control>
-			<Control ID="btnSelectPreset">사전 설정 선택...</Control>
+			<Control ID="btnSelectPreset">프리셋 선택...</Control>
 			<Control ID="btnReset">리셋</Control>
 			
 			<Control ID="lblPictureSettings">일반 설정</Control>
@@ -176,7 +176,7 @@
 			<Control ID="trkNtscIFilterLength">I 필터 (Horizontal Bleed)</Control>
 			<Control ID="trkNtscQFilterLength">Q 필터 (Horizontal Bleed)</Control>
 
-			<Control ID="lblLcdGridSettings">LCD 그리드 설정</Control>
+			<Control ID="lblLcdGridSettings">LCD 격자 설정</Control>
 			<Control ID="trkLcdGridTopLeftBrightness">밝기 - 좌상</Control>
 			<Control ID="trkLcdGridTopRightBrightness">밝기 - 우상</Control>
 			<Control ID="trkLcdGridBottomLeftBrightness">밝기 - 좌하</Control>
@@ -229,7 +229,7 @@
 
 		<Form ID="SnesConfigView">
 			<Control ID="tpgGeneral">일반</Control>
-			<Control ID="lblRegion">국가(Region):</Control>
+			<Control ID="lblRegion">지역(Region):</Control>
 			
 			<Control ID="tpgAudio">오디오</Control>
 			<Control ID="lblAudioInterpolation">오디오 보간 타입:</Control>
@@ -281,7 +281,7 @@
 		</Form>
 		<Form ID="NesConfigView">
 			<Control ID="tpgGeneral">일반</Control>
-			<Control ID="lblRegion">국가(Region):</Control>
+			<Control ID="lblRegion">지역(Region):</Control>
 			<Control ID="chkEnableHdPacks">HD 팩 활성화</Control>
 			<Control ID="chkDisableGameDatabase">내장 게임 데이터베이스 비활성화</Control>
 
@@ -364,19 +364,19 @@
 		<Form ID="GameboyConfigView">
 			<Control ID="tpgGeneral">일반</Control>
 			<Control ID="lblModel">모델:</Control>
-			<Control ID="chkUseSgb2">In Super Game Boy mode, use SGB2 timings and behavior</Control>
+			<Control ID="chkUseSgb2">슈퍼 게임보이 모드 시 슈퍼 게임보이 2 타이밍과 동작을 사용</Control>
 			
 			<Control ID="tpgEmulation">에뮬레이션</Control>
 			<Control ID="lblRamPowerOnState">전원 On 시 RAM 기본 상태: </Control>
 			<Control ID="grpGeneral">일반</Control>
-			<Control ID="chkAllowInvalidInput">Allow invalid input (e.g Down + Up or Left + Right at the same time)</Control>
+			<Control ID="chkAllowInvalidInput">물리적으로 불가능한 입력 허용. 예) 위+아래 또는 왼쪽+오른쪽 버튼 동시 누르기 등</Control>
 			
 			<Control ID="tpgVideo">비디오</Control>
-			<Control ID="lblGameboyPalette">Game Boy (DMG) Palette</Control>
-			<Control ID="lblGbBackground">Background:</Control>
-			<Control ID="lblGbObj0">Sprites #1:</Control>
-			<Control ID="lblGbObj1">Sprites #2:</Control>
-			<Control ID="btnSelectPreset">Select Preset...</Control>
+			<Control ID="lblGameboyPalette">게임보이 (DMG) 팔레트</Control>
+			<Control ID="lblGbBackground">배경:</Control>
+			<Control ID="lblGbObj0">스프라이트 #1:</Control>
+			<Control ID="lblGbObj1">스프라이트 #2:</Control>
+			<Control ID="btnSelectPreset">프리셋 선택...</Control>
 
 			<Control ID="lblGrayscale">회색</Control>
 			<Control ID="lblGrayscaleHighContrast">밝은 회색</Control>
@@ -390,7 +390,7 @@
 			<Control ID="chkDisableSprites">스프라이트 비활성화</Control>
 
 			<Control ID="lblMiscSettings">그 외 설정</Control>
-			<Control ID="chkHideSgbBorders">Hide Super Game Boy borders</Control>
+			<Control ID="chkHideSgbBorders">슈퍼 게임보이 테두리 숨김</Control>
 
 			<Control ID="tpgAudio">오디오</Control>
 			<Control ID="grpVolume">볼륨</Control>
@@ -401,35 +401,35 @@
 			
 			<Control ID="tpgInput">입력</Control>
 			<Control ID="grpControllers">컨트롤러</Control>
-			<Control ID="lblPlayer1">Player 1</Control>
+			<Control ID="lblPlayer1">플레이어 1</Control>
 			<Control ID="btnSetup">설정</Control>
 		</Form>
 		
 		<Form ID="GbaConfigView">
 			<Control ID="tpgGeneral">일반</Control>
-			<Control ID="chkSkipBootScreen">Skip boot screen</Control>
+			<Control ID="chkSkipBootScreen">부팅 화면 스킵</Control>
 
 			<Control ID="tpgEmulation">에뮬레이션</Control>
-			<Control ID="lblSaveType">Save Type:</Control>
-			<Control ID="lblRtcType">Real-Time Clock:</Control>
+			<Control ID="lblSaveType">세이브 타입:</Control>
+			<Control ID="lblRtcType">실시간 시계:</Control>
 			<Control ID="lblRamPowerOnState">전원 On 시 RAM 기본 상태: </Control>
 			<Control ID="grpGeneral">일반</Control>
-			<Control ID="chkAllowInvalidInput">Allow invalid input (e.g Down + Up or Left + Right at the same time)</Control>
-			<Control ID="chkEnableMgbaLogApi">Enable mGBA log API</Control>
+			<Control ID="chkAllowInvalidInput">물리적으로 불가능한 입력 허용. 예) 위+아래 또는 왼쪽+오른쪽 버튼 동시 누르기 등</Control>
+			<Control ID="chkEnableMgbaLogApi">mGBA 로그 API 활성화</Control>
 
-			<Control ID="grpOverclocking">Overclocking</Control>
-			<Control ID="lblOverclockHint">Overclocking can help reduce or remove slowdowns in games (but it can also cause issues). To overclock, increase the value below.</Control>
-			<Control ID="lblOverclockScanlineCount">Additional scanlines:</Control>
+			<Control ID="grpOverclocking">오버클럭</Control>
+			<Control ID="lblOverclockHint">오버클럭은 게임 속도 저하를 줄이거나 없애는 데 도움이 될 수 있습니다만 문제가 발생할 수도 있습니다. 오버클럭을 하려면 아래 값을 높이세요.</Control>
+			<Control ID="lblOverclockScanlineCount">추가 스캔라인:</Control>
 
 			<Control ID="tpgVideo">비디오</Control>
 			<Control ID="lblLcdSettings">LCD 설정</Control>
-			<Control ID="chkGbBlendFrames">Enable LCD frame blending</Control>
-			<Control ID="chkGbaAdjustColors">Enable LCD color emulation</Control>
-			<Control ID="chkHideBgLayer1">Hide background layer 1</Control>
-			<Control ID="chkHideBgLayer2">Hide background layer 2</Control>
-			<Control ID="chkHideBgLayer3">Hide background layer 3</Control>
-			<Control ID="chkHideBgLayer4">Hide background layer 4</Control>
-			<Control ID="chkDisableFrameSkipping">Disable frame skipping when fast forwarding</Control>
+			<Control ID="chkGbBlendFrames">LCD 프레임 블렌딩 활성화</Control>
+			<Control ID="chkGbaAdjustColors">GBA LCD 컬러 재현 활성화</Control>
+			<Control ID="chkHideBgLayer1">배경 레이어 1 숨김</Control>
+			<Control ID="chkHideBgLayer2">배경 레이어 2 숨김</Control>
+			<Control ID="chkHideBgLayer3">배경 레이어 3 숨김</Control>
+			<Control ID="chkHideBgLayer4">배경 레이어 4 숨김</Control>
+			<Control ID="chkDisableFrameSkipping">빨리감기 중 프레임 건너뛰기 비활성화</Control>
 
 			<Control ID="chkDisableSprites">스프라이트 비활성화</Control>
 
@@ -437,42 +437,42 @@
 
 			<Control ID="tpgAudio">오디오</Control>
 			<Control ID="grpVolume">볼륨</Control>
-			<Control ID="lblChannelA">Channel A</Control>
-			<Control ID="lblChannelB">Channel B</Control>
-			<Control ID="lblSquare1">Square 1</Control>
-			<Control ID="lblSquare2">Square 2</Control>
+			<Control ID="lblChannelA">채널 A</Control>
+			<Control ID="lblChannelB">채널 B</Control>
+			<Control ID="lblSquare1">사각파 1</Control>
+			<Control ID="lblSquare2">사각파 2</Control>
 			<Control ID="lblWave">웨이브</Control>
 			<Control ID="lblNoise">노이즈</Control>
 
 			<Control ID="tpgInput">입력</Control>
 			<Control ID="grpControllers">컨트롤러</Control>
-			<Control ID="lblPlayer1">Player 1</Control>
+			<Control ID="lblPlayer1">플레이어 1</Control>
 			<Control ID="btnSetup">설정</Control>
 		</Form>
 
 		<Form ID="PceConfigView">
 			<Control ID="tpgGeneral">일반</Control>
-			<Control ID="lblConsoleType">Console Type:</Control>
-			<Control ID="lblCdRomType">CD-ROM System:</Control>
+			<Control ID="lblConsoleType">콘솔 타입:</Control>
+			<Control ID="lblCdRomType">CD-ROM 시스템:</Control>
 
 			<Control ID="tpgAudio">오디오</Control>
 			<Control ID="grpVolume">볼륨</Control>
-			<Control ID="lblChannel1">Channel 1</Control>
-			<Control ID="lblChannel2">Channel 2</Control>
-			<Control ID="lblChannel3">Channel 3</Control>
-			<Control ID="lblChannel4">Channel 4</Control>
-			<Control ID="lblChannel5">Channel 5</Control>
-			<Control ID="lblChannel6">Channel 6</Control>
-			<Control ID="lblCdAudio">CD Audio</Control>
+			<Control ID="lblChannel1">채널 1</Control>
+			<Control ID="lblChannel2">채널 2</Control>
+			<Control ID="lblChannel3">채널 3</Control>
+			<Control ID="lblChannel4">채널 4</Control>
+			<Control ID="lblChannel5">채널 5</Control>
+			<Control ID="lblChannel6">채널 6</Control>
+			<Control ID="lblCdAudio">CD 오디오</Control>
 			<Control ID="lblAdpcm">ADPCM</Control>
 			
 			<Control ID="tpgEmulation">에뮬레이션</Control>
 			<Control ID="lblDeveloperSettings">실기 개발자를 위한 설정 (홈브류 / ROM 해킹)</Control>
 			<Control ID="lblRamPowerOnState">전원 On 시 RAM 기본 상태: </Control>
-			<Control ID="chkRandomPowerOnState">Randomize power-on state</Control>
-			<Control ID="chkEnableCdRomForHuCardGames">Enable CD-ROM emulation when running HuCard games</Control>
-			<Control ID="chkDisableCdRomSaveRamForHuCardGames">Disable CD-ROM save RAM when running HuCard games</Control>
-			<Control ID="chkUseHuC6280aAudio">Use HuC6280A audio (reduces popping)</Control>
+			<Control ID="chkRandomPowerOnState">전원 On 시 상태 무작위 활성화</Control>
+			<Control ID="chkEnableCdRomForHuCardGames">휴카드 게임 구동 시 CD-ROM 에뮬레이션 활성화</Control>
+			<Control ID="chkDisableCdRomSaveRamForHuCardGames">휴카드 게임 구동 시 CD-ROM 세이브 RAM 비활성화</Control>
+			<Control ID="chkUseHuC6280aAudio">HuC6280A 오디오 사용 (팝핑 감소)</Control>
 			
 			<Control ID="tpgInput">입력</Control>
 			
@@ -480,74 +480,74 @@
 			<Control ID="lblMiscSettings">그 외 설정</Control>
 			<Control ID="chkRemoveSpriteLimit">스프라이트 제한 해제</Control>
 			<Control ID="chkDisableBackground">배경 비활성화</Control>
-			<Control ID="chkDisableBackgroundVdc2">Disable background (VDC2 - SuperGrafx)</Control>
+			<Control ID="chkDisableBackgroundVdc2">배경 비활성화 (VDC2 - 슈퍼그래픽스)</Control>
 			<Control ID="chkDisableSprites">스프라이트 비활성화</Control>
-			<Control ID="chkDisableSpritesVdc2">Disable sprites (VDC2 - SuperGrafx)</Control>
-			<Control ID="chkDisableFrameSkipping">Disable frame skipping when fast forwarding</Control>
-			<Control ID="chkForceFixedResolution">Use fixed output resolution (4x scale, ≈1024x956)</Control>
+			<Control ID="chkDisableSpritesVdc2">스프라이트 비활성화 (VDC2 - 슈퍼그래픽스)</Control>
+			<Control ID="chkDisableFrameSkipping">빨리감기 중 프레임 건너뛰기 비활성화</Control>
+			<Control ID="chkForceFixedResolution">출력 해상도 고정 사용 (4x scale, ≈1024x956)</Control>
 
 			<Control ID="lblOverscan">오버스캔</Control>
 			<Control ID="lblPalette">팔레트</Control>
 		</Form>
 		
 		<Form ID="ColorPickerWindow">
-			<Control ID="wndTitle">Color picker</Control>
+			<Control ID="wndTitle">컬러 픽커</Control>
 			<Control ID="btnOk">확인</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 		
 		<Form ID="PaletteConfig">
-			<Control ID="btnSelectPalette">Load preset palette...</Control>
-			<Control ID="btnExportPalette">Export palette</Control>
-			<Control ID="btnLoadPalFile">Load palette file</Control>
+			<Control ID="btnSelectPalette">기본 팔레트 선택...</Control>
+			<Control ID="btnExportPalette">팔레트 파일로 저장</Control>
+			<Control ID="btnLoadPalFile">팔레트 파일에서 불러오기</Control>
 		</Form>
 
 		<Form ID="PceInputConfigView">
 			<Control ID="grpControllers">컨트롤러</Control>
-			<Control ID="lblTurboTapConfig">Turbo Tap Configuration</Control>
+			<Control ID="lblTurboTapConfig">터보 탭 설정</Control>
 
 			<Control ID="btnSetup">설정</Control>
-			<Control ID="lblController">Controller:</Control>
-			<Control ID="lblPort1A">Port 1:</Control>
-			<Control ID="lblPort1B">Port 2:</Control>
-			<Control ID="lblPort1C">Port 3:</Control>
-			<Control ID="lblPort1D">Port 4:</Control>
-			<Control ID="lblPort1E">Port 5:</Control>
+			<Control ID="lblController">컨트롤러:</Control>
+			<Control ID="lblPort1A">포트 1:</Control>
+			<Control ID="lblPort1B">포트 2:</Control>
+			<Control ID="lblPort1C">포트 3:</Control>
+			<Control ID="lblPort1D">포트 4:</Control>
+			<Control ID="lblPort1E">포트 5:</Control>
 
 			<Control ID="grpGeneral">일반</Control>
-			<Control ID="chkAllowInvalidInput">Allow invalid input (e.g Down + Up or Left + Right at the same time)</Control>
-			<Control ID="chkPreventSelectRunReset">Disable Run+Select combination (to avoid resets in games)</Control>
+			<Control ID="chkAllowInvalidInput">물리적으로 불가능한 입력 허용. 예) 위+아래 또는 왼쪽+오른쪽 버튼 동시 누르기 등</Control>
+			<Control ID="chkPreventSelectRunReset">Run+Select 동시 누르기 비활성화 (게임 내 리셋 기능 회피)</Control>
 		</Form>
 
 		<Form ID="SmsConfigView">
 			<Control ID="tpgGeneral">일반</Control>
-			<Control ID="lblRegionSms">Region (Master System):</Control>
-			<Control ID="lblRegionGg">Region (Game Gear):</Control>
+			<Control ID="lblRegionSms">지역(Region,마스터시스템):</Control>
+			<Control ID="lblRegionGg">지역(Region,게임기어):</Control>
 
 			<Control ID="tpgAudio">오디오</Control>
 			<Control ID="grpVolume">볼륨</Control>
-			<Control ID="lblChannel1">Tone 1</Control>
-			<Control ID="lblChannel2">Tone 2</Control>
-			<Control ID="lblChannel3">Tone 3</Control>
+			<Control ID="lblChannel1">톤 1</Control>
+			<Control ID="lblChannel2">톤 2</Control>
+			<Control ID="lblChannel3">톤 3</Control>
 			<Control ID="lblChannel4">노이즈</Control>
 			<Control ID="lblChannel5">YM2413</Control>
-			<Control ID="chkEnableFmAudio">Enable FM audio (YM2413)</Control>
+			<Control ID="chkEnableFmAudio">FM 오디오 활성화 (YM2413)</Control>
 
 			<Control ID="tpgEmulation">에뮬레이션</Control>
 			<Control ID="lblDeveloperSettings">실기 개발자를 위한 설정 (홈브류 / ROM 해킹)</Control>
 			<Control ID="lblRamPowerOnState">전원 On 시 RAM 기본 상태: </Control>
-			<Control ID="lblSmsRevision">SMS Revision: </Control>
+			<Control ID="lblSmsRevision">SMS 리비전: </Control>
 
 			<Control ID="tpgInput">입력</Control>
 
 			<Control ID="tpgVideo">비디오</Control>
 
-			<Control ID="lblSmsOverrides">SMS - Global Config Overrides</Control>
-			<Control ID="lblGgOverrides">Game Gear - Global Config Overrides</Control>
+			<Control ID="lblSmsOverrides">SMS - 글로벌 컨피그 재설정</Control>
+			<Control ID="lblGgOverrides">Game Gear - 글로벌 컨피그 재설정</Control>
 
 			<Control ID="lblMiscSettings">그 외 설정</Control>
-			<Control ID="chkUseSgPalette">Use SG-1000 palette when running SG-1000 software</Control>
-			<Control ID="chkGgBlendFrames">Enable LCD frame blending (Game Gear)</Control>
+			<Control ID="chkUseSgPalette">SG-1000 게임 구동 시 SG-1000 팔레트 사용</Control>
+			<Control ID="chkGgBlendFrames">LCD 프레임 블렌딩 활성화 (게임기어)</Control>
 			<Control ID="chkRemoveSpriteLimit">스프라이트 제한 해제</Control>
 			<Control ID="chkDisableBackground">배경 비활성화</Control>
 			<Control ID="chkDisableSprites">스프라이트 비활성화</Control>
@@ -555,41 +555,41 @@
 			<Control ID="lblOverscan">오버스캔</Control>
 			<Control ID="lblOverscanNtsc">NTSC</Control>
 			<Control ID="lblOverscanPal">PAL</Control>
-			<Control ID="lblOverscanGameGear">Game Gear</Control>
+			<Control ID="lblOverscanGameGear">게임기어</Control>
 
-			<Control ID="lblGameGearPreset">Game Gear screen (default)</Control>
-			<Control ID="lblFullFramePreset">Full frame</Control>
-			<Control ID="lblFullFrameFirstColumnPreset">Full frame (excluding first column)</Control>
+			<Control ID="lblGameGearPreset">게임기어 화면 (기본)</Control>
+			<Control ID="lblFullFramePreset">풀 프레임</Control>
+			<Control ID="lblFullFrameFirstColumnPreset">풀 프레임 (첫 열 제외)</Control>
 
-			<Control ID="btnSelectPreset">Select Preset...</Control>
+			<Control ID="btnSelectPreset">프리셋 선택...</Control>
 		</Form>
 
 		<Form ID="SmsInputConfigView">
 			<Control ID="grpControllers">컨트롤러</Control>
 
 			<Control ID="btnSetup">설정</Control>
-			<Control ID="lblController1">Port 1:</Control>
-			<Control ID="lblController2">Port 2:</Control>
+			<Control ID="lblController1">포트 1:</Control>
+			<Control ID="lblController2">포트 2:</Control>
 
 			<Control ID="grpGeneral">일반</Control>
 
 			<Control ID="grpGeneral">일반</Control>
-			<Control ID="chkAllowInvalidInput">Allow invalid input (e.g Down + Up or Left + Right at the same time)</Control>
+			<Control ID="chkAllowInvalidInput">물리적으로 불가능한 입력 허용. 예) 위+아래 또는 왼쪽+오른쪽 버튼 동시 누르기 등</Control>
 		</Form>
 
 		<Form ID="OtherConsolesConfigView">
-			<Control ID="tabColecoVision">ColecoVision</Control>
+			<Control ID="tabColecoVision">콜레코비전</Control>
 		</Form>
 
 		<Form ID="CvConfigView">
 			<Control ID="tpgGeneral">일반</Control>
-			<Control ID="lblRegion">Region:</Control>
+			<Control ID="lblRegion">지역(Region):</Control>
 
 			<Control ID="tpgAudio">오디오</Control>
 			<Control ID="grpVolume">볼륨</Control>
-			<Control ID="lblChannel1">Tone 1</Control>
-			<Control ID="lblChannel2">Tone 2</Control>
-			<Control ID="lblChannel3">Tone 3</Control>
+			<Control ID="lblChannel1">톤 1</Control>
+			<Control ID="lblChannel2">톤 2</Control>
+			<Control ID="lblChannel3">톤 3</Control>
 			<Control ID="lblChannel4">노이즈</Control>
 
 			<Control ID="tpgEmulation">에뮬레이션</Control>
@@ -607,8 +607,8 @@
 			<Control ID="grpControllers">컨트롤러</Control>
 
 			<Control ID="btnSetup">설정</Control>
-			<Control ID="lblController1">Port 1:</Control>
-			<Control ID="lblController2">Port 2:</Control>
+			<Control ID="lblController1">포트 1:</Control>
+			<Control ID="lblController2">포트 2:</Control>
 		</Form>
 		
 		<Form ID="WsConfigView">
@@ -620,42 +620,42 @@
 						
 			<Control ID="tpgVideo">비디오</Control>
 			<Control ID="lblLcdSettings">LCD 설정</Control>
-			<Control ID="chkAutoRotate">Automatically rotate screen</Control>
-			<Control ID="chkBlendFrames">Enable LCD frame blending</Control>
-			<Control ID="chkLcdShowIcons">Show LCD icons</Control>
-			<Control ID="chkLcdAdjustColors">Enable LCD color emulation</Control>
-			<Control ID="chkHideBgLayer1">Hide background layer 1</Control>
-			<Control ID="chkHideBgLayer2">Hide background layer 2</Control>
+			<Control ID="chkAutoRotate">자동 화면 회전</Control>
+			<Control ID="chkBlendFrames">LCD 프레임 블렌딩 활성화</Control>
+			<Control ID="chkLcdShowIcons">LCD 아이콘 보이기</Control>
+			<Control ID="chkLcdAdjustColors">WS LCD 컬러 재현 활성화</Control>
+			<Control ID="chkHideBgLayer1">배경 레이어 1 숨기기</Control>
+			<Control ID="chkHideBgLayer2">배경 레이어 2 숨기기</Control>
 
 			<Control ID="chkDisableSprites">스프라이트 비활성화</Control>
 
 			<Control ID="lblMiscSettings">그 외 설정</Control>
 
 			<Control ID="tpgAudio">오디오</Control>
-			<Control ID="lblAudioMode">Output mode: </Control>
+			<Control ID="lblAudioMode">출력 모드: </Control>
 			<Control ID="grpVolume">볼륨</Control>
-			<Control ID="lblChannel1">Channel 1</Control>
-			<Control ID="lblChannel2">Channel 2</Control>
-			<Control ID="lblChannel3">Channel 3</Control>
-			<Control ID="lblChannel4">Channel 4</Control>
-			<Control ID="lblChannel5">Hyper Voice</Control>
+			<Control ID="lblChannel1">채널 1</Control>
+			<Control ID="lblChannel2">채널 2</Control>
+			<Control ID="lblChannel3">채널 3</Control>
+			<Control ID="lblChannel4">채널 4</Control>
+			<Control ID="lblChannel5">하이퍼 보이스</Control>
 
 			<Control ID="tpgInput">입력</Control>
 			<Control ID="grpControllers">컨트롤러</Control>
-			<Control ID="lblPlayer1Horizontal">Controller (Horizontal)</Control>
-			<Control ID="lblPlayer1Vertical">Controller (Vertical)</Control>
+			<Control ID="lblPlayer1Horizontal">컨트롤러 (가로)</Control>
+			<Control ID="lblPlayer1Vertical">컨트롤러 (세로)</Control>
 			<Control ID="btnSetup">설정</Control>
 		</Form>
 		
 		<Form ID="ShortcutKeysTabView">
-			<Control ID="lblShortcutWarning">Warning: Your current configuration contains conflicting key bindings. If this is not intentional, please review and correct your key bindings.</Control>
-			<Control ID="colAction">Action</Control>
-			<Control ID="colBinding1">Binding #1</Control>
-			<Control ID="colBinding2">Binding #2</Control>
+			<Control ID="lblShortcutWarning">경고: 현재 설정값에는 중복된 키 설정이 존재합니다. 의도한 것이 아니라면 키 설정을 변경해 주세요. </Control>
+			<Control ID="colAction">동작</Control>
+			<Control ID="colBinding1">바인딩 #1</Control>
+			<Control ID="colBinding2">바인딩 #2</Control>
 		</Form>
 		<Form ID="DebuggerShortcutKeyGrid">
-			<Control ID="colAction">Shortcut</Control>
-			<Control ID="colBinding1">Keys</Control>
+			<Control ID="colAction">바로 가기</Control>
+			<Control ID="colBinding1">키</Control>
 		</Form>
 
 		<Form ID="ConfigWindow">
@@ -684,263 +684,264 @@
 		
 		<Form ID="PreferencesConfigView">
 			<Control ID="tpgGeneral">일반</Control>
-			<Control ID="lblTheme">Theme:</Control>
-			<Control ID="lblRequiresRestart">(requires restart)</Control>
+			<Control ID="lblTheme">테마:</Control>
+			<Control ID="lblRequiresRestart">(재시작 필요)</Control>
 			
-			<Control ID="lblDisplayLanguage">Display Language:</Control>
-			<Control ID="chkSingleInstance">Only allow one instance of Mesen at a time</Control>
-			<Control ID="chkAutomaticallyCheckForUpdates">Automatically check for updates</Control>
+			<Control ID="lblDisplayLanguage">표시 언어:</Control>
+			<Control ID="chkSingleInstance">Mesen 다중 실행 비활성화</Control>
+			<Control ID="chkAutomaticallyCheckForUpdates">업데이트 버전 자동 체크</Control>
 
-			<Control ID="chkDeveloperMode">Enable developer mode</Control>
+			<Control ID="chkDeveloperMode">개발자 모드 활성화</Control>
 
-			<Control ID="lblPauseBackgroundSettings">Pause/Background Settings</Control>
+			<Control ID="lblPauseBackgroundSettings">셋팅 중 게임 일시 정지</Control>
 			<Control ID="lblMiscSettings">그 외 설정</Control>
-			<Control ID="chkAutoHideMenu">Automatically hide menu bar</Control>
-			<Control ID="chkDisplayTitleBarInfo">Display additional information in title bar</Control>
+			<Control ID="chkAutoHideMenu">메뉴 바 자동 숨기기</Control>
+			<Control ID="chkDisplayTitleBarInfo">타이틀 바에 추가 정보 표시</Control>
 
-			<Control ID="chkConfirmExitResetPower">Display confirmation dialog before reset / power cycle / power off / exit</Control>
-			<Control ID="chkPauseOnMovieEnd">Pause when a movie finishes playing</Control>
-			<Control ID="chkShowMovieIcons">Display play/pause icon when playing/recording a movie</Control>
-			<Control ID="chkShowTurboRewindIcons">Display icon when fast-forwarding/rewinding</Control>
-			<Control ID="chkAllowBackgroundInput">Allow input when in background (controllers only)</Control>
+			<Control ID="chkConfirmExitResetPower">리셋/전원 다시 켜기/전원 Off/종료 전 묻기</Control>
+			<Control ID="chkPauseOnMovieEnd">무비 재생이 끝났을 때 게임 일시 정지</Control>
+			<Control ID="chkShowMovieIcons">무비 재생/녹화 시 재생/일시 정지 아이콘 표시</Control>
+			<Control ID="chkShowTurboRewindIcons">빨리감기/되감기 시 아이콘 표시</Control>
+			<Control ID="chkAllowBackgroundInput">창이 비활성화 된 상태에서도 입력 허용 (게임 플레이만)</Control>
 
-			<Control ID="chkPauseWhenInBackground">Pause when in background</Control>
-			<Control ID="chkPauseInMenuAndConfig">Pause when in menu and config dialogs</Control>
-			<Control ID="chkPauseInDebugger">Debugging tools</Control>
+			<Control ID="chkPauseWhenInBackground">창 비활성화 시 게임 일시 정지</Control>
+			<Control ID="chkPauseInMenuAndConfig">메뉴 또는 설정 창 표시 중 게임 일시 정지</Control>
+			<Control ID="chkPauseInDebugger">디버깅 툴</Control>
 
-			<Control ID="chkAutoLoadIps">Automatically load IPS/BPS patches</Control>
-			<Control ID="chkHidePauseOverlay">Hide the pause screen</Control>
-			<Control ID="chkDisplayMovieIcons">Display play/record icon when playing or recording a movie</Control>
+			<Control ID="chkAutoLoadIps">IPS/BPS 패치 자동 적용</Control>
+			<Control ID="chkHidePauseOverlay">일시 정지 화면 숨기기</Control>
+			<Control ID="chkDisplayMovieIcons">무비 재생 또는 기록 중 재생/기록 아이콘 표시</Control>
 
-			<Control ID="tpgFiles">Folders/Files</Control>
-			<Control ID="grpFileAssociations">File Associations</Control>
-			<Control ID="chkSnesRomFiles">SNES roms: .sfc, .smc, .swc, .fig, .bs</Control>
-			<Control ID="chkSnesMusicFiles">SNES music: .spc</Control>
-			<Control ID="chkNesRomFiles">NES roms: .nes, .unif, .fds, .qd, .studybox</Control>
-			<Control ID="chkNesMusicFiles">NES music: .nsf, .nsfe</Control>
-			<Control ID="chkGbRomFiles">Game Boy roms: .gb, .gbc, .gbx</Control>
-			<Control ID="chkGbMusicFiles">Game Boy music: .gbs</Control>
-			<Control ID="chkGbaRomFiles">Game Boy Advance roms: .gba</Control>
-			<Control ID="chkPceRomFiles">PC Engine roms: .pce, .sgx</Control>
-			<Control ID="chkPceMusicFiles">PC Engine music: .hes</Control>
-			<Control ID="chkSmsRomFiles">SMS roms: .sms</Control>
-			<Control ID="chkGameGearRomFiles">Game Gear roms: .gg</Control>
-			<Control ID="chkSgRomFiles">SG-1000 roms: .sg</Control>
-			<Control ID="chkCvRomFiles">ColecoVision roms: .col</Control>
-			<Control ID="chkWsRomFiles">WonderSwan roms: .ws, .wsc</Control>
+			<Control ID="tpgFiles">폴더/파일</Control>
+			<Control ID="grpFileAssociations">파일 확장자</Control>
+			<Control ID="chkSnesRomFiles">슈퍼패미컴: .sfc, .smc, .swc, .fig, .bs</Control>
+			<Control ID="chkSnesMusicFiles">슈패 뮤직: .spc</Control>
+			<Control ID="chkNesRomFiles">패미컴: .nes, .unif, .fds, .qd, .studybox</Control>
+			<Control ID="chkNesMusicFiles">패미컴 뮤직: .nsf, .nsfe</Control>
+			<Control ID="chkGbRomFiles">게임보이: .gb, .gbc, .gbx</Control>
+			<Control ID="chkGbMusicFiles">게임보이 뮤직: .gbs</Control>
+			<Control ID="chkGbaRomFiles">게임보이 어드밴스: .gba</Control>
+			<Control ID="chkPceRomFiles">피씨엔진: .pce, .sgx</Control>
+			<Control ID="chkPceMusicFiles">피씨엔진 뮤직: .hes</Control>
+			<Control ID="chkSmsRomFiles">마스터시스템: .sms</Control>
+			<Control ID="chkGameGearRomFiles">게임기어: .gg</Control>
+			<Control ID="chkSgRomFiles">SG-1000: .sg</Control>
+			<Control ID="chkCvRomFiles">콜레코비전: .col</Control>
+			<Control ID="chkWsRomFiles">원더스완: .ws, .wsc</Control>
 
-			<Control ID="grpDataStorageLocation">Data Storage Folder</Control>
-			<Control ID="btnChangeStorageFolder">Change folder...</Control>
-			<Control ID="lblDataLocation">Folder:</Control>
+			<Control ID="grpDataStorageLocation">Mesen 데이터 저장 경로</Control>
+			<Control ID="btnChangeStorageFolder">경로 변경...</Control>
+			<Control ID="lblDataLocation">경로:</Control>
 
-			<Control ID="grpPathOverrides">Folder Overrides</Control>
-			<Control ID="chkGameOverride">Games:</Control>
-			<Control ID="chkAviOverride">Videos:</Control>
-			<Control ID="chkScreenshotsOverride">Screenshots:</Control>
-			<Control ID="chkSaveDataOverride">Save Data:</Control>
-			<Control ID="chkWaveOverride">Audio:</Control>
-			<Control ID="chkSaveStatesOverride">Save States:</Control>
-			<Control ID="chkMoviesOverride">Movies:</Control>
+			<Control ID="grpPathOverrides">폴더 재설정</Control>
+			<Control ID="chkGameOverride">게임:</Control>
+			<Control ID="chkAviOverride">비디오:</Control>
+			<Control ID="chkScreenshotsOverride">스크린샷:</Control>
+			<Control ID="chkSaveDataOverride">저장 데이터:</Control>
+			<Control ID="chkWaveOverride">오디오:</Control>
+			<Control ID="chkSaveStatesOverride">상태 저장:</Control>
+			<Control ID="chkMoviesOverride">무비:</Control>
 
-			<Control ID="tpgAdvanced">Advanced</Control>
-			<Control ID="chkShowFullPathInRecents">Show full file path in recent file list</Control>
-			<Control ID="chkShowFrameCounter">Show frame counter</Control>
-			<Control ID="chkShowGameTimer">Show game timer</Control>
-			<Control ID="chkShowLagCounter">Show lag counter</Control>
-			<Control ID="btnResetLagCounter">Reset lag counter</Control>
-			<Control ID="chkShowVsConfigOnLoad">Show game configuration dialog when loading VS System games</Control>
+			<Control ID="tpgAdvanced">고급</Control>
+			<Control ID="chkShowFullPathInRecents">최근 실행 리스트를 풀 패스로 표시</Control>
+			<Control ID="chkShowFrameCounter">프레임 카운터 표시</Control>
+			<Control ID="chkShowGameTimer">게임 타이머 표시</Control>
+			<Control ID="chkShowLagCounter">지연 카운터 표시</Control>
+			<Control ID="btnResetLagCounter">지연 카운터 리셋</Control>
+			<Control ID="chkShowVsConfigOnLoad">VS. 시스템 게임 로딩 시 게임 구성 창 표시</Control>
 
-			<Control ID="lblFontSettings">Font Settings</Control>
-			<Control ID="lblFontAntialiasing">Font anti-aliasing:</Control>
-			<Control ID="lblRegularFont">Default font:</Control>
-			<Control ID="lblMenuFont">Menu font:</Control>
+			<Control ID="lblFontSettings">폰트 설정</Control>
+			<Control ID="lblFontAntialiasing">부드러운 폰트 표현:</Control>
+			<Control ID="lblRegularFont">기본 폰트:</Control>
+			<Control ID="lblMenuFont">메뉴 폰트:</Control>
 
 			<Control ID="lblAdvancedMisc">그 외 설정</Control>
-			<Control ID="chkEnableAutoSaveState">Automatically create a save state every </Control>
-			<Control ID="lblSaveStateMinutes">minutes (game clock)</Control>
-			<Control ID="lblRewind">Allow rewind to use up to </Control>
-			<Control ID="lblRewindMinutes">MB of memory (Memory Usage ≈5MB/min)</Control>
+			<Control ID="chkEnableAutoSaveState">상태 저장 자동 수행 </Control>
+			<Control ID="lblSaveStateMinutes">분 (게임 시간)</Control>
+			<Control ID="lblRewind">되감기를 최대한 사용하도록 허용, 메모리 </Control>
+			<Control ID="lblRewindMinutes">MB (분 당 메모리 사용률≈5MB)</Control>
 
-			<Control ID="tpgShortcuts">Shortcut Keys</Control>
+			<Control ID="tpgShortcuts">바로 가기 키</Control>
 
-			<Control ID="lblUiDisplaySettings">UI Display Settings</Control>
-			<Control ID="lblWindowSettings">Window Settings</Control>
-			<Control ID="chkDisableMouseResize">Do not allow the main window to be resized using the mouse</Control>
-			<Control ID="lblGameSelectionScreenSettings">Game Selection Screen Settings</Control>
-			<Control ID="chkGameSelectionScreenResetGame">Start game from power-on instead of resuming the previous gameplay session</Control>
-			<Control ID="lblGameSelectionScreen">Game selection screen:</Control>
+			<Control ID="lblUiDisplaySettings">UI 표시 설정</Control>
+			<Control ID="lblWindowSettings">윈도우 설정</Control>
+			<Control ID="chkDisableMouseResize">마우스로 창 크기 조절 비활성화</Control>
+			<Control ID="lblGameSelectionScreenSettings">게임 선택 화면 설정</Control>
+			<Control ID="chkGameSelectionScreenResetGame">이전 게임 플레이 세션에서 재개하는 대신 전원 On 상태부터 시작</Control>
+			<Control ID="lblGameSelectionScreen">게임 선택 화면:</Control>
 
-			<Control ID="chkDisableGameDatabase">Disable game database</Control>
-			<Control ID="chkDisableHighResolutionTimer">Disable high resolution timer</Control>
-			<Control ID="chkDisableOsd">Hide on-screen messages</Control>
+			<Control ID="chkDisableGameDatabase">게임 데이터베이스 비활성화</Control>
+			<Control ID="chkDisableHighResolutionTimer">고해상도 타이머 비활성화</Control>
+			<Control ID="chkDisableOsd">스크린 상 메시지 숨기기</Control>
 
-			<Control ID="chkAlwaysOnTop">Always display on top of other windows</Control>
-			<Control ID="chkShowFps">Show FPS</Control>
-			<Control ID="lblHudDisplaySize">HUD display size:</Control>
-			<Control ID="chkShowDebugInformation">Show debug information</Control>
+			<Control ID="chkAlwaysOnTop">항상 맨 위</Control>
+			<Control ID="chkShowFps">FPS 표시</Control>
+			<Control ID="lblHudDisplaySize">HUD 디스플레이 크기:</Control>
+			<Control ID="chkShowDebugInformation">디버그 정보 표시</Control>
 
-			<Control ID="lblLastFolderUsed">Last Folder Used</Control>
+			<Control ID="lblLastFolderUsed">마지막으로 사용된 폴더</Control>
 
 			<Control ID="btnOK">확인</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="SelectStorageFolderWindow">
-			<Control ID="wndTitle">Select Data Storage Folder</Control>
-			<Control ID="lblStorageHint">Select where you want to store Mesen's data:</Control>
-			<Control ID="radStorageDocuments">Store data in my user profile</Control>
-			<Control ID="radStoragePortable">Store data in the same folder as the application</Control>
-			<Control ID="lblFolder">Destination folder: </Control>
-			<Control ID="lblCopyingFiles">Copying files...</Control>
+			<Control ID="wndTitle">데이터 저장 폴더 선택</Control>
+			<Control ID="lblStorageHint">Mesen 에서 사용할 저장 위치를 선택:</Control>
+			<Control ID="radStorageDocuments">내 사용자 프로필에 데이터 저장</Control>
+			<Control ID="radStoragePortable">Mesen 프로그램이 위치한 폴더에 데이터 저장</Control>
+			<Control ID="lblFolder">대상 폴더: </Control>
+			<Control ID="lblCopyingFiles">파일 복사중...</Control>
 			<Control ID="btnOK">확인</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="NetplayStartServerWindow">
-			<Control ID="wndTitle">Start server...</Control>
-			<Control ID="lblPort">Port:</Control>
-			<Control ID="lblPassword">Password:</Control>
+			<Control ID="wndTitle">서버 열기...</Control>
+			<Control ID="lblPort">통신포트:</Control>
+			<Control ID="lblPassword">비밀번호:</Control>
 			<Control ID="btnOK">확인</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="NetplayConnectWindow">
-			<Control ID="wndTitle">Connect to server...</Control>
-			<Control ID="lblHost">Host:</Control>
-			<Control ID="lblPort">Port:</Control>
-			<Control ID="lblPassword">Password:</Control>
+			<Control ID="wndTitle">서버 접속...</Control>
+			<Control ID="lblHost">서버IP:</Control>
+			<Control ID="lblPort">통신포트:</Control>
+			<Control ID="lblPassword">비밀번호:</Control>
 			<Control ID="btnOK">확인</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="CheatListWindow">
-			<Control ID="wndTitle">Cheats</Control>
-			<Control ID="tabCheats">Cheats</Control>
-			<Control ID="btnAddCheat">Add Cheat</Control>
-			<Control ID="btnDeleteCheat">Delete</Control>
-			<Control ID="mnuAddCheat">Add cheat...</Control>
-			<Control ID="mnuDeleteCheat">Delete</Control>
-			<Control ID="colDescription">Description</Control>
-			<Control ID="colCodes">Codes</Control>
-			<Control ID="chkDisableCheats">Disable all cheats</Control>
+			<Control ID="wndTitle">치트</Control>
+			<Control ID="tabCheats">치트</Control>
+			<Control ID="btnAddCheat">치트 추가</Control>
+			<Control ID="btnDeleteCheat">삭제</Control>
+			<Control ID="mnuAddCheat">치트 추가...</Control>
+			<Control ID="mnuDeleteCheat">삭제</Control>
+			<Control ID="colDescription">설명</Control>
+			<Control ID="colCodes">코드</Control>
+			<Control ID="chkDisableCheats">모든 치트 비활성화</Control>
 
 			<Control ID="btnOK">확인</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="CheatEditWindow">
-			<Control ID="wndTitle">Edit Cheat</Control>
-			<Control ID="lblDescription">Description:</Control>
-			<Control ID="grpCodes">Codes</Control>
-			<Control ID="radGameGenie">Game Genie (e.g: A1B2-C3D4)</Control>
-			<Control ID="radProActionReplay">Pro Action Replay (e.g: AAAAAAVV)</Control>
-			<Control ID="chkEnabled">Cheat Enabled</Control>
-			<Control ID="lblHint">To enter multiple codes, enter 1 code per line.</Control>
-			<Control ID="lblInvalidCodes">Some codes do not match the selected format.</Control>
-			<Control ID="lblFormat">Format:</Control>
+			<Control ID="wndTitle">치트 수정</Control>
+			<Control ID="lblDescription">설명:</Control>
+			<Control ID="grpCodes">코드</Control>
+			<Control ID="radGameGenie">게임 지니 (e.g: A1B2-C3D4)</Control>
+			<Control ID="radProActionReplay">프로 액션 리플레이 (e.g: AAAAAAVV)</Control>
+			<Control ID="chkEnabled">치트 활성화</Control>
+			<Control ID="lblHint">여러 코드를 입력하려면 줄 당 1개의 코드를 입력하세요.</Control>
+			<Control ID="lblInvalidCodes">일부 코드가 선택된 형식과 일치하지 않습니다.</Control>
+			<Control ID="lblFormat">형식:</Control>
 			
 			<Control ID="btnOK">확인</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="AboutWindow">
-			<Control ID="wndTitle">About - Mesen K</Control>
-			<Control ID="lblName">Mesen for Korean</Control>
-			<Control ID="lblWebsite">Website:</Control>
+			<Control ID="wndTitle">About - Mesen 한국어 버전</Control>
+			<Control ID="lblName">Mesen 한국어 버전</Control>
+			<Control ID="lblWebsite">주소:</Control>
 			<Control ID="lblLink">www.mesen.ca</Control>
-			<Control ID="lblVersion">Version:</Control>
-			<Control ID="lblBuildDate">Build Date:</Control>
-			<Control ID="lblCommitId">Commit ID:</Control>
-			<Control ID="lblRuntimeVersion">Runtime:</Control>
+			<Control ID="lblTranslateLink">blog.naver.com/flashkiller</Control>
+			<Control ID="lblVersion">버전:</Control>
+			<Control ID="lblBuildDate">빌드 날짜:</Control>
+			<Control ID="lblCommitId">커밋 ID:</Control>
+			<Control ID="lblRuntimeVersion">런타임 환경:</Control>
 
-			<Control ID="grpAcknowledgements">Acknowledgements</Control>
-			<Control ID="lblAcknowledgeList">Thank you to the following people/projects for their direct and indirect help in making Mesen possible:</Control>
-			<Control ID="lblUsedSoftware">Mesen uses the following open-source software:</Control>
-			<Control ID="lblSpecialThanks">And thank you to everybody who has contributed in any way! (bug reports, testing, research, etc.)</Control>
+			<Control ID="grpAcknowledgements">감사의 말</Control>
+			<Control ID="lblAcknowledgeList">Mesen 을 제작하는 데 있어 직/간접적으로 도움을 주신 분들/팀께 감사드립니다.:</Control>
+			<Control ID="lblUsedSoftware">Mesen 은 아래 오픈 소스 소프트웨어를 사용하고 있습니다.:</Control>
+			<Control ID="lblSpecialThanks">그리고 Mesen 제작에 기여해 주신 모든 분들께 감사드립니다. (버그 레포트, 테스트, 연구 등)</Control>
 
 			<Control ID="btnOk">확인</Control>
 		</Form>
 		<Form ID="CommandLineHelpWindow">
-			<Control ID="wndTitle">Command-line options</Control>
+			<Control ID="wndTitle">명령 줄 옵션</Control>
 			<Control ID="btnOk">닫기</Control>
 		</Form>
 		<Form ID="GetKeyWindow">
-			<Control ID="Title">Set key binding...</Control>
+			<Control ID="Title">키 바인딩...</Control>
 		</Form>
 		<Form ID="VideoRecordWindow">
-			<Control ID="wndTitle">Video Recording Settings</Control>
-			<Control ID="lblAviFile">Save to:</Control>
-			<Control ID="lblCodec">Video Codec:</Control>
-			<Control ID="lblCompressionLevel">Compression Level:</Control>
-			<Control ID="lblLowCompression">low&#13;(fast)</Control>
-			<Control ID="lblHighCompression">high&#13;(slow)</Control>
+			<Control ID="wndTitle">비디오 기록 설정</Control>
+			<Control ID="lblAviFile">저장 위치:</Control>
+			<Control ID="lblCodec">코덱:</Control>
+			<Control ID="lblCompressionLevel">압축 레벨:</Control>
+			<Control ID="lblLowCompression">낮음&#13;(빠름)</Control>
+			<Control ID="lblHighCompression">높음&#13;(느림)</Control>
 
-			<Control ID="lblRecordSystemHud">Record system HUD (game timer, on-screen messages, etc.)</Control>
-			<Control ID="lblRecordInputHud">Record input HUD</Control>
+			<Control ID="lblRecordSystemHud">시스템 HUD 기록(게임 타이머, 스크린 상 메시지 등)</Control>
+			<Control ID="lblRecordInputHud">입력 HUD 기록</Control>
 			
-			<Control ID="btnBrowse">Browse...</Control>
+			<Control ID="btnBrowse">찾기...</Control>
 			<Control ID="btnOK">기록</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="UpdatePromptWindow">
-			<Control ID="wndTitle">Mesen Updater</Control>
-			<Control ID="lblLatestVersion">Latest version:</Control>
-			<Control ID="lblInstalledVersion">Installed version:</Control>
-			<Control ID="lblNewVersionAvailable">A new version of Mesen is available</Control>
-			<Control ID="lblReleaseNotes">Release notes</Control>
-			<Control ID="btnUpdate">갱신</Control>
+			<Control ID="wndTitle">Mesen 업데이트 매니저</Control>
+			<Control ID="lblLatestVersion">최신 버전:</Control>
+			<Control ID="lblInstalledVersion">현재 버전:</Control>
+			<Control ID="lblNewVersionAvailable">새로운 Mesen 버전이 배포되었습니다.</Control>
+			<Control ID="lblReleaseNotes">릴리즈 노트</Control>
+			<Control ID="btnUpdate">업데이트</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="SetupWizardWindow">
 			<Control ID="wndTitle">Mesen</Control>
 			<Control ID="lblMesen">Mesen - Emulator</Control>
-			<Control ID="lblConfigWizard">Configuration</Control>
-			<Control ID="lblInitialSetup">Please take a moment to perform Mesen's initial setup.</Control>
-			<Control ID="lblStorageLocation">Data Storage Location</Control>
-			<Control ID="lblStorageHint">Select where you want to store Mesen's data:</Control>
-			<Control ID="radStorageDocuments">Store the data in my user profile</Control>
-			<Control ID="radStoragePortable">Store the data in the same folder as the application</Control>
-			<Control ID="lblDataLocation">Folder:</Control>
-			<Control ID="lblInputMappings">Input Mappings</Control>
-			<Control ID="lblInputHint">Select your preferred input methods:</Control>
-			<Control ID="lblMiscOptions">Other Options</Control>
-			<Control ID="chkCreateShortcut">Create a shortcut on my desktop</Control>
-			<Control ID="chkCheckForUpdates">Automatically check for updates when launched</Control>
-			<Control ID="btnOk">적용</Control>
+			<Control ID="lblConfigWizard">설정</Control>
+			<Control ID="lblInitialSetup">가급적 Mesen 의 초기 설정을 수행해 보시기 바랍니다.</Control>
+			<Control ID="lblStorageLocation">데이터 저장 위치</Control>
+			<Control ID="lblStorageHint">Mesen 에서 사용할 저장 위치를 선택:</Control>
+			<Control ID="radStorageDocuments">내 사용자 프로필에 데이터 저장</Control>
+			<Control ID="radStoragePortable">Mesen 프로그램이 위치한 폴더에 데이터 저장</Control>
+			<Control ID="lblDataLocation">폴더:</Control>
+			<Control ID="lblInputMappings">매핑 입력</Control>
+			<Control ID="lblInputHint">원하는 입력 방법을 선택하세요:</Control>
+			<Control ID="lblMiscOptions">다른 옵션</Control>
+			<Control ID="chkCreateShortcut">바탕 화면에 바로 가기 만들기</Control>
+			<Control ID="chkCheckForUpdates">자동 업데이트 수행</Control>
+			<Control ID="btnOk">확인</Control>
 			<Control ID="lblCancel">취소</Control>
 		</Form>
 		<Form ID="MovieRecordWindow">
-			<Control ID="wndTitle">Movie Recording Settings</Control>
-			<Control ID="lblSaveTo">Save to:</Control>
-			<Control ID="lblRecordFrom">Record from:</Control>
-			<Control ID="lblMovieInformation">Movie Information (Optional)</Control>
-			<Control ID="lblAuthor">Author:</Control>
-			<Control ID="lblDescription">Description:</Control>
-			<Control ID="btnBrowse">Browse...</Control>
+			<Control ID="wndTitle">무비 기록 설정</Control>
+			<Control ID="lblSaveTo">저장 위치:</Control>
+			<Control ID="lblRecordFrom">기록 시점:</Control>
+			<Control ID="lblMovieInformation">무비 정보 (옵션)</Control>
+			<Control ID="lblAuthor">제작자:</Control>
+			<Control ID="lblDescription">설명:</Control>
+			<Control ID="btnBrowse">찾기...</Control>
 			<Control ID="btnOK">기록</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="HdPackBuilderWindow">
-			<Control ID="wndTitle">HD Pack Builder</Control>
+			<Control ID="wndTitle">HD 팩 빌더</Control>
 			
-			<Control ID="grpOptions">Recording Settings</Control>
-			<Control ID="lblBankSize">CHR Bank Size:</Control>
-			<Control ID="lblScale">Scale/Filter:</Control>
-			<Control ID="chkSortByUsageFrequency">Sort pages by usage frequency</Control>
-			<Control ID="chkUseLargeSprites">Use 8x16 sprite display mode</Control>
-			<Control ID="chkGroupBlankTiles">Group blank tiles</Control>
-			<Control ID="chkIgnoreOverscan">Ignore tiles at the edges of the screen (overscan)</Control>
+			<Control ID="grpOptions">기록 설정</Control>
+			<Control ID="lblBankSize">CHR 뱅크 사이즈:</Control>
+			<Control ID="lblScale">스케일/필터:</Control>
+			<Control ID="chkSortByUsageFrequency">사용 빈도에 의한 페이지 정렬</Control>
+			<Control ID="chkUseLargeSprites">8x16 스프라이트 표시 모드 사용</Control>
+			<Control ID="chkGroupBlankTiles">뱅크 타일 그룹</Control>
+			<Control ID="chkIgnoreOverscan">화면 가장자리 타일 무시 (오버스캔)</Control>
 
-			<Message ID="lblScaleHelp">Selects the scale and video filter to use when generating the PNG files&#xA;for the HD Pack. Use the "Prescale" filters to generate the tiles&#xA;at a larger scale without applying any transformation to the pixels.</Message>
-			<Message ID="lblBankSizeHelp">This option is only available for CHR RAM games.  CHR RAM games have no&#xA;fixed "banks" - they are dynamically created by the game's code.&#xA;This option alters the HD Pack Builder's behavior when grouping the tiles into &#xA;the PNG files - a smaller bank size will usually result in less PNG &#xA;files (but depending on the game's code, larger values may produce &#xA;better results).</Message>
-			<Message ID="lblSortByUsageFrequencyHelp">When this option is enabled, the tiles in PNG files are sorted by the&#xA;frequency at which they are shown on the screen while recording (more &#xA;common palettes will be grouped together in the first PNG for a specific bank &#xA;number. If this option is unchecked, the PNGs will be sorted by palette - &#xA;each PNG will only contain up to 4 different colors in this case.</Message>
-			<Message ID="lblGroupBlankTilesHelp">This option groups all the blank tiles sequentially into the same PNG&#xA;files - this helps reduce the number of PNG files produced by removing &#xA;almost-empty PNG files containing only blank tiles.</Message>
-			<Message ID="lblUseLargeSpritesHelp">When enabled, this option will alter the display order of CHR banks&#xA;that contain only sprites to make the sprites easier to edit in the PNG file.</Message>
-			<Message ID="lblIgnoreOverscanHelp">When enabled, this will make the builder ignore any pixels in the overscan area.&#xA;This is useful in games that contain glitches on the outer edge of the screen.&#xA;Incorrect palette combinations due to these glitches will be ignored and won't be shown in the PNG files.</Message>
+			<Message ID="lblScaleHelp">HD 팩용 PNG 파일을 생성할 때 사용할 크기와 비디오 필터를 선택합니다.&#xA;"사전 크기 조정" 필터를 사용하면 픽셀에 아무런 변형도 적용하지 않고&#xA;타일을 더 큰 크기로 생성할 수 있습니다.</Message>
+			<Message ID="lblBankSizeHelp">이 옵션은 CHR RAM 게임에서만 사용할 수 있습니다. CHR RAM 게임에는&#xA;고정된 "뱅크"가 없으며, 게임 코드에 의해 동적으로 생성됩니다.&#xA;이 옵션은 타일을 PNG 파일로 그룹화할 때 HD Pack Builder의 동작을 변경합니다.&#xA;뱅크 크기가 작을수록 일반적으로 PNG 파일 수가 줄어듭니다.&#xA;(하지만 게임 코드에 따라 값이 클수록 더 나은 결과를 얻을 수 있습니다)</Message>
+			<Message ID="lblSortByUsageFrequencyHelp">이 옵션을 활성화하면 PNG 파일의 타일이 녹화 중 화면에 표시되는 빈도에 따라&#xA;정렬됩니다. 일반적인 팔레트는 특정 뱅크 번호의 첫 번째 PNG에 함께 그룹화 됩니다.&#xA;이 옵션을 선택하지 않으면 PNG는 팔레트에 따라 정렬됩니다.&#xA;이 경우 각 PNG는 최대 4가지 색상만 포함합니다.&#xA;</Message>
+			<Message ID="lblGroupBlankTilesHelp">이 옵션은 모든 빈 타일을 순차적으로 동일한 PNG 파일로 그룹화합니다.&#xA;이렇게 하면 빈 타일만 들어 있는 거의 비어 있는 PNG 파일을 제거하여&#xA;생성되는 PNG 파일 수를 줄이는 데 도움이 됩니다.</Message>
+			<Message ID="lblUseLargeSpritesHelp">이 옵션을 활성화하면 스프라이트만 포함된 CHR 뱅크의 표시 순서가 변경되어&#xA;PNG 파일에서 스프라이트를 더 쉽게 편집할 수 있습니다.</Message>
+			<Message ID="lblIgnoreOverscanHelp">이 기능을 활성화하면 빌더가 오버스캔 영역의 모든 픽셀을 무시합니다.&#xA;이 기능은 화면 바깥쪽 가장자리에 결함이 있는 게임에서 유용합니다.&#xA;이러한 결함으로 인해 잘못된 팔레트 조합이 무시되고 PNG 파일에 표시되지 않습니다.</Message>
 
-			<Control ID="btnStartRecording">Start Recording</Control>
-			<Control ID="btnStopRecording">Stop Recording</Control>
-			<Control ID="btnOpenFolder">Open Save Folder</Control>
+			<Control ID="btnStartRecording">기록 시작</Control>
+			<Control ID="btnStopRecording">기록 중지</Control>
+			<Control ID="btnOpenFolder">저장된 폴더 열기</Control>
 			
-			<Control ID="lblSaveTo">Save to:</Control>
+			<Control ID="lblSaveTo">저장 위치:</Control>
 		</Form>
 		<Form ID="InputBarcodeWindow">
-			<Control ID="wndTitle">Input barcode...</Control>
-			<Control ID="lblBarcode">Barcode:</Control>
+			<Control ID="wndTitle">바코드 입력...</Control>
+			<Control ID="lblBarcode">바코드:</Control>
 			<Control ID="btnOk">확인</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
@@ -965,8 +966,8 @@
 		</Form>
 		
 		<Form ID="CheatDatabaseWindow">
-			<Control ID="wndTitle">Import cheats from cheat database...</Control>
-			<Control ID="lblSearch">Search:</Control>
+			<Control ID="wndTitle">치트 데이터베이스에서 치트 가져오기...</Control>
+			<Control ID="lblSearch">검색:</Control>
 			<Control ID="btnOK">확인</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
@@ -976,11 +977,11 @@
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 		<Form ID="ControllerConfigWindow">
-			<Control ID="Title">Controller Configuration</Control>
+			<Control ID="Title">컨트롤러 설정</Control>
 
 			<Control ID="lblHint">각 버튼은 최대 4개의 다른 키보드 키나 패드 버튼을 할당할 수 있습니다.</Control>
-			<Control ID="btnSetDefaultBindings">Set Default Bindings</Control>
-			<Control ID="btnClear">Clear Key Bindings</Control>
+			<Control ID="btnSetDefaultBindings">기본 키로 설정</Control>
+			<Control ID="btnClear">모든 키 설정 지우기</Control>
 			
 			<Control ID="tpgSet1">키 설정 #1</Control>
 			<Control ID="tpgSet2">키 설정 #2</Control>
@@ -991,7 +992,7 @@
 			<Control ID="lblTurboFast">빠름</Control>
 			<Control ID="lblTurboSlow">느림</Control>
 
-			<Control ID="btnSelectPreset">사전 설정 선택...</Control>
+			<Control ID="btnSelectPreset">프리셋 선택...</Control>
 			<Control ID="mnuKeyboard">키보드</Control>
 			<Control ID="mnuWasdLayout">WASD 키</Control>
 			<Control ID="mnuArrowLayout">화살표 키</Control>
@@ -1032,185 +1033,185 @@
 		</Form>
 		
 		<Form ID="AudioPlayerView">
-			<Control ID="btnPrevTrack">Previous track</Control>
-			<Control ID="btnNextTrack">Next track</Control>
-			<Control ID="btnPlayPause">Play/pause</Control>
-			<Control ID="btnToggleShuffle">Shuffle on/off</Control>
-			<Control ID="btnToggleRepeat">Repeat on/off</Control>
+			<Control ID="btnPrevTrack">이전 트랙</Control>
+			<Control ID="btnNextTrack">다음 트랙</Control>
+			<Control ID="btnPlayPause">재생/일시 정지</Control>
+			<Control ID="btnToggleShuffle">섞기 on/off</Control>
+			<Control ID="btnToggleRepeat">반복 on/off</Control>
 		</Form>
 		
 		<Form ID="TilemapViewerWindow">
-			<Control ID="wndTitle">Tilemap Viewer</Control>
+			<Control ID="wndTitle">타일 맵 뷰어</Control>
 
-			<Control ID="mnuFile">_File</Control>
-			<Control ID="mnuView">_View</Control>
+			<Control ID="mnuFile">_파일</Control>
+			<Control ID="mnuView">_보기</Control>
 
-			<Control ID="btnToggleSettings">Toggle settings panel</Control>
+			<Control ID="btnToggleSettings">토글 설정 창</Control>
 
-			<Control ID="lblDisplayMode">Display mode: </Control>
-			<Control ID="lblSelectedTile">Selected Tile</Control>
-			<Control ID="lblTilemap">Tilemap</Control>
-			<Control ID="chkShowGrid">Show tile grid</Control>
+			<Control ID="lblDisplayMode">표시 모드: </Control>
+			<Control ID="lblSelectedTile">선택된 타일</Control>
+			<Control ID="lblTilemap">타일 맵</Control>
+			<Control ID="chkShowGrid">타일 격자 표시</Control>
 
-			<Control ID="chkNesShowAttributeGrid">Show attribute grid (16x16)</Control>
-			<Control ID="chkNesShowAttributeByteGrid">Show attribute grid (32x32)</Control>
-			<Control ID="chkNesShowTilemapGrid">Show nametable delimiters</Control>
+			<Control ID="chkNesShowAttributeGrid">격자 속성 (16x16) 표시</Control>
+			<Control ID="chkNesShowAttributeByteGrid">격자 속성 (32x32) 표시</Control>
+			<Control ID="chkNesShowTilemapGrid">이름 테이블 딜리미터 표시</Control>
 			
-			<Control ID="lblHighlightOptions">Highlight settings</Control>
-			<Control ID="lblTileHighlightMode">Tiles:</Control>
-			<Control ID="lblAttributeHighlightMode">Attributes:</Control>
-			<Control ID="chkShowScrollOverlay">Show scroll overlay</Control>
+			<Control ID="lblHighlightOptions">하이라이트 설정</Control>
+			<Control ID="lblTileHighlightMode">타일:</Control>
+			<Control ID="lblAttributeHighlightMode">속성:</Control>
+			<Control ID="chkShowScrollOverlay">스크롤 오버레이 표시</Control>
 		</Form>
 		
 		<Form ID="TileEditorWindow">
-			<Control ID="wndTitle">Tile Editor</Control>
-			<Control ID="mnuFile">_File</Control>
-			<Control ID="mnuView">_View</Control>
-			<Control ID="mnuTools">_Tools</Control>
+			<Control ID="wndTitle">타일 에디터</Control>
+			<Control ID="mnuFile">_파일</Control>
+			<Control ID="mnuView">_보기</Control>
+			<Control ID="mnuTools">_도구</Control>
 
-			<Control ID="lblBackground">Background:</Control>
-			<Control ID="chkShowGrid">Show grid</Control>
-			<Control ID="lblPreview">Preview</Control>
+			<Control ID="lblBackground">배경:</Control>
+			<Control ID="chkShowGrid">격자 표시</Control>
+			<Control ID="lblPreview">미리 보기</Control>
 			
-			<Control ID="lblHint1">Select color by clicking above.</Control>
-			<Control ID="lblHint2">Left-click: Draw selected color</Control>
-			<Control ID="lblHint3">Hold shift: Details on pixel under cursor</Control>
-			<Control ID="lblHint4">Shift-click/Right-click: Pick color under cursor</Control>
-			<Control ID="lblHint5">Ctrl-click: Make pixel transparent</Control>
+			<Control ID="lblHint1">위 쪽을 클릭해서 색상을 선택하세요.</Control>
+			<Control ID="lblHint2">좌클릭: 선택된 컬러 그리기</Control>
+			<Control ID="lblHint3">시프트 누르고 있기: 커서가 위치한 픽셀 세부 정보</Control>
+			<Control ID="lblHint4">시프트+클릭/우클릭: 커서가 위치한 색상 선택</Control>
+			<Control ID="lblHint5">컨트롤+클릭: 픽셀을 투명하게 만들기</Control>
 		</Form>
 		
 		<Form ID="TileViewerWindow">
-			<Control ID="wndTitle">Tile Viewer</Control>
-			<Control ID="mnuFile">_File</Control>
-			<Control ID="mnuView">_View</Control>
-			<Control ID="btnToggleSettings">Toggle settings panel</Control>
-			<Control ID="lblSelectedTile">Selected Tile</Control>
-			<Control ID="lblPresets">Presets:</Control>
-			<Control ID="lblSource">Source:</Control>
-			<Control ID="lblSize">Size:</Control>
-			<Control ID="lblAddress">Address:</Control>
-			<Control ID="lblFormat">Format:</Control>
-			<Control ID="lblTileLayout">Tile Layout:</Control>
-			<Control ID="lblFilter">Filter:</Control>
-			<Control ID="lblBackground">Background:</Control>
-			<Control ID="chkShowTileGrid">Show tile grid</Control>
-			<Control ID="chkUseGrayscalePalette">Use grayscale palette</Control>
+			<Control ID="wndTitle">타일 뷰어</Control>
+			<Control ID="mnuFile">_파일</Control>
+			<Control ID="mnuView">_보기</Control>
+			<Control ID="btnToggleSettings">토글 설정 패널</Control>
+			<Control ID="lblSelectedTile">선택한 타일</Control>
+			<Control ID="lblPresets">프리셋:</Control>
+			<Control ID="lblSource">소스:</Control>
+			<Control ID="lblSize">크기:</Control>
+			<Control ID="lblAddress">주소:</Control>
+			<Control ID="lblFormat">형식:</Control>
+			<Control ID="lblTileLayout">배열:</Control>
+			<Control ID="lblFilter">필터:</Control>
+			<Control ID="lblBackground">배경:</Control>
+			<Control ID="chkShowTileGrid">타일 격자 표시</Control>
+			<Control ID="chkUseGrayscalePalette">회색 스케일 팔레트 사용</Control>
 		</Form>
 
 		<Form ID="PaletteViewerWindow">
-			<Control ID="wndTitle">Palette Viewer</Control>
-			<Control ID="mnuFile">_File</Control>
-			<Control ID="mnuView">_View</Control>
-			<Control ID="btnToggleSettings">Toggle settings panel</Control>
-			<Control ID="chkShowPaletteIndexes">Show palette indexes</Control>
-			<Control ID="lblSelectedColor">Selected Color</Control>
+			<Control ID="wndTitle">팔레트 뷰어</Control>
+			<Control ID="mnuFile">_파일</Control>
+			<Control ID="mnuView">_보기</Control>
+			<Control ID="btnToggleSettings">토글 설정 패널</Control>
+			<Control ID="chkShowPaletteIndexes">팔레트 인덱스 표시</Control>
+			<Control ID="lblSelectedColor">선택한 컬러</Control>
 		</Form>
 
 		<Form ID="ColorIndexPickerWindow">
-			<Control ID="wndTitle">Select color...</Control>
+			<Control ID="wndTitle">컬러 선택...</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 
 		<Form ID="SpriteViewerWindow">
-			<Control ID="wndTitle">Sprite Viewer</Control>
+			<Control ID="wndTitle">스프라이트 뷰어</Control>
 
-			<Control ID="lblSelectedSprite">Selected Sprite</Control>
+			<Control ID="lblSelectedSprite">선택한 스프라이트</Control>
 
-			<Control ID="btnToggleSettings">Toggle settings panel</Control>
+			<Control ID="btnToggleSettings">토글 설정 패널</Control>
 
-			<Control ID="mnuFile">_File</Control>
-			<Control ID="mnuView">_View</Control>
+			<Control ID="mnuFile">_파일</Control>
+			<Control ID="mnuView">_보기</Control>
 
 			<Control ID="colSpriteIndex">#</Control>
 			<Control ID="colX">X</Control>
 			<Control ID="colY">Y</Control>
-			<Control ID="colSize">Size</Control>
-			<Control ID="colTileIndex">Tile</Control>
-			<Control ID="colPriority">Priority</Control>
+			<Control ID="colSize">크기</Control>
+			<Control ID="colTileIndex">타일</Control>
+			<Control ID="colPriority">우선순위</Control>
 			<Control ID="colPalette">팔레트</Control>
-			<Control ID="colFlags">Flags</Control>
-			<Control ID="colVisible">Visible</Control>
+			<Control ID="colFlags">플래그</Control>
+			<Control ID="colVisible">보이기</Control>
 
-			<Control ID="chkShowOutline">Show outline around sprites</Control>
-			<Control ID="chkShowListView">Show list view</Control>
-			<Control ID="chkShowOffscreenRegions">Show offscreen regions</Control>
-			<Control ID="chkDimOffscreenSprites">Dim offscreen sprites (grid)</Control>
-			<Control ID="lblBackground">Background:</Control>
-			<Control ID="lblDataSource">Data Source</Control>
-			<Control ID="lblSource">Source:</Control>
-			<Control ID="lblSourceOffset">Offset:</Control>
+			<Control ID="chkShowOutline">스프라이트 주위 윤곽선 표시</Control>
+			<Control ID="chkShowListView">리스트 뷰 표시</Control>
+			<Control ID="chkShowOffscreenRegions">화면 밖 영역 표시</Control>
+			<Control ID="chkDimOffscreenSprites">화면 밖 스프라이트 어둡게 (격자)</Control>
+			<Control ID="lblBackground">배경:</Control>
+			<Control ID="lblDataSource">데이터 소스</Control>
+			<Control ID="lblSource">소스:</Control>
+			<Control ID="lblSourceOffset">옵셋:</Control>
 		</Form>
 
 		<Form ID="AssemblerWindow">
-			<Control ID="wndTitle">Assembler</Control>
+			<Control ID="wndTitle">어셈블러</Control>
 
-			<Control ID="mnuFile">_File</Control>
-			<Control ID="mnuOptions">_Settings</Control>
+			<Control ID="mnuFile">_파일</Control>
+			<Control ID="mnuOptions">_설정</Control>
 			
-			<Control ID="lblStartAddress">Start address: $</Control>
-			<Control ID="lblBytesUsed">Bytes used: </Control>
+			<Control ID="lblStartAddress">시작 주소: $</Control>
+			<Control ID="lblBytesUsed">사용된 바이트: </Control>
 
-			<Control ID="lblByteCountExceeded">Warning: The new code exceeds the original code's length.&#13;Applying this modification will overwrite other portions of the code and potentially cause problems.</Control>
-			<Control ID="lblMaxSizeExceeded">Error: Code is too large to fit.</Control>
-			<Control ID="lblCodeMatchesOriginal">Code matches original code</Control>
+			<Control ID="lblByteCountExceeded">경고: 새로운 코드가 원래 코드의 길이를 초과합니다.&#13;이 상태로 적용하면 코드의 다른 부분을 덮어쓰게 되므로 알 수 없는 문제가 발생될 수 있습니다.</Control>
+			<Control ID="lblMaxSizeExceeded">오류: 코드의 크기가 너무 큽니다.</Control>
+			<Control ID="lblCodeMatchesOriginal">원본 코드와 일치합니다.</Control>
 
-			<Control ID="colLine">Line</Control>
-			<Control ID="colError">Error</Control>
+			<Control ID="colLine">라인</Control>
+			<Control ID="colError">오류</Control>
 			<Control ID="btnOk">적용</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 		
 		<Form ID="ScriptWindow">
-			<Control ID="wndTitle">Script Window</Control>
+			<Control ID="wndTitle">스크립트 창</Control>
 
-			<Control ID="mnuFile">_File</Control>
-			<Control ID="mnuScript">_Script</Control>
-			<Control ID="mnuHelp">_Help</Control>
+			<Control ID="mnuFile">_파일</Control>
+			<Control ID="mnuScript">_스크립트</Control>
+			<Control ID="mnuHelp">_도움말</Control>
 			
-			<Control ID="btnRun">Run</Control>
-			<Control ID="btnStop">Stop</Control>
+			<Control ID="btnRun">실행</Control>
+			<Control ID="btnStop">정지</Control>
 		</Form>
 		
 		<Form ID="LogWindow">
-			<Control ID="wndTitle">Log Window</Control>
-			<Control ID="btnClose">Close</Control>
+			<Control ID="wndTitle">로그 창</Control>
+			<Control ID="btnClose">닫기</Control>
 		</Form>
 		
 		<Form ID="DebugLogWindow">
-			<Control ID="wndTitle">Debug Log</Control>
-			<Control ID="btnClose">Close</Control>
+			<Control ID="wndTitle">디버그 로그</Control>
+			<Control ID="btnClose">닫기</Control>
 		</Form>
 
 		<Form ID="HistoryViewerWindow">
-			<Control ID="wndTitle">History Viewer</Control>
+			<Control ID="wndTitle">히스토리 뷰어</Control>
 			<Control ID="lblVolume">볼륨</Control>
 
-			<Control ID="mnuFile">File</Control>
-			<Control ID="mnuOptions">Settings</Control>
+			<Control ID="mnuFile">파일</Control>
+			<Control ID="mnuOptions">설정</Control>
 		</Form>
 
 		<Form ID="HistoryViewerRangePickerWindow">
-			<Control ID="wndTitle">Export specific range...</Control>
-			<Control ID="lblStartTime">Start time:</Control>
-			<Control ID="lblEndTime">End time:</Control>
-			<Control ID="lblSeconds"> seconds</Control>
+			<Control ID="wndTitle">특정 범위 추출...</Control>
+			<Control ID="lblStartTime">시작 시점:</Control>
+			<Control ID="lblEndTime">종료 시점:</Control>
+			<Control ID="lblSeconds"> 초</Control>
 
 			<Control ID="btnOk">확인</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 
 		<Form ID="NesHeaderEditWindow">
-			<Control ID="wndTitle">NES Header Editor</Control>
+			<Control ID="wndTitle">NES 헤더 에디터</Control>
 
-			<Control ID="lblFileType">File Type:</Control>
-			<Control ID="lblMapper">Mapper:</Control>
-			<Control ID="lblSubmapper">Submapper:</Control>
-			<Control ID="lblMirroringType">Mirroring Type:</Control>
-			<Control ID="lblFrameTiming">Frame Timing:</Control>
-			<Control ID="lblSystem">System:</Control>
-			<Control ID="lblInputType">Input Type:</Control>
-			<Control ID="lblVsSystemType">VS System Type:</Control>
-			<Control ID="lblVsPpuType">VS PPU Type:</Control>
+			<Control ID="lblFileType">파일 형식:</Control>
+			<Control ID="lblMapper">매퍼:</Control>
+			<Control ID="lblSubmapper">서브매퍼:</Control>
+			<Control ID="lblMirroringType">미러링 형식:</Control>
+			<Control ID="lblFrameTiming">프레임 타이밍:</Control>
+			<Control ID="lblSystem">시스템:</Control>
+			<Control ID="lblInputType">입력 형식:</Control>
+			<Control ID="lblVsSystemType">VS 시스템 형식:</Control>
+			<Control ID="lblVsPpuType">VS PPU 형식:</Control>
 
 			<Control ID="lblPrgRom">PRG ROM:</Control>
 			<Control ID="lblChrRom">CHR ROM:</Control>
@@ -1219,430 +1220,430 @@
 			<Control ID="lblChrRam">CHR RAM:</Control>
 			<Control ID="lblChrSaveRam">CHR Save RAM:</Control>
 			
-			<Control ID="chkBattery">Battery</Control>
-			<Control ID="chkTrainer">Trainer</Control>
+			<Control ID="chkBattery">배터리</Control>
+			<Control ID="chkTrainer">트레이너</Control>
 
-			<Control ID="btnSaveAs">Save as...</Control>
+			<Control ID="btnSaveAs">다른 이름으로 저장...</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 		
 		<Form ID="TraceLoggerWindow">
-			<Control ID="wndTitle">Trace Logger</Control>
-			<Control ID="lblCondition">Condition: </Control>
-			<Control ID="chkEnabled">Enabled</Control>
+			<Control ID="wndTitle">추적 로거</Control>
+			<Control ID="lblCondition">조건: </Control>
+			<Control ID="chkEnabled">활성화</Control>
 			
-			<Control ID="grpLogOptions">{0} - Log settings</Control>
+			<Control ID="grpLogOptions">{0} - 로그 설정</Control>
 
-			<Control ID="chkCustomFormat">Use custom format:</Control>
+			<Control ID="chkCustomFormat">사용자 지정 포맷 사용:</Control>
 
-			<Control ID="chkRegisters">Show registers</Control>
-			<Control ID="chkStatusFlags">Show status flags</Control>
-			<Control ID="lblFlagFormat">Flag format:</Control>
-			<Control ID="chkByteCode">Show byte code</Control>
-			<Control ID="chkEffectiveAddress">Show effective address</Control>
-			<Control ID="chkMemoryValue">Show memory value</Control>
+			<Control ID="chkRegisters">레지스터 표시</Control>
+			<Control ID="chkStatusFlags">상태 플래그 표시</Control>
+			<Control ID="lblFlagFormat">플래그 포맷:</Control>
+			<Control ID="chkByteCode">바이트 코드 표시</Control>
+			<Control ID="chkEffectiveAddress">유효 주소 표시</Control>
+			<Control ID="chkMemoryValue">메모리 값 표시</Control>
 
-			<Control ID="chkClockCounter">Show clock counter</Control>
-			<Control ID="chkFrameCounter">Show frame counter</Control>
-			<Control ID="chkFramePosition">Show frame position</Control>
+			<Control ID="chkClockCounter">클럭 카운터 표시</Control>
+			<Control ID="chkFrameCounter">프레임 카운터 표시</Control>
+			<Control ID="chkFramePosition">프레임 포지션 표시</Control>
 
-			<Control ID="chkUseLabels">Use labels</Control>
-			<Control ID="chkIndentCode">Indent based on stack pointer</Control>
+			<Control ID="chkUseLabels">레이블 사용</Control>
+			<Control ID="chkIndentCode">스택 포인터 기준 들여쓰기</Control>
 			
-			<Control ID="lblConditionError">Condition contains invalid syntax or symbols.</Control>
+			<Control ID="lblConditionError">잘못된 구문이나 기호가 포함되어 있습니다.</Control>
 
-			<Control ID="mnuFile">_File</Control>
-			<Control ID="mnuDebug">_Debug</Control>
-			<Control ID="mnuView">_View</Control>
-			<Control ID="mnuSearch">_Search</Control>
+			<Control ID="mnuFile">_파일</Control>
+			<Control ID="mnuDebug">_디버그</Control>
+			<Control ID="mnuView">_보기</Control>
+			<Control ID="mnuSearch">_검색</Control>
 
-			<Control ID="btnOpenTraceFile">Open trace file</Control>
-			<Control ID="btnStart">Log to file...</Control>
-			<Control ID="btnStop">Stop logging</Control>
-			<Control ID="btnClear">Clear log</Control>
+			<Control ID="btnOpenTraceFile">추적 파일 열기</Control>
+			<Control ID="btnStart">파일로 로그 작성...</Control>
+			<Control ID="btnStop">로그 작성 중지</Control>
+			<Control ID="btnClear">로그 클리어</Control>
 		</Form>
 
 		<Form ID="EventViewerWindow">
-			<Control ID="wndTitle">Event Viewer</Control>
+			<Control ID="wndTitle">이벤트 뷰어</Control>
 
-			<Control ID="mnuFile">_File</Control>
-			<Control ID="mnuDebug">_Debug</Control>
-			<Control ID="mnuView">_View</Control>
+			<Control ID="mnuFile">_파일</Control>
+			<Control ID="mnuDebug">_디버그</Control>
+			<Control ID="mnuView">_보기</Control>
 
-			<Control ID="btnToggleSettings">Toggle settings panel</Control>
+			<Control ID="btnToggleSettings">토글 설정 패널</Control>
 
-			<Control ID="chkShowListView">Show list view</Control>
-			<Control ID="btnSelectAll">Select all</Control>
-			<Control ID="btnDeselectAll">Deselect all</Control>
+			<Control ID="chkShowListView">리스트 뷰 표시</Control>
+			<Control ID="btnSelectAll">모두 선택</Control>
+			<Control ID="btnDeselectAll">모두 선택 해제</Control>
 			
 			<Control ID="colPc">PC</Control>
-			<Control ID="colScanline">Scanline</Control>
-			<Control ID="colCycle">Cycle</Control>
-			<Control ID="colType">Type</Control>
-			<Control ID="colAddress">Address</Control>
-			<Control ID="colValue">Value</Control>
-			<Control ID="colDetails">Details</Control>
+			<Control ID="colScanline">스캔라인</Control>
+			<Control ID="colCycle">사이클</Control>
+			<Control ID="colType">타입</Control>
+			<Control ID="colAddress">주소</Control>
+			<Control ID="colValue">밸류</Control>
+			<Control ID="colDetails">상세</Control>
 		</Form>
 
 		<Form ID="DebuggerWindow">
-			<Control ID="mnuFile">_File</Control>
-			<Control ID="mnuDebug">_Debug</Control>
-			<Control ID="mnuSearch">_Search</Control>
-			<Control ID="mnuOptions">_Settings</Control>
-			<Control ID="btnToggleSettingsPanel">Toggle settings panel</Control>
+			<Control ID="mnuFile">_파일</Control>
+			<Control ID="mnuDebug">_디버그</Control>
+			<Control ID="mnuSearch">_검색</Control>
+			<Control ID="mnuOptions">_설정</Control>
+			<Control ID="btnToggleSettingsPanel">토글 설정 패널</Control>
 		</Form>
 
 		<Form ID="BreakpointListView">
-			<Control ID="colEnabled">E</Control>
-			<Control ID="colMarked">M</Control>
-			<Control ID="colType">Type</Control>
-			<Control ID="colAddress">Address</Control>
-			<Control ID="colCondition">Condition</Control>
+			<Control ID="colEnabled">활성</Control>
+			<Control ID="colMarked">마킹</Control>
+			<Control ID="colType">형식</Control>
+			<Control ID="colAddress">주소</Control>
+			<Control ID="colCondition">조건</Control>
 		</Form>
 		
 		<Form ID="CallStackView">
-			<Control ID="colFunction">Function</Control>
-			<Control ID="colPcAddress">PC Address</Control>
-			<Control ID="colRomAddress">ROM Address</Control>
+			<Control ID="colFunction">함수</Control>
+			<Control ID="colPcAddress">PC 주소</Control>
+			<Control ID="colRomAddress">ROM 주소</Control>
 		</Form>
 		
 		<Form ID="FindResultListView">
-			<Control ID="colAddress">Address</Control>
-			<Control ID="colResult">Result</Control>
+			<Control ID="colAddress">주소</Control>
+			<Control ID="colResult">결과</Control>
 		</Form>
 
 		<Form ID="FunctionListView">
-			<Control ID="colFunction">Function</Control>
-			<Control ID="colCpuAddr">CPU Addr</Control>
-			<Control ID="colRomAddr">ROM Addr</Control>
+			<Control ID="colFunction">함수</Control>
+			<Control ID="colCpuAddr">CPU 주소</Control>
+			<Control ID="colRomAddr">ROM 주소</Control>
 		</Form>
 
 		<Form ID="LabelListView">
-			<Control ID="colLabel">Label</Control>
-			<Control ID="colCpuAddr">CPU Addr</Control>
-			<Control ID="colRomAddr">ROM Addr</Control>
-			<Control ID="colComment">Comment</Control>
+			<Control ID="colLabel">레이블</Control>
+			<Control ID="colCpuAddr">CPU 주소</Control>
+			<Control ID="colRomAddr">ROM 주소</Control>
+			<Control ID="colComment">코멘트</Control>
 		</Form>
 
 		<Form ID="WatchListView">
-			<Control ID="colName">Name</Control>
-			<Control ID="colValue">Value</Control>
+			<Control ID="colName">변수명</Control>
+			<Control ID="colValue">값</Control>
 		</Form>
 		
 		<Form ID="QuickSearchView">
-			<Control ID="lblSearch">Search</Control>
+			<Control ID="lblSearch">검색</Control>
 		</Form>
 
 		<Form ID="SourceViewView">
-			<Control ID="lblFile">File:</Control>
+			<Control ID="lblFile">파일:</Control>
 		</Form>
 
 		<Form ID="DebuggerOptionsView">
-			<Control ID="lblDisassemblyOptions">Disassembly settings</Control>
-			<Control ID="lblVerifiedData">Data:</Control>
-			<Control ID="lblUnidentifiedBlock">Unidentified:</Control>
-			<Control ID="lblAddressDisplay">Margin:</Control>
-			<Control ID="chkShowByteCode">Show byte code</Control>
-			<Control ID="chkShowMemoryValues">Show memory values</Control>
-			<Control ID="chkUseLowerCaseDisassembly">Use lower case</Control>
-			<Control ID="chkShowJumpLabels">Show jump/sub labels</Control>
-			<Control ID="chkSnesUseAltSpcOpNames">Use 6502-like mnemonics</Control>
-			<Control ID="lblDisassemblyMode">CPU mode:</Control>
-			<Control ID="lblDisassemblyModeHint">Controls whether unidentified code is disassembled as ARM or Thumb.</Control>
+			<Control ID="lblDisassemblyOptions">디스어셈블리 설정</Control>
+			<Control ID="lblVerifiedData">데이터:</Control>
+			<Control ID="lblUnidentifiedBlock">미식별 블록:</Control>
+			<Control ID="lblAddressDisplay">마진:</Control>
+			<Control ID="chkShowByteCode">바이트 코드 표시</Control>
+			<Control ID="chkShowMemoryValues">메모리 값 표시</Control>
+			<Control ID="chkUseLowerCaseDisassembly">소문자 표시</Control>
+			<Control ID="chkShowJumpLabels">점프/서브 레이블 표시</Control>
+			<Control ID="chkSnesUseAltSpcOpNames">6502와 유사한 니모닉 사용</Control>
+			<Control ID="lblDisassemblyMode">CPU 모드:</Control>
+			<Control ID="lblDisassemblyModeHint">미식별 코드를 ARM 또는 Thumb 로 분해할 지 여부를 컨트롤합니다.</Control>
 
-			<Control ID="lblBreakOptions">Break on...</Control>
+			<Control ID="lblBreakOptions">중단점 관련...</Control>
 			<Control ID="chkBreakOnBrk">BRK</Control>
 			<Control ID="chkBreakOnCop">COP</Control>
 			<Control ID="chkBreakOnWdm">WDM</Control>
 			<Control ID="chkBreakOnStp">STP</Control>
-			<Control ID="chkBreakOnInvalidPpuAccess">Invalid PPU memory access</Control>
-			<Control ID="chkBreakOnReadDuringAutoJoy">Controller read during auto-read</Control>
+			<Control ID="chkBreakOnInvalidPpuAccess">잘못된 PPU 메모리 액세스</Control>
+			<Control ID="chkBreakOnReadDuringAutoJoy">자동 읽기 중 컨트롤러 읽기</Control>
 			
-			<Control ID="chkSpcBreakOnStpSleep">STOP / SLEEP</Control>
+			<Control ID="chkSpcBreakOnStpSleep">멈춤 / 슬립</Control>
 			
-			<Control ID="chkBreakOnUninitRead">Uninitialized memory read</Control>
-			<Control ID="chkBreakOnOpen">Debugger opened</Control>
-			<Control ID="chkBreakOnPowerCycleReset">Power/reset</Control>
+			<Control ID="chkBreakOnUninitRead">초기화되지 않은 메모리 읽기</Control>
+			<Control ID="chkBreakOnOpen">디버거 열기</Control>
+			<Control ID="chkBreakOnPowerCycleReset">전원/리셋</Control>
 
-			<Control ID="chkBreakOnUnofficialOpCode">Unofficial opcodes</Control>
-			<Control ID="chkBreakOnUnstableOpCode">Unstable opcodes</Control>
-			<Control ID="chkBreakOnUnstableOpCodeHint">Breaks on "ANE #imm" ($8B) and "LAX #imm" ($AB)&#10;Both opcodes are unstable on hardware and their results are usually unreliable.</Control>
-			<Control ID="chkBreakOnCpuCrash">CPU crash</Control>
-			<Control ID="chkBreakOnBusConflict">Bus conflict</Control>
-			<Control ID="chkBreakOnDecayedOamRead">Decayed OAM read</Control>
-			<Control ID="chkBreakOnPpuScrollGlitch">PPU scroll glitch</Control>
-			<Control ID="chkNesInvalidVramAccess">Invalid VRAM access</Control>
-			<Control ID="chkNesInvalidOamWrite">Invalid OAM write</Control>
-			<Control ID="chkNesDmaInputRead">DMA controller read</Control>
-			<Control ID="chkNesBreakOnExtOutputMode">PPU EXT output mode</Control>
+			<Control ID="chkBreakOnUnofficialOpCode">비공식 OPCodes</Control>
+			<Control ID="chkBreakOnUnstableOpCode">불안정한 OPCodes</Control>
+			<Control ID="chkBreakOnUnstableOpCodeHint">"ANE #imm" ($8B) 와 "LAX #imm" ($AB) 사이에서 중단이 발생합니다.&#10;두 명령어 모두 하드웨어에서 불안정하며 그 결과도 일반적으로 신뢰할 수 없습니다.</Control>
+			<Control ID="chkBreakOnCpuCrash">CPU 크래쉬</Control>
+			<Control ID="chkBreakOnBusConflict">Bus 충돌</Control>
+			<Control ID="chkBreakOnDecayedOamRead">예측 불가 OAM 읽기</Control>
+			<Control ID="chkBreakOnPpuScrollGlitch">PPU 스크롤 글리치</Control>
+			<Control ID="chkNesInvalidVramAccess">잘못된 VRAM 액세스</Control>
+			<Control ID="chkNesInvalidOamWrite">잘못된 OAM 쓰기</Control>
+			<Control ID="chkNesDmaInputRead">DMA 컨트롤러 읽기</Control>
+			<Control ID="chkNesBreakOnExtOutputMode">PPU EXT 출력 모드</Control>
 
-			<Control ID="chkGbBreakOnInvalidOamAccess">Invalid OAM access</Control>
-			<Control ID="chkGbBreakOnInvalidVramAccess">Invalid VRAM access</Control>
-			<Control ID="chkGbBreakOnDisableLcdOutsideVblank">LCD disable outside vblank</Control>
-			<Control ID="chkGbBreakOnInvalidOpCode">Invalid instructions</Control>
-			<Control ID="chkGbBreakOnNopLoad">LD B, B (nop)</Control>
-			<Control ID="chkGbBreakOnOamCorruption">OAM corruption</Control>
+			<Control ID="chkGbBreakOnInvalidOamAccess">잘못된 OAM 액세스 시 중단</Control>
+			<Control ID="chkGbBreakOnInvalidVramAccess">잘못된 VRAM 액세스 시 중단</Control>
+			<Control ID="chkGbBreakOnDisableLcdOutsideVblank">vblank 외부 LCD 비활성화</Control>
+			<Control ID="chkGbBreakOnInvalidOpCode">잘못된 OPCodes</Control>
+			<Control ID="chkGbBreakOnNopLoad">LD B, B 시 중단</Control>
+			<Control ID="chkGbBreakOnOamCorruption">OAM 커럽션 발생 시 중단</Control>
 
-			<Control ID="chkPceBreakOnInvalidVramAddress">Invalid VRAM address</Control>
+			<Control ID="chkPceBreakOnInvalidVramAddress">잘못된 VRAM 액세스</Control>
 
-			<Control ID="chkGbaBreakOnInvalidOpCode">Break on invalid instructions</Control>
-			<Control ID="chkGbaBreakOnNopLoad">Break on MOV R11, R11 (nop)</Control>
-			<Control ID="chkBreakOnUnalignedMemAccess">Break on unaligned access</Control>
+			<Control ID="chkGbaBreakOnInvalidOpCode">잘못된 명령 시 중단</Control>
+			<Control ID="chkGbaBreakOnNopLoad">MOV R11, R11 시 중단</Control>
+			<Control ID="chkBreakOnUnalignedMemAccess">정렬되지 않은 액세스 시 중단</Control>
 
-			<Control ID="chkBreakOnUndefinedOpCode">Undefined opcodes</Control>
+			<Control ID="chkBreakOnUndefinedOpCode">미정의 OPCodes</Control>
 
-			<Control ID="lblMiscSettings">Misc. settings</Control>
-			<Control ID="chkBringToFrontOnBreak">Bring to front on break</Control>
-			<Control ID="chkBringToFrontOnPause">Bring to front on pause</Control>
-			<Control ID="chkFocusGameOnResume">Focus game window on resume</Control>
-			<Control ID="chkRefreshWhileRunning">Refresh while running</Control>
-			<Control ID="chkDrawPartialFrame">Draw partial frame</Control>
-			<Control ID="chkUsePredictiveBreakpoints">Use predictive breakpoints</Control>
-			<Control ID="chkUsePredictiveBreakpointsHint">When enabled, the debugger attempts to predict breakpoints before the corresponding read/write occurs,&#xA;allowing execution to be stopped before the instruction starts executing.</Control>
-			<Control ID="chkSingleBreakpointPerInstruction">Break once per instruction</Control>
-			<Control ID="chkSnesIgnoreDspReadWrites">Ignore DSP reads/writes</Control>
-			<Control ID="chkSnesIgnoreDspReadWritesHint">DSP reads/writes to SPC RAM will be ignored by the debugger.&#xA;Reads/writes done by the DSP won't trigger breakpoints, nor be counted as accesses, etc.&#xA;(This slightly improves performance when debugging)</Control>
+			<Control ID="lblMiscSettings">기타 설정</Control>
+			<Control ID="chkBringToFrontOnBreak">중단점 시 맨 앞으로</Control>
+			<Control ID="chkBringToFrontOnPause">일시정지 시 맨 앞으로</Control>
+			<Control ID="chkFocusGameOnResume">재개 시 게임 창이 포커스</Control>
+			<Control ID="chkRefreshWhileRunning">게임 실행 중에도 디버깅 창 실시간 갱신</Control>
+			<Control ID="chkDrawPartialFrame">화면을 그리는 중에도 디버깅 창에 표시</Control>
+			<Control ID="chkUsePredictiveBreakpoints">특정 주소 쓰기 전 중단 기능</Control>
+			<Control ID="chkUsePredictiveBreakpointsHint">이 기능을 활성화하면 디버거는 해당 영역의 읽기/쓰기가 발생하기 전에&#xA;중단점을 예측하여 명령어가 실행되기 전에 중단시킬 수 있습니다.</Control>
+			<Control ID="chkSingleBreakpointPerInstruction">명령 당 한 번 씩 중단</Control>
+			<Control ID="chkSnesIgnoreDspReadWrites">DSP 읽기/쓰기 무시</Control>
+			<Control ID="chkSnesIgnoreDspReadWritesHint">DSP가 SPC RAM에 대해 읽기/쓰기를 수행하면 디버거에서 무시됩니다.&#xA;DSP가 수행한 읽기/쓰기는 중단점을 트리거하지 않으며 액세스로 계산되지도 않습니다.&#xA;(이렇게 하면 디버깅 시 성능이 약간 향상됩니다.)</Control>
 		</Form>
 
 		<Form ID="MemoryToolsWindow">
-			<Control ID="wndTitle">Memory Viewer</Control>
-			<Control ID="mnuFile">_File</Control>
-			<Control ID="mnuView">_View</Control>
-			<Control ID="mnuSearch">_Search</Control>
+			<Control ID="wndTitle">메모리 뷰어</Control>
+			<Control ID="mnuFile">_파일</Control>
+			<Control ID="mnuView">_보기</Control>
+			<Control ID="mnuSearch">_검색</Control>
 			
-			<Control ID="lblMemoryType">Memory Type:</Control>
-			<Control ID="btnToggleSettings">Toggle settings panel</Control>
+			<Control ID="lblMemoryType">메모리 형식:</Control>
+			<Control ID="btnToggleSettings">토글 설정 패널</Control>
 		</Form>
 		
 		<Form ID="MemoryToolsDisplayOptionsView">
-			<Control ID="lblAccessHighlight">Access highlighting</Control>
-			<Control ID="lblFadeSpeed">Fade speed: </Control>
-			<Control ID="lblDataTypeHighlight">Data type highlighting</Control>
-			<Control ID="lblFontSettings">Font settings</Control>
-			<Control ID="lblMiscSettings">Misc. settings</Control>
+			<Control ID="lblAccessHighlight">액세스 강조</Control>
+			<Control ID="lblFadeSpeed">페이드 속도: </Control>
+			<Control ID="lblDataTypeHighlight">데이터 형식 강조</Control>
+			<Control ID="lblFontSettings">폰트 설정</Control>
+			<Control ID="lblMiscSettings">기타 설정</Control>
 
-			<Control ID="chkHighlightRead">Reads</Control>
-			<Control ID="chkHighlightWrite">Writes</Control>
-			<Control ID="chkHighlightExec">Execution</Control>
-			<Control ID="chkHighlightCode">Code</Control>
-			<Control ID="chkHighlightData">Data</Control>
-			<Control ID="lblUnidentified">Unidentified</Control>
-			<Control ID="chkHighlightLabel">Labels</Control>
-			<Control ID="chkHighlightFrozenAddresses">Frozen addresses</Control>
-			<Control ID="chkHighlightNesPcmData">DPCM Data</Control>
-			<Control ID="chkHighlightNesDrawnChrRom">Drawn tiles (PPU)</Control>
-			<Control ID="chkHighlightBreakpoints">Breakpoints</Control>
-			<Control ID="chkHighDensityTextMode">Use high-density text</Control>
-			<Control ID="chkShowCharacters">Show characters</Control>
-			<Control ID="chkShowTooltips">Show tooltips</Control>
+			<Control ID="chkHighlightRead">읽기</Control>
+			<Control ID="chkHighlightWrite">쓰기</Control>
+			<Control ID="chkHighlightExec">실행</Control>
+			<Control ID="chkHighlightCode">코드</Control>
+			<Control ID="chkHighlightData">데이터</Control>
+			<Control ID="lblUnidentified">식별되지 않은 항목</Control>
+			<Control ID="chkHighlightLabel">레이블</Control>
+			<Control ID="chkHighlightFrozenAddresses">주소 고정</Control>
+			<Control ID="chkHighlightNesPcmData">DPCM 데이터</Control>
+			<Control ID="chkHighlightNesDrawnChrRom">그려진 타일 (PPU)</Control>
+			<Control ID="chkHighlightBreakpoints">중단점</Control>
+			<Control ID="chkHighDensityTextMode">고밀도 텍스트 사용</Control>
+			<Control ID="chkShowCharacters">문자 표시</Control>
+			<Control ID="chkShowTooltips">툴팁 표시</Control>
 		</Form>
 		<Form ID="MemoryViewerFindWindow">
-			<Control ID="wndTitle">Find...</Control>
-			<Control ID="lblSearch">Search:</Control>
-			<Control ID="lblDataType">Data Type:</Control>
-			<Control ID="lblIntType">Format:</Control>
-			<Control ID="chkCaseSensitive">Case sensitive</Control>
-			<Control ID="chkUseTblMappings">Use TBL mappings</Control>
-			<Control ID="lblDataTypeFilters">Data Type Filters</Control>
-			<Control ID="chkFilterCode">Code</Control>
-			<Control ID="chkFilterData">Data</Control>
-			<Control ID="chkFilterUnidentified">Unidentified</Control>
-			<Control ID="lblAccessFilters">Access Filters</Control>
-			<Control ID="chkFilterNotAccessed">Not accessed</Control>
-			<Control ID="chkFilterRead">Read</Control>
-			<Control ID="chkFilterWrite">Written</Control>
-			<Control ID="chkFilterExec">Executed</Control>
-			<Control ID="chkFilterTimeSpan">In the last</Control>
-			<Control ID="lblFrames">frames</Control>
+			<Control ID="wndTitle">찾기...</Control>
+			<Control ID="lblSearch">검색:</Control>
+			<Control ID="lblDataType">데이터 형식:</Control>
+			<Control ID="lblIntType">포맷:</Control>
+			<Control ID="chkCaseSensitive">대/소문자 구분</Control>
+			<Control ID="chkUseTblMappings">테이블 매핑 사용</Control>
+			<Control ID="lblDataTypeFilters">데이터 형식 필터</Control>
+			<Control ID="chkFilterCode">코드</Control>
+			<Control ID="chkFilterData">데이터</Control>
+			<Control ID="chkFilterUnidentified">미정의</Control>
+			<Control ID="lblAccessFilters">액세스 필터</Control>
+			<Control ID="chkFilterNotAccessed">비 액세스</Control>
+			<Control ID="chkFilterRead">읽기</Control>
+			<Control ID="chkFilterWrite">쓰기</Control>
+			<Control ID="chkFilterExec">실행</Control>
+			<Control ID="chkFilterTimeSpan">마지막</Control>
+			<Control ID="lblFrames">프레임</Control>
 
-			<Control ID="lblNoMatchFound">No match found!</Control>
-			<Control ID="btnFindPrev">Previous</Control>
-			<Control ID="btnFindNext">Next</Control>
+			<Control ID="lblNoMatchFound">매칭 데이터가 없습니다!</Control>
+			<Control ID="btnFindPrev">이전</Control>
+			<Control ID="btnFindNext">다음</Control>
 			
-			<Control ID="lblSearchHelp">When searching hexadecimal values, a question mark (?)&#10;can be used to define a byte that can take any value.&#10;&#10;e.g: "FF ? 55" will search for any set of three&#10;bytes that starts with FF and ends with 55.</Control>
+			<Control ID="lblSearchHelp">16진수 값을 검색할 때 물음표(?)를 사용하면&#10;물음표에 해당되는 곳이 어떤 값이든 상관없이 찾을 수 있습니다.&#10;예를 들어 "FF ? 55"는 FF로 시작하고 55로 끝나는 3바이트 세트를 검색합니다.</Control>
 			
-			<Control ID="btnClose">Close</Control>
+			<Control ID="btnClose">닫기</Control>
 		</Form>
 		<Form ID="FontOptionsView">
-			<Control ID="lblFamily">Family: </Control>
-			<Control ID="lblSize">Size: </Control>
-			<Control ID="lblWarningMono">This font doesn't appear to be a monospace font.&#10;Using this font may cause display issues in the UI.</Control>
-			<Control ID="lblError">This font is not supported and cannot be used.</Control>
+			<Control ID="lblFamily">패밀리: </Control>
+			<Control ID="lblSize">크기: </Control>
+			<Control ID="lblWarningMono">이 글꼴은 모노스페이스 글꼴이 아닌 것 같습니다.&#10;이 글꼴을 사용하면 UI에 표시 문제가 발생할 수 있습니다.</Control>
+			<Control ID="lblError">이 글꼴은 지원되지 않으므로 사용할 수 없습니다.</Control>
 		</Form>
 
 		<Form ID="RefreshTimingView">
-			<Control ID="lblScanline">Refresh on scanline (V)</Control>
-			<Control ID="lblCycle">and cycle (H)</Control>
-			<Control ID="lblResetToDefault">Reset to default</Control>
-			<Control ID="chkRefreshOnBreakPause">Refresh on break</Control>
+			<Control ID="lblScanline">스캔라인 갱신 (V)</Control>
+			<Control ID="lblCycle">그리고 사이클 (H)</Control>
+			<Control ID="lblResetToDefault">기본값 리셋</Control>
+			<Control ID="chkRefreshOnBreakPause">중단 시 갱신</Control>
 		</Form>
 		
 		<Form ID="GoToAllWindow">
-			<Control ID="wndTitle">Go to All</Control>
-			<Control ID="lblSearch">Search:</Control>
-			<Control ID="lblResults">results</Control>
-			<Control ID="btnSelect">Select</Control>
-			<Control ID="btnClose">Close</Control>
+			<Control ID="wndTitle">모두 보내기</Control>
+			<Control ID="lblSearch">검색:</Control>
+			<Control ID="lblResults">결과</Control>
+			<Control ID="btnSelect">선택</Control>
+			<Control ID="btnClose">닫기</Control>
 		</Form>
 		
 		<Form ID="DebuggerConfigWindow">
-			<Control ID="wndTitle">Debugger Settings</Control>
+			<Control ID="wndTitle">디버거 설정</Control>
 			<Control ID="btnOK">확인</Control>
 			<Control ID="btnCancel">취소</Control>
 			
-			<Control ID="tabDebugger">Debugger</Control>
-			<Control ID="lblGeneralSettings">General settings</Control>
-			<Control ID="chkAutoResetCdl">Reset CDL when ROM changes</Control>
-			<Control ID="chkDisableDefaultLabels">Disable default labels</Control>
+			<Control ID="tabDebugger">디버거</Control>
+			<Control ID="lblGeneralSettings">일반 설정</Control>
+			<Control ID="chkAutoResetCdl">롬 변경 시 CDL 리셋</Control>
+			<Control ID="chkDisableDefaultLabels">기본 레이블 비활성화</Control>
 
-			<Control ID="lblDisassemblySettings">Disassembly settings</Control>
-			<Control ID="chkKeepActiveStatementInCenter">Keep active statement in the center</Control>
+			<Control ID="lblDisassemblySettings">디스어셈블리 설정</Control>
+			<Control ID="chkKeepActiveStatementInCenter">중앙에 활성 상태 유지</Control>
 
-			<Control ID="lblCopyCodeSettings">Copy selected code settings</Control>
-			<Control ID="chkCopyAddresses">Copy addresses</Control>
-			<Control ID="chkCopyByteCode">Copy byte code</Control>
-			<Control ID="chkCopyComments">Copy comments</Control>
-			<Control ID="chkCopyBlockHeaders">Copy block headers</Control>
+			<Control ID="lblCopyCodeSettings">선택한 코드 복사 설정</Control>
+			<Control ID="chkCopyAddresses">주소 복사</Control>
+			<Control ID="chkCopyByteCode">바이트 코드 복사</Control>
+			<Control ID="chkCopyComments">코멘트 복사</Control>
+			<Control ID="chkCopyBlockHeaders">블록 헤더 복사</Control>
 
-			<Control ID="tabScriptWindow">Script Window</Control>
-			<Control ID="lblScriptStartupBehavior">When a script window is opened: </Control>
-			<Control ID="chkSaveScriptBeforeRun">Auto-save changes before running script</Control>
-			<Control ID="chkAutoStartScriptOnLoad">Auto-start script when loaded (or reloaded)</Control>
-			<Control ID="chkAutoReloadScriptWhenFileChanges">Auto-reload script from disk when file changes</Control>
-			<Control ID="chkAutoRestartScriptAfterPowerCycle">Auto-restart script after power cycling or reloading a game</Control>
+			<Control ID="tabScriptWindow">스크립트 창</Control>
+			<Control ID="lblScriptStartupBehavior">스크립트 창을 열었을 때: </Control>
+			<Control ID="chkSaveScriptBeforeRun">스크립트 수행 전 변경사항 자동 저장</Control>
+			<Control ID="chkAutoStartScriptOnLoad">불러왔을 때 스크립트 자동 시작(또는 다시 불러왔을 때)</Control>
+			<Control ID="chkAutoReloadScriptWhenFileChanges">파일이 변경될 때 디스크에서 스크립트 다시 읽기</Control>
+			<Control ID="chkAutoRestartScriptAfterPowerCycle">전원 다시 On 또는 게임을 다시 불러온 후 스크립트 재시작</Control>
 
-			<Control ID="lblDisplaySettings">Display settings</Control>
-			<Control ID="chkShowLineNumbers">Show line numbers</Control>
+			<Control ID="lblDisplaySettings">디스플레이 설정</Control>
+			<Control ID="chkShowLineNumbers">줄 번호 표시</Control>
 			
-			<Control ID="lblRestrictions">Restrictions</Control>
-			<Control ID="lblMaxExecutionTime">Maximum execution time:</Control>
-			<Control ID="lblSeconds">seconds</Control>
-			<Control ID="chkAllowIoOsAccess">Allow access to I/O and OS functions</Control>
-			<Control ID="chkAllowNetworkAccess">Allow network access</Control>
+			<Control ID="lblRestrictions">제한</Control>
+			<Control ID="lblMaxExecutionTime">최대 실행 시간:</Control>
+			<Control ID="lblSeconds">초</Control>
+			<Control ID="chkAllowIoOsAccess">I/O 및 OS 기능에 대해 액세스 허용</Control>
+			<Control ID="chkAllowNetworkAccess">네트워크 액세스 허용</Control>
 			
-			<Control ID="tabFonts">Fonts &amp; Colors</Control>
-			<Control ID="lblFontSettings">Font settings</Control>
+			<Control ID="tabFonts">폰트&amp;컬러</Control>
+			<Control ID="lblFontSettings">폰트 설정</Control>
 
-			<Control ID="lblDisassemblyFont">Disassembly:</Control>
-			<Control ID="lblMemoryViewerFont">Memory viewer:</Control>
-			<Control ID="lblAssemblerFont">Assembler:</Control>
-			<Control ID="lblScriptWindowFont">Script window:</Control>
-			<Control ID="lblOtherMonoFont">Other (monospace):</Control>
+			<Control ID="lblDisassemblyFont">디스어셈블리:</Control>
+			<Control ID="lblMemoryViewerFont">메모리 뷰어:</Control>
+			<Control ID="lblAssemblerFont">어셈블러:</Control>
+			<Control ID="lblScriptWindowFont">스크립트 창:</Control>
+			<Control ID="lblOtherMonoFont">기타 (모노스페이스):</Control>
 			
-			<Control ID="lblSyntaxHighlighting">Syntax highlighting</Control>
-			<Control ID="lblCodeOpcodeColor">Opcode</Control>
-			<Control ID="lblCodeLabelDefinitionColor">Label</Control>
-			<Control ID="lblCodeImmediateColor">Immediate Value</Control>
-			<Control ID="lblCodeAddressColor">Address Value</Control>
-			<Control ID="lblCodeCommentColor">Comment</Control>
-			<Control ID="lblCodeEffectiveAddressColor">Effective Address</Control>
-			<Control ID="lblCodeActiveStatementColor">Active Statement</Control>
-			<Control ID="lblCodeActiveMidInstructionColor">Active Statement (mid-instruction)</Control>
+			<Control ID="lblSyntaxHighlighting">문법 강조</Control>
+			<Control ID="lblCodeOpcodeColor">OPCode</Control>
+			<Control ID="lblCodeLabelDefinitionColor">레이블</Control>
+			<Control ID="lblCodeImmediateColor">상수 값</Control>
+			<Control ID="lblCodeAddressColor">주소 값</Control>
+			<Control ID="lblCodeCommentColor">코멘트</Control>
+			<Control ID="lblCodeEffectiveAddressColor">유효 주소</Control>
+			<Control ID="lblCodeActiveStatementColor">활성 상태</Control>
+			<Control ID="lblCodeActiveMidInstructionColor">활성 상태 (중간 명령)</Control>
 			
-			<Control ID="lblCodeVerifiedDataColor">Verified Data</Control>
-			<Control ID="lblCodeUnidentifiedDataColor">Unidentified Block</Control>
-			<Control ID="lblCodeUnexecutedCodeColor">Unexecuted Code</Control>
-			<Control ID="lblCodeExecBreakpointColor">Exec Breakpoint</Control>
-			<Control ID="lblCodeWriteBreakpointColor">Write Breakpoint</Control>
-			<Control ID="lblCodeReadBreakpointColor">Read Breakpoint</Control>
-			<Control ID="lblForbidBreakpointColor">Forbid Breakpoint</Control>
+			<Control ID="lblCodeVerifiedDataColor">검증된 데이터</Control>
+			<Control ID="lblCodeUnidentifiedDataColor">식별되지 않은 블록</Control>
+			<Control ID="lblCodeUnexecutedCodeColor">실행되지 않은 코드</Control>
+			<Control ID="lblCodeExecBreakpointColor">실행 중단점</Control>
+			<Control ID="lblCodeWriteBreakpointColor">중단점 쓰기</Control>
+			<Control ID="lblCodeReadBreakpointColor">중단점 읽기</Control>
+			<Control ID="lblForbidBreakpointColor">중단점 금지</Control>
 
-			<Control ID="tabIntegration">Integration</Control>
-			<Control ID="lblIntegrationSettings">Integration settings</Control>
-			<Control ID="chkResetLabelsOnImport">Reset workspace labels to their default state before importing label/symbol files</Control>
-			<Control ID="lblAutoLoadSettings">Auto-load settings</Control>
-			<Control ID="lblAutoLoadHint">Automatically load the following file types when a matching file is found in the ROM's folder:</Control>
-			<Control ID="chkAutoLoadDbgFiles">.DBG files (CA65 debug symbols)</Control>
+			<Control ID="tabIntegration">통합</Control>
+			<Control ID="lblIntegrationSettings">통합 설정</Control>
+			<Control ID="chkResetLabelsOnImport">레이블/심볼 파일을 가져오기 전에 작업 공간 레이블을 기본 상태로 재설정합니다.</Control>
+			<Control ID="lblAutoLoadSettings">자동 불러오기 설정</Control>
+			<Control ID="lblAutoLoadHint">ROM 폴더에서 일치하는 파일이 발견되면 다음 파일 유형을 자동으로 로드합니다.:</Control>
+			<Control ID="chkAutoLoadDbgFiles">.DBG files (CA65 디버그 심볼)</Control>
 			<Control ID="chkAutoLoadSymFiles">.SYM files (PCEAS, RGBDS, WLA DX, bass)</Control>
 			<Control ID="chkAutoLoadCdbFiles">.CDB files (SDCC)</Control>
-			<Control ID="chkAutoLoadElfFiles">.ELF files (devkitARM - GBA)</Control>
-			<Control ID="chkAutoLoadMlbFiles">.MLB files (Mesen label file)</Control>
+			<Control ID="chkAutoLoadElfFiles">.ELF files (데브킷 ARM - GBA)</Control>
+			<Control ID="chkAutoLoadMlbFiles">.MLB files (Mesen 레이블 파일)</Control>
 			<Control ID="chkAutoLoadFnsFiles">.FNS files (NESASM)</Control>
-			<Control ID="chkAutoLoadCdlFiles">.CDL files (Code/data log)</Control>
+			<Control ID="chkAutoLoadCdlFiles">.CDL files (코드/데이터 로그)</Control>
 
-			<Control ID="lblImportFilters">Import filters</Control>
-			<Control ID="lblImportFiltersHint">Import the following types of labels:</Control>
-			<Control ID="chkImportPrgRomLabels">ROM labels</Control>
-			<Control ID="chkImportSaveRamLabels">Save RAM labels</Control>
-			<Control ID="chkImportWorkRamLabels">Work RAM labels</Control>
-			<Control ID="chkImportOtherLabels">Other labels</Control>
-			<Control ID="chkImportComments">Import comments (restricted to the label types selected above)</Control>
+			<Control ID="lblImportFilters">필터 가져오기</Control>
+			<Control ID="lblImportFiltersHint">다음 형식의 레이블을 가져옵니다.:</Control>
+			<Control ID="chkImportPrgRomLabels">ROM 레이블</Control>
+			<Control ID="chkImportSaveRamLabels">Save RAM 레이블</Control>
+			<Control ID="chkImportWorkRamLabels">Work RAM 레이블</Control>
+			<Control ID="chkImportOtherLabels">기타 레이블</Control>
+			<Control ID="chkImportComments">코멘트 가져오기 (위에서 선택한 레이블 형식으로 제한됨)</Control>
 
-			<Control ID="lblSourceView">Source view</Control>
-			<Control ID="lblTabSize">Tab size: </Control>
+			<Control ID="lblSourceView">소스 보기</Control>
+			<Control ID="lblTabSize">탭 크기: </Control>
 
-			<Control ID="tabShortcuts">Shortcuts</Control>
-			<Control ID="tabShared">Shared</Control>
-			<Control ID="tabMemoryTools">Memory Viewer</Control>
-			<Control ID="tabMisc">Misc.</Control>
+			<Control ID="tabShortcuts">바로 가기</Control>
+			<Control ID="tabShared">공유</Control>
+			<Control ID="tabMemoryTools">메모리 뷰어</Control>
+			<Control ID="tabMisc">기타</Control>
 		</Form>
 
 		<Form ID="WatchWindow">
-			<Control ID="wndTitle">Watch Window</Control>
+			<Control ID="wndTitle">감시 창</Control>
 		</Form>
 		
 		<Form ID="ProfilerWindow">
-			<Control ID="wndTitle">Profiler</Control>
+			<Control ID="wndTitle">프로파일러</Control>
 
-			<Control ID="mnuFile">_File</Control>
-			<Control ID="mnuView">_View</Control>
+			<Control ID="mnuFile">_파일</Control>
+			<Control ID="mnuView">_보기</Control>
 			
 			<Control ID="btnReset">리셋</Control>
-			<Control ID="btnRefresh">Refresh</Control>
-			<Control ID="chkRefreshOnBreakPause">Refresh on break</Control>
+			<Control ID="btnRefresh">갱신</Control>
+			<Control ID="chkRefreshOnBreakPause">중단점 멈춤 시 갱신</Control>
 
-			<Control ID="colFunction">Function (Entry Address)</Control>
-			<Control ID="colCallCount">Call Count</Control>
-			<Control ID="colInclusiveTime">Inclusive Time (Cycles)</Control>
-			<Control ID="colInclusiveTimePercent">Inclusive Time (%)</Control>
-			<Control ID="colExclusiveTime">Exclusive Time (Cycles)</Control>
-			<Control ID="colExclusiveTimePercent">Exclusive Time (%)</Control>
-			<Control ID="colAvgCycles">Avg. Cycles</Control>
-			<Control ID="colMinCycles">Min. Cycles</Control>
-			<Control ID="colMaxCycles">Max. Cycles</Control>
+			<Control ID="colFunction">함수 (진입 주소)</Control>
+			<Control ID="colCallCount">콜 횟수</Control>
+			<Control ID="colInclusiveTime">포괄 시간 (주기)</Control>
+			<Control ID="colInclusiveTimePercent">포괄 시간 (%)</Control>
+			<Control ID="colExclusiveTime">독점 시간 (주기)</Control>
+			<Control ID="colExclusiveTimePercent">독점 시간 (%)</Control>
+			<Control ID="colAvgCycles">평균 주기</Control>
+			<Control ID="colMinCycles">최소 주기</Control>
+			<Control ID="colMaxCycles">최대 주기</Control>
 		</Form>
 		
 		<Form ID="MemorySearchWindow">
-			<Control ID="wndTitle">Memory Search</Control>
-			<Control ID="btnApplyFilter">Apply filter</Control>
+			<Control ID="wndTitle">메모리 검색</Control>
+			<Control ID="btnApplyFilter">필터 적용</Control>
 			<Control ID="btnReset">리셋</Control>
-			<Control ID="btnUndo">Undo</Control>
+			<Control ID="btnUndo">되돌리기</Control>
 
-			<Control ID="btnResetCounters">Reset access stats</Control>
+			<Control ID="btnResetCounters">액세스 상태 재설정</Control>
 
-			<Control ID="lblMemType">Memory type:</Control>
-			<Control ID="lblFormat">Format:</Control>
-			<Control ID="lblValueSize">Value size:</Control>
+			<Control ID="lblMemType">메모리 형식:</Control>
+			<Control ID="lblFormat">포맷:</Control>
+			<Control ID="lblValueSize">값 크기:</Control>
 
-			<Control ID="lblSearchFilter">Search Filter</Control>
-			<Control ID="lblCompareTo">Compare To</Control>
-			<Control ID="lblOperator">Operator</Control>
+			<Control ID="lblSearchFilter">검색 필터</Control>
+			<Control ID="lblCompareTo">비교</Control>
+			<Control ID="lblOperator">연산자</Control>
 
-			<Control ID="colAddress">Address</Control>
-			<Control ID="colValue">Value</Control>
-			<Control ID="colPrevValue">Last Value</Control>
-			<Control ID="colReadCount">Reads</Control>
-			<Control ID="colWriteCount">Writes</Control>
-			<Control ID="colExecCount">Execs</Control>
-			<Control ID="colLastRead">Last Read</Control>
-			<Control ID="colLastWrite">Last Write</Control>
-			<Control ID="colLastExec">Last Exec</Control>
-			<Control ID="colMatch">Match</Control>
+			<Control ID="colAddress">주소</Control>
+			<Control ID="colValue">값</Control>
+			<Control ID="colPrevValue">마지막 값</Control>
+			<Control ID="colReadCount">읽기</Control>
+			<Control ID="colWriteCount">쓰기</Control>
+			<Control ID="colExecCount">실행</Control>
+			<Control ID="colLastRead">마지막 읽기</Control>
+			<Control ID="colLastWrite">마지막 쓰기</Control>
+			<Control ID="colLastExec">마지막 실행</Control>
+			<Control ID="colMatch">매치</Control>
 		</Form>
 		
 		<Form ID="GoToWindow">
-			<Control ID="wndTitle">Go to Address...</Control>
-			<Control ID="lblAddress">Address:</Control>
+			<Control ID="wndTitle">주소로 이동...</Control>
+			<Control ID="lblAddress">주소:</Control>
 			<Control ID="btnOk">확인</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 
 		<Form ID="FindAllOccurrencesWindow">
-			<Control ID="wndTitle">Find All Occurrences...</Control>
-			<Control ID="lblSearch">Search:</Control>
-			<Control ID="chkMatchCase">Match case</Control>
-			<Control ID="chkMatchWholeWord">Match whole word</Control>
-			<Control ID="btnFind">Find</Control>
+			<Control ID="wndTitle">모든 상황 찾기...</Control>
+			<Control ID="lblSearch">검색:</Control>
+			<Control ID="chkMatchCase">대/소문자 일치</Control>
+			<Control ID="chkMatchWholeWord">단어 전체 일치</Control>
+			<Control ID="btnFind">찾기</Control>
 			<Control ID="btnCancel">취소</Control>
 		</Form>
 
@@ -2372,15 +2373,15 @@ E
 			<Value ID="L">Button - Left</Value>
 		</Enum>
 		<Enum ID="NesConsoleType">
-			<Value ID="Nes001">NES - Front loader (NES-001)</Value>
-			<Value ID="Nes101">NES - Top loader (NES-101)</Value>
-			<Value ID="Hvc001">Famicom (HVC-001)</Value>
-			<Value ID="Hvc101">AV Famicom (HVC-101)</Value>
+			<Value ID="Nes001">NES - 전방 삽입 (NES-001)</Value>
+			<Value ID="Nes101">NES - 위쪽 삽입 (NES-101)</Value>
+			<Value ID="Hvc001">패미컴 (HVC-001)</Value>
+			<Value ID="Hvc101">뉴 패미컴 (HVC-101)</Value>
 		</Enum>
 		<Enum ID="GameSelectionMode">
-			<Value ID="Disabled">Disabled</Value>
-			<Value ID="ResumeState">Enabled (resume from save state)</Value>
-			<Value ID="PowerOn">Enabled (restart from power on)</Value>
+			<Value ID="Disabled">비활성화</Value>
+			<Value ID="ResumeState">활성화 (상태 저장된 곳부터 시작)</Value>
+			<Value ID="PowerOn">활성화 (전원 On 부터 시작)</Value>
 		</Enum>
 		<Enum ID="ConsoleRegion">
 			<Value ID="Auto">Auto</Value>
